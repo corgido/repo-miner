@@ -52,7 +52,7 @@ def find(repo_path: str, survey: Dict, history: Dict, timeline: Dict, practices:
 
     if survey.get("branch_trap"):
         d, b = survey["default"], survey["busiest"]
-        add(Finding("branch-trap", 90, f"The default branch `{d['name']}` has {d['commits']:,} commits; `{b['name']}` has {b['commits']:,}",
+        add(Finding("branch-trap", 90, f"The default branch `{d['name']}` has {plural(d['commits'], 'commit')}; `{b['name']}` has {b['commits']:,}",
                     ["Anyone who reads only the default branch (most tools, most people) sees the smaller part of the work.",
                      f"`{b['name']}`: {survey['trap_ahead']:,} commits not on `{d['name']}`, last on {b['last']}.",
                      f"The rest of this report treats `{b['name']}` as the main line."],
