@@ -27,6 +27,7 @@ REVERTS_SHA = re.compile(r"This reverts commit ([0-9a-f]{7,40})", re.I)
 CONVENTIONAL = re.compile(r"^(feat|fix|chore|docs|refactor|test|tests|ci|build|perf|style|revert)(\([^)]*\))?!?:\s", re.I)
 THIN = re.compile(r"^(wip|fix(es|ed)?|update[sd]?|changes?|stuff|tmp|temp|test(ing)?|asdf+|minor|misc|cleanup|more|again|done|"
                   r"save|commit|work|progress|\.+|-+|small fix(es)?|bug ?fix|fixed bug|initial commit|first commit)\W*$", re.I)
+SESSION_LINK = re.compile(r"claude\.ai/code/session_([A-Za-z0-9]+)|^claude-session:\s*(\S+)", re.I | re.M)
 PR_REF = re.compile(r"\(#(\d+)\)\s*$|^Merge pull request #(\d+)")
 NOT_HOTSPOTS = re.compile(r"(^|/)(package-lock\.json|yarn\.lock|pnpm-lock\.yaml|npm-shrinkwrap\.json|Cargo\.lock|poetry\.lock"
                           r"|Pipfile\.lock|uv\.lock|go\.sum|Gemfile\.lock|composer\.lock|flake\.lock|mix\.lock|pubspec\.lock"
@@ -143,6 +144,9 @@ def _roles(commits: List[Commit]) -> Dict:
         "agent_share_after_first": (sum(1 for c in commits if c.time >= first_agent.time and (c.role == "agent" or c.assisted))
                                     / max(1, sum(1 for c in commits if c.time >= first_agent.time))) if first_agent else 0,
         "bots": [a for a, _ in Counter(c.author for c in commits if c.role == "bot").most_common(8)],
+        # agent conversations the commits point to; only counted, the links are never written
+        "session_commits": sum(1 for c in commits if SESSION_LINK.search(c.body)),
+        "sessions": len({m.group(1) or m.group(2) for c in commits for m in SESSION_LINK.finditer(c.body)}),
         "agents": [a for a, _ in Counter(c.author for c in commits if c.role == "agent").most_common(8)],
     }
 

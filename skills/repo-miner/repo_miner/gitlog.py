@@ -87,7 +87,7 @@ def branches(repo: Path) -> List[Ref]:
 def default_branch(repo: Path, refs: List[Ref]) -> Optional[Ref]:
     by_name = {r.name: r for r in refs}
     head = git(repo, "symbolic-ref", "--short", "refs/remotes/origin/HEAD").strip()
-    candidates = [head.split("/", 1)[-1] if head else "", git(repo, "branch", "--show-current").strip(), "main", "master"]
+    candidates = [head.split("/", 1)[-1] if head else "", "main", "master", git(repo, "branch", "--show-current").strip()]
     for c in candidates:
         if c and c in by_name:
             return by_name[c]

@@ -82,6 +82,9 @@ def _chapter(n: int, inside: List[Dict], live: List[Dict], keys: List[str], ever
     words = ", ".join(t["term"] for t in terms[:3])
     if main in ("(top level)", "(none)") and words:
         main = None                                   # "top-level files" says nothing a chapter's words do not
+    named = [a for a, _ in areas.most_common(4) if a not in ("(top level)", "(none)")]
+    if len(inside) == len(live) and named:           # the only chapter owns every word: name it by where the work is
+        main, words = ", ".join(named[:3]), ""
     return {
         "n": n, "start": start, "end": inside[-1]["t"], "from": date(start), "to": date(inside[-1]["t"]),
         "span": duration(inside[-1]["t"] - start), "seam": seg["seam"],

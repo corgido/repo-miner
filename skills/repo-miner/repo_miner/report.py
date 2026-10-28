@@ -115,7 +115,7 @@ def _glance(R: Dict) -> List[List[str]]:
     rows = [
         ["Commits", f"{h['totals']['commits']:,} ({h['totals']['merges']:,} merges) on every branch"],
         ["Branches", f"{len(s['branches']):,}; default `{s['default']['name']}`" + (f", busiest `{s['busiest']['name']}`" if s["busiest"]["name"] != s["default"]["name"] else "")],
-        ["People", f"{sum(1 for p in h['people'] if p['role'] == 'human'):,} authors who are people"],
+        ["People", plural(sum(1 for p in h['people'] if p['role'] == 'human'), "author who is a person", "authors who are people")],
         ["AI agents", f"{plural(roles['agent'], 'commit')} by agents, {roles['assisted']:,} with an agent co-author" if roles["agent"] or roles["assisted"] else "none recorded"],
         ["Bots", ", ".join(f"`{b}`" for b in roles["bots"][:4]) + f" ({roles['bot']:,} commits)" if roles["bot"] else "none"],
         ["First and last", f"{h['span']['first']} to {h['span']['last']}"],
@@ -145,7 +145,12 @@ def _warnings(R: Dict) -> List[str]:
         out.append(f"Only the {hl['refs_examined']:,} most recently active branches were examined in detail; every commit was still counted.")
     if R.get("window"):
         out.append(f"Only commits {R['window']} were read.")
-    if R.get("sessions") is None and R.get("transcripts") == "auto" and not s.get("cloned_from"):
+    linked = R["history"]["roles"].get("sessions", 0)
+    if R.get("sessions") is None and linked:
+        out.append(f"{R['history']['roles']['session_commits']:,} commits link to {plural(linked, 'Claude Code session')}, but no "
+                   "transcripts were read: they are not on this machine. The reasons behind those changes are in the sessions; "
+                   "run the miner where they are kept, or point `--transcripts` at a copy.")
+    elif R.get("sessions") is None and R.get("transcripts") == "auto" and not s.get("cloned_from"):
         out.append("No Claude Code transcripts were found for this repository on this machine, so the reasons behind changes "
                    "come only from commit messages and documents.")
     return out

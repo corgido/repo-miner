@@ -96,9 +96,13 @@ def find(repo_path: str, survey: Dict, history: Dict, timeline: Dict, practices:
         add(Finding("agents", 65, f"{pct(roles['agent_share'])} of commits were written by or with AI agents "
                     f"({pct(roles['agent_share_after_first'])} since the first, {roles['first_agent']['sha']} on {roles['first_agent']['date']})",
                     [f"{roles['agent']:,} commits by agent authors, {roles['assisted']:,} by people with an agent co-author trailer."]
-                    + (["Agents seen: " + ", ".join(roles["agents"]) + "."] if roles.get("agents") else []),
+                    + (["Agents seen: " + ", ".join(roles["agents"]) + "."] if roles.get("agents") else [])
+                    + ([f"{roles['session_commits']:,} commits link to {plural(roles['sessions'], 'agent session')} "
+                        "(a `Claude-Session` trailer): the conversations behind them are there."] if roles.get("sessions") else []),
                     [f"{g} log --all --format='%h %ad %an %s' --date=short -i --grep='co-authored-by' | head -20"],
-                    "Where were the agents' instructions, plans and transcripts kept? The reasons for agent-written code live there, not in a person's memory.",
+                    (f"Who can open the {plural(roles['sessions'], 'agent session')} these commits link to? The reasons for agent-written code live there."
+                     if roles.get("sessions") else
+                     "Where were the agents' instructions, plans and transcripts kept? The reasons for agent-written code live there, not in a person's memory."),
                     "people"))
 
     # ── what was undone or abandoned
@@ -144,8 +148,15 @@ def find(repo_path: str, survey: Dict, history: Dict, timeline: Dict, practices:
                     [f"{g} log --oneline {_ref(survey, survey['primary'])}..{_ref(survey, b['name'])} | head -20"],
                     f"Is `{b['name']}` abandoned, parked, or still coming?" if stale else None, "branches"))
 
-    for o in [o for o in survey.get("orphans", []) if not o["purpose"]][:3]:
-        add(Finding(f"orphan:{o['name']}", 50, f"Branch `{o['name']}` shares no history with `{survey['primary']}` ({o['commits']:,} commits)",
+    orphans = [o for o in survey.get("orphans", []) if not o["purpose"]]
+    if len(orphans) > 2:
+        add(Finding("orphans", 50, f"{len(orphans)} branches share no history with `{survey['primary']}`",
+                    [f"`{o['name']}`: {plural(o['commits'], 'commit')}, {o['first'] or o['last']} to {o['last']}" for o in orphans[:12]]
+                    + ["Unrelated histories: separate projects kept in one repository, imports, generated output, or fresh starts."],
+                    [f"{g} log --oneline -5 {_ref(survey, o['name'])}" for o in orphans[:3]],
+                    "What is each of these branches for, and which of them still matters?", "branches"))
+    for o in orphans if len(orphans) <= 2 else []:
+        add(Finding(f"orphan:{o['name']}", 50, f"Branch `{o['name']}` shares no history with `{survey['primary']}` ({plural(o['commits'], 'commit')})",
                     ["An unrelated history: a separate project, an import, generated output, or a fresh start."],
                     [f"{g} log --oneline -10 {_ref(survey, o['name'])}", f"{g} ls-tree --name-only {_ref(survey, o['name'])}"],
                     f"What is `{o['name']}` for?", "branches"))

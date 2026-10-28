@@ -69,6 +69,8 @@ class FindingsTest(unittest.TestCase):
     def test_agents_are_counted_by_author_and_by_trailer(self):
         f = self.m.finding("agents")
         self.assertIn("10 commits by agent authors, 20 by people with an agent co-author trailer", f["evidence"][0])
+        self.assertIn("10 commits link to 2 agent sessions", " ".join(f["evidence"]))
+        self.assertNotIn("session_demo", self.m.everything())            # counted, never printed
 
     def test_questions_section_lists_unique_questions(self):
         report = self.m.text("REPORT.md")

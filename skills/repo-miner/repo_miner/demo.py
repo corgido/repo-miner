@@ -105,7 +105,8 @@ def build(root: Path) -> Path:
     for i in range(30):                                       # March to May 2024: an agent and the people working with it
         d = f"2024-{3 + i // 12:02d}-{1 + (i % 12) * 2:02d}"
         if i % 3 == 0:
-            r.commit(day(d, 10), f"Settlement: batch window {i}", author="Claude", write={"src/settle/batch.py": f"W = {i}\n"})
+            r.commit(day(d, 10), f"Settlement: batch window {i}\n\nClaude-Session: https://claude.ai/code/session_demo{i % 2}",
+                     author="Claude", write={"src/settle/batch.py": f"W = {i}\n"})
         else:
             who = "Cara Lindqvist" if i % 3 == 1 else "Ana Costa"
             r.commit(day(d, 15), f"Settlement: reconcile step {i}\n\nCo-Authored-By: Claude <noreply@anthropic.com>",
