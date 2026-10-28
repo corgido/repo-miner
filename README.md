@@ -162,8 +162,8 @@ Measured in a 4-core cloud container with the clone already on disk: commander.j
 python3 -m unittest discover -s tests
 ```
 
-No dependencies. CI runs the tests and the demo on Linux and macOS with Python 3.9 to 3.13, then mines a public repository
-and leak-scans the result. See [CONTRIBUTING.md](CONTRIBUTING.md).
+No dependencies. CI runs the tests and the demo on Linux (Python 3.11 and 3.13) and macOS (3.9, 3.11 and 3.13), then
+mines a public repository and leak-scans the result. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Where it came from
 

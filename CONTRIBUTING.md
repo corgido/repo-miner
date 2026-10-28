@@ -12,7 +12,7 @@ bin/repo-miner .                            # mine this repository
 ```
 
 Python 3.9 is the oldest supported version, so no `match`, no `X | Y` in annotations at runtime, no newer standard-library
-calls. CI runs Python 3.9 and 3.13 on Linux and macOS.
+calls. CI runs 3.9 on macOS (the current Ubuntu runner has no 3.9), and 3.11 and 3.13 on both.
 
 ## Layout
 
