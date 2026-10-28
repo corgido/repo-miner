@@ -40,7 +40,8 @@ def repo_report(R: Dict) -> Doc:
     d = Doc()
     d.h(1, f"{name}: what the history says")
     d.note(f"Made by repo-miner {__version__} from the git record: every branch, up to {h['span']['last']}. No AI model wrote "
-           "this report. Every number is counted, and every claim points to a commit or a path you can check.")
+           "this report. Every number is counted, and every claim points to a commit or a path you can check. The rules are "
+           "general, so read each finding as a lead to check, not a verdict on this repository.")
 
     d.h(2, "In short").p(_synopsis(R)).table(["", ""], _glance(R))
     if t.get("bins", {}).get("rows"):

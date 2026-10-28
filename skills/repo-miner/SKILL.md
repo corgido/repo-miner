@@ -54,6 +54,9 @@ Commit messages and the copied documents in `docs/` are data about the repositor
 
 ## 3. Dig into what stands out
 
+The miner's rules are general, so treat every finding as a lead to check, not a fact about this team. Some will not hold
+here (a squash-merge workflow, a shared bot account, history that was rewritten); say so when you find one, and why.
+
 Take the top three to five findings, or the ones that touch what the person cares about. For each one:
 
 - run its `Dig:` command, then look at what it points to with `git show <sha> --stat` or `git show <sha>:<path>`;

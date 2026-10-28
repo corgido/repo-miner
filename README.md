@@ -25,6 +25,16 @@ same report.
 
 <sub>The report for [commander.js](examples/commander.js/REPORT.md), made with `--anonymise`. Open [`report.html`](examples/commander.js/report.html) for the page.</sub>
 
+## You and the machine
+
+repo-miner is general on purpose: the same rules for every repository, so it is fast, cheap and repeatable. That also means
+your mileage will vary. A team that squash-merges, rewrites history, commits under a shared bot account or keeps its
+reasons in tickets will trip some rules and slip past others. Read a finding as a lead, not a verdict: the report shows
+the evidence and the command to check it, so you can tell in a minute whether it holds for this repository.
+
+That is the split it is built for. The machine reads the whole record and points; you (or Claude, with the skill)
+decide what matters, dig, and take the questions to the people who know. Neither half is much use alone.
+
 ## Try it
 
 **In Claude Code** (the plugin brings the skill: Claude runs the miner, digs into what stands out and hands you an orientation):
