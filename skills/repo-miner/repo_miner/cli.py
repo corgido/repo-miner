@@ -46,6 +46,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     a = ap.parse_args(argv)
 
     from .miner import Options, mine
+    from .util import plural
     summary = mine(Options(a.targets, out=a.out, since=a.since, until=a.until, deny_file=a.deny, anonymise=a.anonymise,
                            transcripts=a.transcripts, agents=a.agent, bots=a.bot, humans=a.human, depth=a.depth,
                            force=a.force, quiet=a.quiet or a.json))
@@ -54,8 +55,9 @@ def main(argv: Optional[List[str]] = None) -> int:
         return 0
     print()
     for r in summary["repositories"]:
-        print(f"  {r['name']}: {r['commits']:,} commits · {r['branches']:,} branches · {r['people']:,} people · "
-              f"{r['chapters']} chapters · {r['findings']} things stand out · {r['questions']} questions")
+        print(f"  {r['name']}: {plural(r['commits'], 'commit')} · {plural(r['branches'], 'branch', 'branches')} · "
+              f"{plural(r['people'], 'person', 'people')} · {plural(r['chapters'], 'chapter')} · "
+              f"{plural(r['findings'], 'thing stands', 'things stand')} out · {plural(r['questions'], 'question')}")
     scan = summary["leak_scan"]
     print(f"  leak scan: {scan}" + ("" if scan == "clean" else " (run 'repo-miner scan' on the folder and read those files before sharing)"))
     print(f"\n  Start here: {summary['report']}\n  In a browser: {summary['html']}\n")

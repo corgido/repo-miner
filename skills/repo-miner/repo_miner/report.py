@@ -87,7 +87,7 @@ def _synopsis(R: Dict) -> str:
     s, h, t = R["survey"], R["history"], R["timeline"]
     tot, roles = h["totals"], h["roles"]
     people = sum(1 for p in h["people"] if p["role"] == "human")
-    who = [plural(people, "person", "people")]
+    who = [plural(people, "person", "people")] if people else []
     with_agents = roles["agent"] + roles["assisted"]
     if with_agents:
         who.append(f"AI agents ({pct(roles['agent_share'])} of commits)" if roles["agent_share"] >= 0.01
