@@ -61,5 +61,3 @@ second from running this version against public repositories (commander.js, Expr
   The report says when the record points there.
 - **Follow single-file renames.** Reading renames costs far more than the history it adds; folders that moved are
   recognised, and the report says that older history sits under old paths.
-- **Make content.** The experimental miners it came from also cut histories into social posts, carousels and
-  time-lapses. That is a different product; this one is for orientation.
