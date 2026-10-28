@@ -1,6 +1,6 @@
 # commander.js: what the history says
 
-> Made by repo-miner 0.1.0 from the git record: every branch, up to 2026-10-26. No AI model wrote this report. Every number is counted, and every claim points to a commit or a path you can check.
+> Made by repo-miner 0.1.0 from the git record: every branch, up to 2026-10-26. No AI model wrote this report. Every number is counted, and every claim points to a commit or a path you can check. The rules are general, so read each finding as a lead to check, not a verdict on this repository.
 
 ## In short
 
