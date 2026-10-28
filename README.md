@@ -11,6 +11,8 @@
 <img src="https://img.shields.io/badge/dependencies-none-brightgreen.svg" alt="No dependencies">
 </p>
 
+NB: Complete as a 0.1 release; issues welcome, but no active roadmap. Fork it and make it yours instead :)
+
 You have just been handed a repository. The code tells you what it is today. The commit history tells you how it got
 there: what was built and torn down, what was reverted two hours later, which branch the real work is on, who wrote the
 billing code and stopped committing a year ago. The people hold the reasons. **repo-miner** reads the whole record, every
