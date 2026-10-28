@@ -1,0 +1,118 @@
+[
+ {
+  "id": "graveyard:test",
+  "score": 84.8,
+  "title": "`test/` (96 files, 124 commits) is gone: built from 2011-08-14, removed 2019-09-20",
+  "evidence": [
+   "Last files removed in d7f9cd443: \"Move to Jest as testing framework (#1035)\", 8.1 years after it began.",
+   "Worked on by Person C, Person B."
+  ],
+  "dig": [
+   "git -C ~/.cache/repo-miner/clones/commander.js show --stat d7f9cd443 | head -40",
+   "git -C ~/.cache/repo-miner/clones/commander.js log --all --oneline -- test/ | head -20"
+  ],
+  "question": "What replaced `test/`, and why was it removed?",
+  "kind": "abandoned"
+ },
+ {
+  "id": "reverts",
+  "score": 65,
+  "title": "10 changes were reverted, 1 of them within two days",
+  "evidence": [
+   "f3431d157 (2023-08-12) reverted 14fb52918: \"Fix version() parameter type\" after 9.5 days",
+   "891e23d49 (2021-01-11) reverted \"Test coverage (#1433)\"",
+   "517ee439b (2019-06-24) reverted 2c3cf60b1: \"add executable arguments to spawn in win32\" after 2.3 years",
+   "ce35c35e9 (2016-09-20) reverted \"For a required option, when even option flag is not given throw error.\"",
+   "8e75320e6 (2015-04-17) reverted \"multiline descriptions support\"",
+   "2d68cf40b (2015-03-23) reverted 854cfd8a0: \"Added .npmignore\" after 2.6 days"
+  ],
+  "dig": [
+   "git -C ~/.cache/repo-miner/clones/commander.js show f3431d157",
+   "git -C ~/.cache/repo-miner/clones/commander.js show --stat 14fb52918"
+  ],
+  "question": "What went wrong with \"Fix version() parameter type\" (2023-08-12)?",
+  "kind": "abandoned"
+ },
+ {
+  "id": "graveyard:changelogs",
+  "score": 61.2,
+  "title": "`changelogs/` (6 files, 6 commits) is gone: built from 2019-12-07, removed 2021-12-21",
+  "evidence": [
+   "Last files removed in 19c8041a3: \"Combine back into single CHANGELOG to simplify searches (#1656)\", 2.0 years after it began.",
+   "Worked on by Person A."
+  ],
+  "dig": [
+   "git -C ~/.cache/repo-miner/clones/commander.js show --stat 19c8041a3 | head -40",
+   "git -C ~/.cache/repo-miner/clones/commander.js log --all --oneline -- changelogs/ | head -20"
+  ],
+  "question": "What replaced `changelogs/`, and why was it removed?",
+  "kind": "abandoned"
+ },
+ {
+  "id": "graveyard:examples/using-esm-from-commonjs",
+  "score": 60.6,
+  "title": "`examples/using-esm-from-commonjs/` (12 files, 3 commits) is gone: built from 2026-02-19, removed 2026-05-22",
+  "evidence": [
+   "Last files removed in 01ce5d0cd: \"Remove jest esm examples (#2517)\", 3.0 months after it began.",
+   "Worked on by Person A."
+  ],
+  "dig": [
+   "git -C ~/.cache/repo-miner/clones/commander.js show --stat 01ce5d0cd | head -40",
+   "git -C ~/.cache/repo-miner/clones/commander.js log --all --oneline -- examples/using-esm-from-commonjs/ | head -20"
+  ],
+  "question": "What replaced `examples/using-esm-from-commonjs/`, and why was it removed?",
+  "kind": "abandoned"
+ },
+ {
+  "id": "single-owner",
+  "score": 55,
+  "title": "1 area rests on one person's knowledge",
+  "evidence": [
+   "`tests`: 88% of 81 commits by Person A"
+  ],
+  "dig": [
+   "git -C ~/.cache/repo-miner/clones/commander.js shortlog -sn --no-merges -- tests"
+  ],
+  "question": null,
+  "kind": "people"
+ },
+ {
+  "id": "sweep:1bdc749ac",
+  "score": 45,
+  "title": "1bdc749ac (2024-04-05) changed 132 files at once: \"Reformat code with Prettier (#2180)\"",
+  "evidence": [
+   "Shape: edits across many files (a reformat, rename or upgrade?); 0 added, 0 deleted, 5,216 lines."
+  ],
+  "dig": [
+   "git -C ~/.cache/repo-miner/clones/commander.js show --stat 1bdc749ac | head -40"
+  ],
+  "question": null,
+  "kind": "hotspots"
+ },
+ {
+  "id": "sweep:d7f9cd443",
+  "score": 45,
+  "title": "d7f9cd443 (2019-09-20) changed 127 files at once: \"Move to Jest as testing framework (#1035)\"",
+  "evidence": [
+   "Shape: files moved or renamed; 48 added, 75 deleted, 11,596 lines."
+  ],
+  "dig": [
+   "git -C ~/.cache/repo-miner/clones/commander.js show --stat d7f9cd443 | head -40"
+  ],
+  "question": null,
+  "kind": "hotspots"
+ },
+ {
+  "id": "sweep:f4bd47000",
+  "score": 45,
+  "title": "f4bd47000 (2026-02-19) changed 191 files at once: \"Switching to esm-only (#2464)\"",
+  "evidence": [
+   "Shape: edits across many files (a reformat, rename or upgrade?); 16 added, 7 deleted, 2,649 lines."
+  ],
+  "dig": [
+   "git -C ~/.cache/repo-miner/clones/commander.js show --stat f4bd47000 | head -40"
+  ],
+  "question": null,
+  "kind": "hotspots"
+ }
+]

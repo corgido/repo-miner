@@ -1,0 +1,14 @@
+area	commits	people	owner	owner_share	ask	fix_share	agent_share	first	last	lines
+(top level)	862	142	Person A	0.451	Person A Person D	0.111	0.000	2011-08-14	2026-10-09	129316
+lib	120	30	Person A	0.308	Person A Person F	0.217	0.000	2011-08-14	2026-10-19	8408
+tests	81	8	Person A	0.877	Person A Person F	0.049	0.000	2019-09-20	2026-10-25	60426
+test	65	25	Person C	0.323	Person C Person B	0.308	0.000	2011-08-14	2019-09-20	14197
+.github	56	5	Person A	0.538	Person A Person D	0.018	0.000	2019-06-09	2026-10-26	458
+examples	53	6	Person A	0.453	Person A	0.170	0.000	2011-08-14	2026-05-22	4707
+typings	46	15	Person A	0.600	Person A Person BK	0.174	0.043	2017-07-27	2026-08-11	3230
+docs	14	4	Person A	0.786	Person A Person F	0.214	0.000	2020-09-13	2026-10-25	960
+"docs	5	5	Person FM	0.200	Person FQ	0.000	0.000	2021-01-08	2026-09-21	1625
+tests/fixtures	3	1	Person A	1.000	Person A	0.333	0.000	2023-09-10	2023-10-07	192
+changelogs	2	1	Person A	1.000	Person A	0.000	0.000	2019-12-07	2021-12-21	1695
+(none)	1	1	Person A	1.000	Person A	0.000	0.000	2021-02-06	2021-02-06	0
+tests/fixtures-extensions	1	1	Person A	1.000	Person A	0.000	0.000	2021-01-30	2021-01-30	45

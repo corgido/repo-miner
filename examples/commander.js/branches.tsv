@@ -1,0 +1,9 @@
+branch	commits	ahead	behind	orphan	first_own	last_own	authors	unpushed	local_only
+develop	1562	45	0	False	2026-06-13	2026-10-26	12	0	False
+release/16.x	1544	27	0	False	2026-06-13	2026-09-28	7	0	False
+master	1517	0	0	False		2026-05-29	0	0	False
+release/15.x	1516	0	1	False		2026-05-26	0	0	False
+release/14.x	1436	0	81	False		2025-05-16	0	0	False
+release/13.x	1397	0	120	False		2024-12-30	0	0	False
+release/2.x	630	3	890	False	2019-09-28	2019-10-11	2	0	False
+gh-pages	479	26	1064	False	2011-10-18	2015-10-13	4	0	False

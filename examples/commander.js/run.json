@@ -1,0 +1,77 @@
+{
+ "tool": "repo-miner",
+ "version": "0.1.0",
+ "made": "2026-10-28T09:43:23+00:00",
+ "seconds": 3.1,
+ "python": "3.13.17",
+ "git": "git version 2.43.0",
+ "options": {
+  "targets": [
+   "https://github.com/tj/commander.js"
+  ],
+  "out": "/home/user/repo-miner/examples/commander.js",
+  "since": null,
+  "until": null,
+  "deny_file": false,
+  "anonymise": true,
+  "transcripts": "auto",
+  "agents": [],
+  "bots": [],
+  "humans": [],
+  "depth": null,
+  "force": false,
+  "quiet": true
+ },
+ "repositories": [
+  {
+   "name": "commander.js",
+   "commits": 1598,
+   "cloned_from": "https://github.com/tj/commander.js",
+   "head": "ba6d13ddb"
+  }
+ ],
+ "redactions": {
+  "home-path": 68
+ },
+ "leak_scan": "clean",
+ "files": [
+  "REPORT.md",
+  "branches.tsv",
+  "briefs/chapter-01.md",
+  "briefs/chapter-02.md",
+  "briefs/chapter-03.md",
+  "briefs/chapter-04.md",
+  "briefs/chapter-05.md",
+  "briefs/chapter-06.md",
+  "briefs/chapter-07.md",
+  "briefs/chapter-08.md",
+  "data/areas.tsv",
+  "data/commits.tsv",
+  "data/files.tsv",
+  "data/people.tsv",
+  "data/timeline.json",
+  "docs/CHANGELOG.md",
+  "docs/CONTRIBUTING.md",
+  "docs/Readme.md",
+  "docs/Readme_zh-CN.md",
+  "docs/SECURITY.md",
+  "docs/docs__deprecated.md",
+  "docs/docs__help-in-depth.md",
+  "docs/docs__options-in-depth.md",
+  "docs/docs__parsing-and-hooks.md",
+  "docs/docs__release-policy.md",
+  "docs/docs__terminology.md",
+  "findings.json",
+  "practices/INDEX.md",
+  "practices/ci/.github__workflows__codeql-analysis.yml",
+  "practices/ci/.github__workflows__tests.yml",
+  "practices/contributing/.github__PULL_REQUEST_TEMPLATE.md",
+  "practices/contributing/CONTRIBUTING.md",
+  "practices/contributing/SECURITY.md",
+  "practices/dependencies/.github__dependabot.yml",
+  "practices/quality/.editorconfig",
+  "practices/quality/.prettierrc.js",
+  "practices/quality/eslint.config.js",
+  "report.html"
+ ]
+}

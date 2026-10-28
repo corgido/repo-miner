@@ -1,0 +1,2186 @@
+{
+ "chapters": [
+  {
+   "n": 1,
+   "start": 1313347238,
+   "end": 1326769168,
+   "from": "2011-08-14",
+   "to": "2012-01-17",
+   "span": "5.1 months",
+   "seam": true,
+   "events": 155,
+   "share": 0.1069703243616287,
+   "roles": {
+    "human": 155
+   },
+   "fixes": 19,
+   "areas": [
+    "(top level)",
+    "lib",
+    "examples",
+    "test"
+   ],
+   "people": [
+    "Person B",
+    "Person M",
+    "Person V"
+   ],
+   "people_count": 10,
+   "lifts": [
+    {
+     "facet": "area",
+     "value": "examples",
+     "count": 23,
+     "of": 53,
+     "lift": 2.02
+    },
+    {
+     "facet": "area",
+     "value": "lib",
+     "count": 38,
+     "of": 120,
+     "lift": 1.57
+    },
+    {
+     "facet": "area",
+     "value": "test",
+     "count": 14,
+     "of": 65,
+     "lift": 1.01
+    }
+   ],
+   "terms": [
+    {
+     "term": "docs",
+     "count": 68,
+     "share": 0.62,
+     "lift": 3.52
+    },
+    {
+     "term": "password",
+     "count": 8,
+     "share": 0.8,
+     "lift": 3.89
+    },
+    {
+     "term": "defaults",
+     "count": 7,
+     "share": 0.78,
+     "lift": 3.85
+    },
+    {
+     "term": "misc",
+     "count": 6,
+     "share": 1.0,
+     "lift": 4.21
+    },
+    {
+     "term": "styling",
+     "count": 6,
+     "share": 0.75,
+     "lift": 3.79
+    },
+    {
+     "term": "clean",
+     "count": 6,
+     "share": 0.5,
+     "lift": 3.21
+    }
+   ],
+   "label": "examples · docs, password, defaults",
+   "heaviest": [
+    {
+     "ref": "672c7d01d",
+     "date": "2011-08-14",
+     "title": "Initial commit",
+     "lines": 619
+    },
+    {
+     "ref": "3080b90f5",
+     "date": "2011-10-19",
+     "title": "docs",
+     "lines": 566
+    },
+    {
+     "ref": "3bd6bbcda",
+     "date": "2011-10-23",
+     "title": "@someone public only",
+     "lines": 224
+    }
+   ],
+   "first_ref": "672c7d01d",
+   "last_ref": "8e2618815"
+  },
+  {
+   "n": 2,
+   "start": 1334105500,
+   "end": 1365517877,
+   "from": "2012-04-11",
+   "to": "2013-04-09",
+   "span": "12 months",
+   "seam": true,
+   "events": 60,
+   "share": 0.041407867494824016,
+   "roles": {
+    "human": 60
+   },
+   "fixes": 16,
+   "areas": [
+    "(top level)",
+    "lib",
+    "examples",
+    "test"
+   ],
+   "people": [
+    "Person B",
+    "Person O",
+    "Person R"
+   ],
+   "people_count": 16,
+   "lifts": [
+    {
+     "facet": "area",
+     "value": "lib",
+     "count": 16,
+     "of": 120,
+     "lift": 1.69
+    },
+    {
+     "facet": "area",
+     "value": "examples",
+     "count": 4,
+     "of": 53,
+     "lift": 0.87
+    }
+   ],
+   "terms": [
+    {
+     "term": "setrawmode",
+     "count": 6,
+     "share": 1.0,
+     "lift": 5.39
+    },
+    {
+     "term": "printing",
+     "count": 4,
+     "share": 1.0,
+     "lift": 5.39
+    },
+    {
+     "term": "tty",
+     "count": 4,
+     "share": 1.0,
+     "lift": 5.39
+    },
+    {
+     "term": "take",
+     "count": 4,
+     "share": 0.67,
+     "lift": 4.8
+    },
+    {
+     "term": "lib",
+     "count": 4,
+     "share": 0.44,
+     "lift": 4.22
+    },
+    {
+     "term": "don't",
+     "count": 3,
+     "share": 0.5,
+     "lift": 4.39
+    }
+   ],
+   "label": "lib · setrawmode, printing, tty",
+   "heaviest": [
+    {
+     "ref": "2a2165584",
+     "date": "2012-11-17",
+     "title": "Release 1.1.0",
+     "lines": 2267
+    },
+    {
+     "ref": "21b416939",
+     "date": "2012-11-17",
+     "title": "add git-style executable subcommand support. Closes #94",
+     "lines": 126
+    },
+    {
+     "ref": "7ab5bd186",
+     "date": "2012-11-05",
+     "title": "remove messy/broken test",
+     "lines": 123
+    }
+   ],
+   "first_ref": "f2060ffcf",
+   "last_ref": "3261f3e20"
+  },
+  {
+   "n": 3,
+   "start": 1371131172,
+   "end": 1435097168,
+   "from": "2013-06-13",
+   "to": "2015-06-23",
+   "span": "2.0 years",
+   "seam": true,
+   "events": 251,
+   "share": 0.17322291235334714,
+   "roles": {
+    "human": 251
+   },
+   "fixes": 70,
+   "areas": [
+    "(top level)",
+    "test",
+    "examples"
+   ],
+   "people": [
+    "Person C",
+    "Person B",
+    "Person E"
+   ],
+   "people_count": 46,
+   "lifts": [
+    {
+     "facet": "area",
+     "value": "test",
+     "count": 25,
+     "of": 65,
+     "lift": 1.15
+    }
+   ],
+   "terms": [
+    {
+     "term": "unused",
+     "count": 12,
+     "share": 0.57,
+     "lift": 2.93
+    },
+    {
+     "term": "revert",
+     "count": 13,
+     "share": 0.45,
+     "lift": 2.58
+    },
+    {
+     "term": "bug",
+     "count": 11,
+     "share": 0.58,
+     "lift": 2.95
+    },
+    {
+     "term": "sub-commands",
+     "count": 7,
+     "share": 0.78,
+     "lift": 3.38
+    },
+    {
+     "term": "allowunknown",
+     "count": 6,
+     "share": 1.0,
+     "lift": 3.74
+    },
+    {
+     "term": "license",
+     "count": 6,
+     "share": 0.75,
+     "lift": 3.32
+    }
+   ],
+   "label": "test · unused, revert, bug",
+   "heaviest": [
+    {
+     "ref": "b7b558ed1",
+     "date": "2014-12-07",
+     "title": "index: Update documentation via `$ make docs`",
+     "lines": 2127
+    },
+    {
+     "ref": "bf5e1f5ec",
+     "date": "2013-07-19",
+     "title": "remove input methods (.prompt, .confirm, etc)",
+     "lines": 499
+    },
+    {
+     "ref": "8d1711f43",
+     "date": "2014-12-29",
+     "title": "update doc for v2.6.0",
+     "lines": 172
+    }
+   ],
+   "first_ref": "a3b353ab4",
+   "last_ref": "0af40a523"
+  },
+  {
+   "n": 4,
+   "start": 1442096387,
+   "end": 1444921475,
+   "from": "2015-09-12",
+   "to": "2015-10-15",
+   "span": "33 days",
+   "seam": true,
+   "events": 15,
+   "share": 0.010351966873706004,
+   "roles": {
+    "human": 15
+   },
+   "fixes": 2,
+   "areas": [
+    "(top level)",
+    "test"
+   ],
+   "people": [
+    "Person C",
+    "Person FU",
+    "Person DG"
+   ],
+   "people_count": 3,
+   "lifts": [],
+   "terms": [
+    {
+     "term": "text",
+     "count": 9,
+     "share": 0.53,
+     "lift": 6.1
+    },
+    {
+     "term": "filtering",
+     "count": 5,
+     "share": 1.0,
+     "lift": 7.01
+    },
+    {
+     "term": "post-processing",
+     "count": 5,
+     "share": 1.0,
+     "lift": 7.01
+    },
+    {
+     "term": "alignment",
+     "count": 4,
+     "share": 1.0,
+     "lift": 7.01
+    },
+    {
+     "term": "brace",
+     "count": 4,
+     "share": 1.0,
+     "lift": 7.01
+    }
+   ],
+   "label": "text, filtering, post-processing",
+   "heaviest": [
+    {
+     "ref": "89e77c2ef",
+     "date": "2015-10-15",
+     "title": "Add chinese Readme file",
+     "lines": 343
+    },
+    {
+     "ref": "c140367b1",
+     "date": "2015-10-13",
+     "title": "update doc",
+     "lines": 279
+    },
+    {
+     "ref": "8024df2a3",
+     "date": "2015-10-12",
+     "title": "fix nohelp test",
+     "lines": 33
+    }
+   ],
+   "first_ref": "4d421f9fd",
+   "last_ref": "e741c1847"
+  },
+  {
+   "n": 5,
+   "start": 1450672683,
+   "end": 1491716896,
+   "from": "2015-12-21",
+   "to": "2017-04-09",
+   "span": "16 months",
+   "seam": true,
+   "events": 43,
+   "share": 0.029675638371290544,
+   "roles": {
+    "human": 43
+   },
+   "fixes": 13,
+   "areas": [
+    "(top level)",
+    "test"
+   ],
+   "people": [
+    "Person C",
+    "Person E",
+    "Person AD"
+   ],
+   "people_count": 23,
+   "lifts": [
+    {
+     "facet": "area",
+     "value": "test",
+     "count": 6,
+     "of": 65,
+     "lift": 1.64
+    }
+   ],
+   "terms": [
+    {
+     "term": "given",
+     "count": 5,
+     "share": 0.62,
+     "lift": 4.81
+    },
+    {
+     "term": "build",
+     "count": 4,
+     "share": 0.4,
+     "lift": 4.17
+    },
+    {
+     "term": "win32",
+     "count": 3,
+     "share": 0.43,
+     "lift": 4.27
+    }
+   ],
+   "label": "test · given, build, win32",
+   "heaviest": [
+    {
+     "ref": "81577a654",
+     "date": "2016-06-06",
+     "title": "Support the alias of Git style sub-command",
+     "lines": 69
+    },
+    {
+     "ref": "975e5a42f",
+     "date": "2016-02-11",
+     "title": "For a required option, when even option flag is not given throw error. Fixes tests accordingly.",
+     "lines": 43
+    },
+    {
+     "ref": "ce35c35e9",
+     "date": "2016-09-20",
+     "title": "Revert \"For a required option, when even option flag is not given throw error.\"",
+     "lines": 43
+    }
+   ],
+   "first_ref": "a33ad704a",
+   "last_ref": "20493bb59"
+  },
+  {
+   "n": 6,
+   "start": 1497640013,
+   "end": 1540100713,
+   "from": "2017-06-16",
+   "to": "2018-10-21",
+   "span": "16 months",
+   "seam": true,
+   "events": 124,
+   "share": 0.08557625948930296,
+   "roles": {
+    "human": 123,
+    "agent": 1
+   },
+   "fixes": 24,
+   "areas": [
+    "(top level)",
+    "test",
+    "typings"
+   ],
+   "people": [
+    "Person D",
+    "Person I",
+    "Person J"
+   ],
+   "people_count": 39,
+   "lifts": [
+    {
+     "facet": "area",
+     "value": "typings",
+     "count": 7,
+     "of": 46,
+     "lift": 0.83
+    },
+    {
+     "facet": "area",
+     "value": "test",
+     "count": 9,
+     "of": 65,
+     "lift": 0.69
+    }
+   ],
+   "terms": [
+    {
+     "term": "newline",
+     "count": 8,
+     "share": 1.0,
+     "lift": 3.85
+    },
+    {
+     "term": "emit",
+     "count": 7,
+     "share": 0.7,
+     "lift": 3.34
+    },
+    {
+     "term": "prefix",
+     "count": 7,
+     "share": 0.7,
+     "lift": 3.34
+    },
+    {
+     "term": "feat",
+     "count": 6,
+     "share": 0.75,
+     "lift": 3.44
+    },
+    {
+     "term": "older",
+     "count": 6,
+     "share": 0.75,
+     "lift": 3.44
+    },
+    {
+     "term": "behavior",
+     "count": 5,
+     "share": 0.83,
+     "lift": 3.59
+    }
+   ],
+   "label": "typings · newline, emit, prefix",
+   "heaviest": [
+    {
+     "ref": "4c9b4b8ee",
+     "date": "2018-01-23",
+     "title": "resolves #754 add linter configuration to project",
+     "lines": 2039
+    },
+    {
+     "ref": "aaa447a8f",
+     "date": "2018-07-03",
+     "title": "npm update (#823)",
+     "lines": 1431
+    },
+    {
+     "ref": "001d560f5",
+     "date": "2018-05-10",
+     "title": "Update eslint to resolve vulnerabilities in lodash",
+     "lines": 1409
+    }
+   ],
+   "first_ref": "648629f86",
+   "last_ref": "27aeac1c2"
+  },
+  {
+   "n": 7,
+   "start": 1545966904,
+   "end": 1657786587,
+   "from": "2018-12-28",
+   "to": "2022-07-14",
+   "span": "3.5 years",
+   "seam": true,
+   "events": 548,
+   "share": 0.378191856452726,
+   "roles": {
+    "human": 548
+   },
+   "fixes": 55,
+   "areas": [
+    "(top level)",
+    "tests",
+    "typings",
+    ".github"
+   ],
+   "people": [
+    "Person A",
+    "Person D",
+    "Person L"
+   ],
+   "people_count": 48,
+   "lifts": [
+    {
+     "facet": "area",
+     "value": "tests",
+     "count": 61,
+     "of": 81,
+     "lift": 0.99
+    },
+    {
+     "facet": "area",
+     "value": "typings",
+     "count": 25,
+     "of": 46,
+     "lift": 0.52
+    },
+    {
+     "facet": "area",
+     "value": "\"docs",
+     "count": 4,
+     "of": 5,
+     "lift": 1.08
+    }
+   ],
+   "terms": [
+    {
+     "term": "tests",
+     "count": 157,
+     "share": 0.72,
+     "lift": 0.33
+    },
+    {
+     "term": "typescript",
+     "count": 59,
+     "share": 0.8,
+     "lift": 0.48
+    },
+    {
+     "term": "rework",
+     "count": 42,
+     "share": 0.89,
+     "lift": 0.64
+    },
+    {
+     "term": "changelog",
+     "count": 102,
+     "share": 0.68,
+     "lift": 0.26
+    },
+    {
+     "term": "example",
+     "count": 86,
+     "share": 0.67,
+     "lift": 0.23
+    },
+    {
+     "term": "argument",
+     "count": 59,
+     "share": 0.72,
+     "lift": 0.33
+    }
+   ],
+   "label": "tests · tests, typescript, rework",
+   "heaviest": [
+    {
+     "ref": "d7f9cd443",
+     "date": "2019-09-20",
+     "title": "Move to Jest as testing framework (#1035)",
+     "lines": 11596
+    },
+    {
+     "ref": "08e65d355",
+     "date": "2021-12-21",
+     "title": "Upgrade package-lock.json to lockfile@2 (#1659)",
+     "lines": 10406
+    },
+    {
+     "ref": "177cc6e6d",
+     "date": "2022-07-13",
+     "title": "Update dependencies (#1767)",
+     "lines": 7831
+    }
+   ],
+   "first_ref": "cec57f550",
+   "last_ref": "82fcb98cc"
+  },
+  {
+   "n": 8,
+   "start": 1662455353,
+   "end": 1793054824,
+   "from": "2022-09-06",
+   "to": "2026-10-26",
+   "span": "4.1 years",
+   "seam": false,
+   "events": 253,
+   "share": 0.1746031746031746,
+   "roles": {
+    "human": 253
+   },
+   "fixes": 30,
+   "areas": [
+    "(top level)",
+    "lib",
+    "tests",
+    ".github"
+   ],
+   "people": [
+    "Person A",
+    "Person F",
+    "Person D"
+   ],
+   "people_count": 33,
+   "lifts": [
+    {
+     "facet": "area",
+     "value": "lib",
+     "count": 53,
+     "of": 120,
+     "lift": 1.34
+    },
+    {
+     "facet": "area",
+     "value": ".github",
+     "count": 20,
+     "of": 39,
+     "lift": 1.55
+    },
+    {
+     "facet": "area",
+     "value": "docs",
+     "count": 8,
+     "of": 14,
+     "lift": 1.71
+    },
+    {
+     "facet": "area",
+     "value": "tests/fixtures",
+     "count": 3,
+     "of": 3,
+     "lift": 2.52
+    },
+    {
+     "facet": "area",
+     "value": "typings",
+     "count": 14,
+     "of": 46,
+     "lift": 0.8
+    }
+   ],
+   "terms": [
+    {
+     "term": "prettier",
+     "count": 9,
+     "share": 1.0,
+     "lift": 2.51
+    },
+    {
+     "term": "checks",
+     "count": 11,
+     "share": 0.58,
+     "lift": 1.72
+    },
+    {
+     "term": "tsconfig",
+     "count": 7,
+     "share": 1.0,
+     "lift": 2.51
+    },
+    {
+     "term": "broken",
+     "count": 8,
+     "share": 0.8,
+     "lift": 2.19
+    },
+    {
+     "term": "config",
+     "count": 8,
+     "share": 0.8,
+     "lift": 2.19
+    },
+    {
+     "term": "negative",
+     "count": 7,
+     "share": 0.88,
+     "lift": 2.31
+    }
+   ],
+   "label": "lib · prettier, checks, tsconfig",
+   "heaviest": [
+    {
+     "ref": "3dd608610",
+     "date": "2026-01-11",
+     "title": "Switch from Jest to Node.js built-in test runner (#2463)",
+     "lines": 12148
+    },
+    {
+     "ref": "b3e6795dc",
+     "date": "2026-01-13",
+     "title": "Add describe wrappers so test output makes sense without filenames (#2472)",
+     "lines": 10716
+    },
+    {
+     "ref": "1bdc749ac",
+     "date": "2024-04-05",
+     "title": "Reformat code with Prettier (#2180)",
+     "lines": 5216
+    }
+   ],
+   "first_ref": "84d9201e9",
+   "last_ref": "a09ea496b"
+  }
+ ],
+ "nuggets": [
+  {
+   "kind": "burst",
+   "bits": 151.9,
+   "head": "46 in one day",
+   "text": "2011-08-14: 46 events against 1.9 in an average active day.",
+   "refs": [
+    "672c7d01d",
+    "174482bb0",
+    "c9d4f996c",
+    "0d8d4bfed",
+    "f0b757fd2",
+    "98f4ca0b0",
+    "8d627d722",
+    "38bd1090b",
+    "7c7de340e",
+    "5b268eaaa",
+    "cd70d2aed",
+    "fdfd9d25f"
+   ],
+   "from": "2011-08-14"
+  },
+  {
+   "kind": "silence",
+   "bits": 31.9,
+   "head": "2.8 months",
+   "text": "Nothing from 2012-01-17 02:59 to 2012-04-11 00:51 UTC: 22 times the record's average gap.",
+   "refs": [
+    "8e2618815",
+    "f2060ffcf"
+   ],
+   "from": "2012-01-17",
+   "to": "2012-04-11",
+   "seconds": 7336332
+  },
+  {
+   "kind": "concentration",
+   "bits": 5.9,
+   "head": "19 of 1,158 commits",
+   "text": "hold 51% of all lines changed (Gini 0.89). The heaviest: \"Switch from Jest to Node.js built-in test runner (#2463)\" (12,148 lines).",
+   "refs": [
+    "3dd608610",
+    "d7f9cd443",
+    "b3e6795dc",
+    "08e65d355",
+    "177cc6e6d",
+    "d736ff70c",
+    "1bdc749ac",
+    "08245cc7a"
+   ]
+  },
+  {
+   "kind": "silence",
+   "bits": 30.5,
+   "head": "2.7 months",
+   "text": "Nothing from 2015-06-23 22:06 to 2015-09-12 22:19 UTC: 21 times the record's average gap.",
+   "refs": [
+    "0af40a523",
+    "4d421f9fd"
+   ],
+   "from": "2015-06-23",
+   "to": "2015-09-12",
+   "seconds": 6999219
+  },
+  {
+   "kind": "silence",
+   "bits": 25.8,
+   "head": "2.3 months",
+   "text": "Nothing from 2017-04-09 05:48 to 2017-06-16 19:06 UTC: 18 times the record's average gap.",
+   "refs": [
+    "20493bb59",
+    "648629f86"
+   ],
+   "from": "2017-04-09",
+   "to": "2017-06-16",
+   "seconds": 5923117
+  }
+ ],
+ "bins": {
+  "unit": "month",
+  "step": 2630016.0,
+  "rows": [
+   {
+    "t": 1313280000.0,
+    "human": 76,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1315910016.0,
+    "human": 10,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1318540032.0,
+    "human": 32,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1321170048.0,
+    "human": 32,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1323800064.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1326430080.0,
+    "human": 3,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1329060096.0,
+    "human": 0,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1331690112.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1334320128.0,
+    "human": 4,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1336950144.0,
+    "human": 5,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1339580160.0,
+    "human": 9,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1342210176.0,
+    "human": 4,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1344840192.0,
+    "human": 15,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1347470208.0,
+    "human": 6,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1350100224.0,
+    "human": 3,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1352730240.0,
+    "human": 5,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1355360256.0,
+    "human": 3,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1357990272.0,
+    "human": 1,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1360620288.0,
+    "human": 0,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1363250304.0,
+    "human": 3,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1365880320.0,
+    "human": 0,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1368510336.0,
+    "human": 3,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1371140352.0,
+    "human": 10,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1373770368.0,
+    "human": 8,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1376400384.0,
+    "human": 0,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1379030400.0,
+    "human": 1,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1381660416.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1384290432.0,
+    "human": 3,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1386920448.0,
+    "human": 0,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1389550464.0,
+    "human": 1,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1392180480.0,
+    "human": 1,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1394810496.0,
+    "human": 11,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1397440512.0,
+    "human": 10,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1400070528.0,
+    "human": 0,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1402700544.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1405330560.0,
+    "human": 12,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1407960576.0,
+    "human": 7,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1410590592.0,
+    "human": 17,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1413220608.0,
+    "human": 16,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1415850624.0,
+    "human": 18,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1418480640.0,
+    "human": 35,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1421110656.0,
+    "human": 16,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1423740672.0,
+    "human": 40,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1426370688.0,
+    "human": 22,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1429000704.0,
+    "human": 6,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1431630720.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1434260736.0,
+    "human": 8,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1436890752.0,
+    "human": 0,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1439520768.0,
+    "human": 1,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1442150784.0,
+    "human": 12,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1444780800.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1447410816.0,
+    "human": 0,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1450040832.0,
+    "human": 4,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1452670848.0,
+    "human": 6,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1455300864.0,
+    "human": 1,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1457930880.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1460560896.0,
+    "human": 1,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1463190912.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1465820928.0,
+    "human": 9,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1468450944.0,
+    "human": 1,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1471080960.0,
+    "human": 1,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1473710976.0,
+    "human": 3,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1476340992.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1478971008.0,
+    "human": 1,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1481601024.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1484231040.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1486861056.0,
+    "human": 4,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1489491072.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1492121088.0,
+    "human": 0,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1494751104.0,
+    "human": 0,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1497381120.0,
+    "human": 22,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1500011136.0,
+    "human": 7,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1502641152.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1505271168.0,
+    "human": 5,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1507901184.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1510531200.0,
+    "human": 14,
+    "agent": 1,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1513161216.0,
+    "human": 7,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1515791232.0,
+    "human": 14,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1518421248.0,
+    "human": 6,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1521051264.0,
+    "human": 1,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1523681280.0,
+    "human": 5,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1526311296.0,
+    "human": 8,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1528941312.0,
+    "human": 7,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1531571328.0,
+    "human": 6,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1534201344.0,
+    "human": 9,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1536831360.0,
+    "human": 6,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1539461376.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1542091392.0,
+    "human": 0,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1544721408.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1547351424.0,
+    "human": 0,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1549981440.0,
+    "human": 8,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1552611456.0,
+    "human": 8,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1555241472.0,
+    "human": 14,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1557871488.0,
+    "human": 16,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1560501504.0,
+    "human": 42,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1563131520.0,
+    "human": 26,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1565761536.0,
+    "human": 15,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1568391552.0,
+    "human": 41,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1571021568.0,
+    "human": 16,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1573651584.0,
+    "human": 21,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1576281600.0,
+    "human": 26,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1578911616.0,
+    "human": 37,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1581541632.0,
+    "human": 15,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1584171648.0,
+    "human": 9,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1586801664.0,
+    "human": 7,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1589431680.0,
+    "human": 9,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1592061696.0,
+    "human": 7,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1594691712.0,
+    "human": 15,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1597321728.0,
+    "human": 7,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1599951744.0,
+    "human": 13,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1602581760.0,
+    "human": 17,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1605211776.0,
+    "human": 13,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1607841792.0,
+    "human": 18,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1610471808.0,
+    "human": 13,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1613101824.0,
+    "human": 8,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1615731840.0,
+    "human": 10,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1618361856.0,
+    "human": 7,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1620991872.0,
+    "human": 18,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1623621888.0,
+    "human": 6,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1626251904.0,
+    "human": 7,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1628881920.0,
+    "human": 9,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1631511936.0,
+    "human": 4,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1634141952.0,
+    "human": 9,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1636771968.0,
+    "human": 0,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1639401984.0,
+    "human": 14,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1642032000.0,
+    "human": 8,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1644662016.0,
+    "human": 6,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1647292032.0,
+    "human": 9,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1649922048.0,
+    "human": 5,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1652552064.0,
+    "human": 9,
+    "agent": 0,
+    "bot": 3,
+    "system": 0
+   },
+   {
+    "t": 1655182080.0,
+    "human": 4,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1657812096.0,
+    "human": 0,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1660442112.0,
+    "human": 4,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1663072128.0,
+    "human": 4,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1665702144.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1668332160.0,
+    "human": 6,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1670962176.0,
+    "human": 8,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1673592192.0,
+    "human": 3,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1676222208.0,
+    "human": 0,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1678852224.0,
+    "human": 6,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1681482240.0,
+    "human": 7,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1684112256.0,
+    "human": 5,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1686742272.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1689372288.0,
+    "human": 23,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1692002304.0,
+    "human": 12,
+    "agent": 0,
+    "bot": 1,
+    "system": 0
+   },
+   {
+    "t": 1694632320.0,
+    "human": 14,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1697262336.0,
+    "human": 12,
+    "agent": 0,
+    "bot": 22,
+    "system": 0
+   },
+   {
+    "t": 1699892352.0,
+    "human": 3,
+    "agent": 0,
+    "bot": 8,
+    "system": 0
+   },
+   {
+    "t": 1702522368.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 5,
+    "system": 0
+   },
+   {
+    "t": 1705152384.0,
+    "human": 9,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1707782400.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 4,
+    "system": 0
+   },
+   {
+    "t": 1710412416.0,
+    "human": 6,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1713042432.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 5,
+    "system": 0
+   },
+   {
+    "t": 1715672448.0,
+    "human": 5,
+    "agent": 0,
+    "bot": 4,
+    "system": 0
+   },
+   {
+    "t": 1718302464.0,
+    "human": 4,
+    "agent": 0,
+    "bot": 5,
+    "system": 0
+   },
+   {
+    "t": 1720932480.0,
+    "human": 1,
+    "agent": 0,
+    "bot": 4,
+    "system": 0
+   },
+   {
+    "t": 1723562496.0,
+    "human": 0,
+    "agent": 0,
+    "bot": 5,
+    "system": 0
+   },
+   {
+    "t": 1726192512.0,
+    "human": 3,
+    "agent": 0,
+    "bot": 5,
+    "system": 0
+   },
+   {
+    "t": 1728822528.0,
+    "human": 3,
+    "agent": 0,
+    "bot": 4,
+    "system": 0
+   },
+   {
+    "t": 1731452544.0,
+    "human": 7,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1734082560.0,
+    "human": 6,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1736712576.0,
+    "human": 5,
+    "agent": 0,
+    "bot": 8,
+    "system": 0
+   },
+   {
+    "t": 1739342592.0,
+    "human": 1,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1741972608.0,
+    "human": 4,
+    "agent": 0,
+    "bot": 7,
+    "system": 0
+   },
+   {
+    "t": 1744602624.0,
+    "human": 4,
+    "agent": 0,
+    "bot": 5,
+    "system": 0
+   },
+   {
+    "t": 1747232640.0,
+    "human": 3,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1749862656.0,
+    "human": 4,
+    "agent": 0,
+    "bot": 8,
+    "system": 0
+   },
+   {
+    "t": 1752492672.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 4,
+    "system": 0
+   },
+   {
+    "t": 1755122688.0,
+    "human": 4,
+    "agent": 0,
+    "bot": 5,
+    "system": 0
+   },
+   {
+    "t": 1757752704.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 5,
+    "system": 0
+   },
+   {
+    "t": 1760382720.0,
+    "human": 2,
+    "agent": 0,
+    "bot": 7,
+    "system": 0
+   },
+   {
+    "t": 1763012736.0,
+    "human": 0,
+    "agent": 0,
+    "bot": 6,
+    "system": 0
+   },
+   {
+    "t": 1765642752.0,
+    "human": 3,
+    "agent": 0,
+    "bot": 3,
+    "system": 0
+   },
+   {
+    "t": 1768272768.0,
+    "human": 6,
+    "agent": 0,
+    "bot": 5,
+    "system": 0
+   },
+   {
+    "t": 1770902784.0,
+    "human": 7,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1773532800.0,
+    "human": 1,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1776162816.0,
+    "human": 0,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1778792832.0,
+    "human": 6,
+    "agent": 0,
+    "bot": 4,
+    "system": 0
+   },
+   {
+    "t": 1781422848.0,
+    "human": 5,
+    "agent": 0,
+    "bot": 1,
+    "system": 0
+   },
+   {
+    "t": 1784052864.0,
+    "human": 9,
+    "agent": 0,
+    "bot": 6,
+    "system": 0
+   },
+   {
+    "t": 1786682880.0,
+    "human": 4,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1789312896.0,
+    "human": 15,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   },
+   {
+    "t": 1791942912.0,
+    "human": 5,
+    "agent": 0,
+    "bot": 0,
+    "system": 0
+   }
+  ]
+ },
+ "seam_gap": 5473476,
+ "facets": [
+  "role",
+  "kind",
+  "area"
+ ],
+ "events": 1598,
+ "live": 1449
+}

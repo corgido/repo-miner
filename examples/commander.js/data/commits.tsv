@@ -1,0 +1,1599 @@
+sha	date	author	role	with_agent	area	chapter	lines	files	subject
+672c7d01d	2011-08-14	Person B	human	0	(top level)	1	619	17	Initial commit
+174482bb0	2011-08-14	Person B	human	0	test	1	24	4	added more tests
+c9d4f996c	2011-08-14	Person B	human	0	test	1	19	3	added boolean flag test
+0d8d4bfed	2011-08-14	Person B	human	0	test	1	16	3	added required arg test
+f0b757fd2	2011-08-14	Person B	human	0	test	1	87	13	ditch these tests, too slow to write
+98f4ca0b0	2011-08-14	Person B	human	0	lib	1	19	2	When --no-* is used default to true
+8d627d722	2011-08-14	Person B	human	0	test	1	30	2	more tests
+38bd1090b	2011-08-14	Person B	human	0	test	1	26	2	added failing test
+7c7de340e	2011-08-14	Person B	human	0	lib	1	2	1	Fixed optional arg
+5b268eaaa	2011-08-14	Person B	human	0	test	1	23	1	added coercion tests
+cd70d2aed	2011-08-14	Person B	human	0	examples	1	6	1	fixed example
+fdfd9d25f	2011-08-14	Person B	human	0	lib	1	36	2	expand small flags
+007ab3381	2011-08-14	Person B	human	0	examples	1	105	2	added input methods
+e7cdf10d0	2011-08-14	Person B	human	0	examples	1	68	3	Added `Command#choose()`
+aa1c705ee	2011-08-14	Person B	human	0	examples	1	22	2	Added `Commander#confirm()`
+e93347af3	2011-08-14	Person B	human	0	examples	1	13	6	removed .description()
+a0df3886c	2011-08-14	Person B	human	0	lib	1	14	1	docs
+569b1373b	2011-08-14	Person B	human	0	test	1	2	1	more tests
+46be01f2c	2011-08-14	Person B	human	0	lib	1	16	1	docs
+03178dce2	2011-08-14	Person B	human	0	examples	1	55	2	docs
+d439ecd4c	2011-08-14	Person B	human	0	lib	1	26	1	docs
+349e828f5	2011-08-14	Person B	human	0	lib	1	11	1	docs
+ce624fa21	2011-08-14	Person B	human	0	lib	1	39	1	docs
+467f5749d	2011-08-14	Person B	human	0	examples	1	28	2	docs
+981fc9e80	2011-08-14	Person B	human	0	lib	1	137	1	docs
+4988dd86c	2011-08-14	Person B	human	0	lib	1	42	1	docs
+1c281c613	2011-08-14	Person B	human	0	examples	1	26	2	docs
+589d92874	2011-08-14	Person B	human	0	lib	1	10	1	docs
+9c153a5c7	2011-08-14	Person B	human	0	(top level)	1	4	1	docs
+c3c20dc38	2011-08-14	Person B	human	0	(top level)	1	32	1	docs
+c34851dc2	2011-08-14	Person B	human	0	(top level)	1	18	1	docs
+0f5ca01f8	2011-08-14	Person B	human	0	lib	1	14	1	Added `Commander#command()` back
+3636e5e22	2011-08-14	Person B	human	0	examples	1	14	2	optional descriptions
+6e3993d19	2011-08-14	Person B	human	0	lib	1	2	1	only bitch about required args
+250eebe5c	2011-08-14	Person B	human	0	(top level)	1	6	2	typos
+54292c5fc	2011-08-14	Person B	human	0	(top level)	1	81	1	docs
+c07167f7d	2011-08-14	Person B	human	0	(top level)	1	2	1	docs
+7216415ef	2011-08-14	Person B	human	0	(top level)	1	8	1	docs
+a96f17377	2011-08-14	Person B	human	0	(top level)	1	23	1	docs
+80319b980	2011-08-14	Person B	human	0	(top level)	1	2	1	typo
+633f2ac1c	2011-08-14	Person B	human	0	(top level)	1	2	1	typo
+2a175d7e8	2011-08-14	Person B	human	0	(top level)	1	2	1	docs
+236ef92d1	2011-08-14	Person B	human	0	(top level)	1	18	2	docs
+e397d2792	2011-08-14	Person B	human	0	lib	1	5	1	add "[command]" to the usage when commands are defined
+dfe91d3bd	2011-08-14	Person B	human	0	lib	1	4	1	Changed `Command#confirm()` retry until input is given
+d4a9c4071	2011-08-14	Person B	human	0	(top level)	1	2	1	Release 0.0.1
+3bbbb2a50	2011-08-15	Person B	human	0	examples	1	68	2	Added `Command#password(str, fn)`
+0a2139695	2011-08-15	Person B	human	0	examples	1	32	2	Added mask support to `Command#password()`
+44100bc88	2011-08-15	Person B	human	0	(top level)	1	20	1	docs
+663b31332	2011-08-15	Person B	human	0	(top level)	1	6	1	docs
+7f12f03d0	2011-08-15	Person B	human	0	(top level)	1	8	2	Release 0.0.2
+05a181638	2011-08-15	Person B	human	0	examples	1	4	1	marble
+9413fe9b5	2011-08-15	Person B	human	0	examples	1	47	2	Added default option value support
+6a686c13d	2011-08-15	Person B	human	0	(top level)	1	2	1	camel-case docs
+5553ea0b6	2011-08-15	Person B	human	0	examples	1	8	1	more examples
+db4ab408d	2011-08-15	Person B	human	0	examples	1	6	1	list example to defaults
+a72b2dae4	2011-08-15	Person B	human	0	(top level)	1	4	1	docs
+85c6b5016	2011-08-15	Person B	human	0	(top level)	1	7	2	Release 0.0.3
+d721114c5	2011-08-15	Person B	human	0	(top level)	1	2	1	docs
+c5ea44bcd	2011-08-15	Person B	human	0	(top level)	1	1	1	examples
+778faa374	2011-08-15	Person B	human	0	(top level)	1	2	1	misc
+384ed14fd	2011-08-15	Person B	human	0	examples	1	4	2	Fixed `Commander#args`
+3353805a5	2011-08-15	Person B	human	0	(top level)	1	7	2	Release 0.0.4
+20e5d98aa	2011-08-18	Person B	human	0	(top level)	1	2	1	typo
+5c1cdec9a	2011-08-18	Person DV	human	0	lib	1	3	1	Fixed issue with passwords beginning with numbers.
+1d4de044b	2011-08-18	Person B	human	0	(none)	1	0	0	Merge pull request #5 from Person DV/patch-1
+1daa50f90	2011-08-18	Person B	human	0	lib	1	5	1	when the user enters nothing prompt for password again
+2fd3d5ad7	2011-08-19	Person B	human	0	(top level)	1	8	2	Release 0.0.5
+fad62009f	2011-08-24	Person B	human	0	lib	1	19	1	Moved -h, --help option definition
+da1378365	2011-08-24	Person B	human	0	(top level)	1	98	3	Added support for custom --help output
+3fb7ab058	2011-08-24	Person B	human	0	(top level)	1	7	2	Release 0.1.0
+f7242dcb0	2011-08-25	Person B	human	0	(none)	1	0	0	Merge pull request #8 from someone/patch-1
+e864dbf28	2011-08-25	Person CH	human	0	(top level)	1	1	1	Added repository so that [changelog](https://github.com/dylang/changelog) and [npmjs.org](http://search.npmjs.org) can link back to the github page.
+d7989ac34	2011-09-06	Person AI	human	0	lib	1	30	2	Two word options are correctly camelcased
+51262de5b	2011-09-06	Person AI	human	0	test	1	14	1	Expanded multiple word testing to include other combinations and caps
+03f3b6df6	2011-09-06	Person B	human	0	(none)	1	0	0	Merge pull request #11 from someone/chumpalump
+a1cfb42fb	2011-09-26	Person V	human	0	test	1	73	3	Allow for defaults that are not just boolean. Default peassignment only occurs for --no-*, optional, and required arguments. Please see included tests for how this functionality is intended to work.
+c0b42f507	2011-09-26	Person V	human	0	test	1	16	2	Fixed short flags in option defaults tests
+85e98934e	2011-09-26	Person B	human	0	(none)	1	0	0	Merge branch 'integration'
+5a16c1edd	2011-09-26	Person B	human	0	(none)	1	0	0	Merge branch 'master' of github.com:someone/commander.js
+15814b923	2011-09-26	Person B	human	0	(top level)	1	7	2	Release 0.2.0
+3bfe216eb	2011-10-05	Person V	human	0	lib	1	2	1	Missed checking for null here in last pull request. Doesn't break anything either way, this just allows for empty [optional] options that have a default.
+157bb8f8f	2011-10-05	Person B	human	0	(none)	1	0	0	Merge pull request #17 from someone/master
+a6a0b7ca1	2011-10-05	Person B	human	0	lib	1	7	1	clean up
+894047646	2011-10-05	Person B	human	0	lib	1	2	1	clean up
+e58e26a1c	2011-10-05	Person B	human	0	lib	1	10	1	clean up
+3e7ef2d4d	2011-10-18	Person B	human	0	(top level)	1	20	2	starting docs
+475e20da3	2011-10-18	Person B	human	0	(top level)	1	5	3	make docs
+3080b90f5	2011-10-19	Person B	human	0	(top level)	1	566	5	docs
+d3d85c837	2011-10-19	Person B	human	0	(top level)	1	4	1	styling
+29e5e948e	2011-10-19	Person B	human	0	(top level)	1	8	1	styling code
+e82a32553	2011-10-22	Person B	human	0	(top level)	1	75	3	docs
+cc2b1a564	2011-10-22	Person B	human	0	(top level)	1	120	4	docs
+e27684a95	2011-10-22	Person B	human	0	(top level)	1	44	4	docs
+0078f0bb5	2011-10-22	Person B	human	0	(top level)	1	15	1	menu
+ad37ceb81	2011-10-22	Person B	human	0	(top level)	1	12	1	misc
+b7cc8697e	2011-10-22	Person B	human	0	(top level)	1	18	3	misc
+8df59efc8	2011-10-22	Person B	human	0	(top level)	1	83	4	links
+b3b93dc23	2011-10-22	Person B	human	0	(top level)	1	32	4	titles
+3eccfa9fa	2011-10-22	Person B	human	0	(top level)	1	3	2	annotated source link
+9c9689c25	2011-10-22	Person B	human	0	(top level)	1	1	1	annotated source link
+f91126e02	2011-10-22	Person B	human	0	(top level)	1	2	1	implementation -> source
+649bb7324	2011-10-22	Person B	human	0	(top level)	1	70	2	docs
+3bd6bbcda	2011-10-23	Person B	human	0	(top level)	1	224	4	@someone public only
+086376ad0	2011-10-23	Person B	human	0	(top level)	1	2	1	docs
+7eca00e25	2011-10-24	Person B	human	0	(top level)	1	2	1	"node": ">= 0.4.x < 0.7.0". Closes #20
+81ec7aa05	2011-10-24	Person B	human	0	(top level)	1	7	2	Release 0.2.1
+8432082c6	2011-10-31	Person B	human	0	lib	1	17	2	Added support for long flags only. Closes #18
+476ddaf91	2011-10-31	Person B	human	0	(top level)	1	7	2	Release 0.3.0
+c7a6ac115	2011-10-31	Person T	human	0	lib	1	5	1	Make version flags configurable
+a0b3f1a3a	2011-10-31	Person T	human	0	lib	1	1	1	Document flags parameter
+060c5d34e	2011-10-31	Person B	human	0	(none)	1	0	0	Merge pull request #22 from someone/custom-version-flags
+9656c3773	2011-10-31	Person B	human	0	lib	1	4	1	Changed --version short flag to -V
+d3deb3655	2011-10-31	Person B	human	0	(top level)	1	8	2	Release 0.3.1
+9e8f3b2dd	2011-11-01	Person T	human	0	lib	1	15	2	Fix: Long-only flags would not take values
+64802337d	2011-11-01	Person B	human	0	(none)	1	0	0	Merge pull request #23 from someone/long-only-flags-with-values
+d1491e45b	2011-11-01	Person B	human	0	(top level)	1	7	2	Release 0.3.2
+fca696a83	2011-11-12	Person AM	human	0	lib	1	4	1	Wait till STDOUT stream is drained before exiting the process.
+f941344c0	2011-11-14	Person AM	human	0	lib	1	5	1	Wait for the close event, write our help information, then give other events a chance to write something, and then ask to destroySoon the stdout stream.
+fe44783dd	2011-11-14	Person B	human	0	lib	1	6	1	fix styling
+e01dd8977	2011-11-14	Person B	human	0	(none)	1	0	0	Merge branch 'integration'
+6b5ac393b	2011-11-14	Person B	human	0	lib	1	1	1	ws
+8cecea0df	2011-11-14	Person B	human	0	(top level)	1	5	1	Release 0.3.3
+bbc53f94b	2011-11-14	Person B	human	0	(top level)	1	2	1	bump
+e4abf050c	2011-11-15	Person B	human	0	lib	1	29	2	Added support for --. Closes #24
+29a318796	2011-11-15	Person B	human	0	(top level)	1	7	2	Release 0.4.0
+4f0c67f22	2011-11-15	Person B	human	0	test	1	1	1	added an assert to test.literal.args.js
+212727563	2011-11-18	Person B	human	0	(top level)	1	2	2	Added .usage() example in docs
+7d1cac068	2011-11-18	Person B	human	0	lib	1	7	1	removed listening for "close" on --help
+41fdf8924	2011-11-18	Person B	human	0	(top level)	1	7	2	Release 0.4.1
+b32fcca90	2011-11-20	Person M	human	0	examples	1	152	3	Add options for subcommands
+2454486c1	2011-11-20	Person M	human	0	examples	1	152	3	Add options for subcommands
+b2f4dadf4	2011-11-20	Person M	human	0	test	1	39	1	Make the subcommand tests a bit more robust
+ba74d56e2	2011-11-20	Person M	human	0	test	1	39	1	Make the subcommand tests a bit more robust
+4788f703f	2011-11-23	Person M	human	0	examples	1	92	3	Add help for subcommands (should resolve issue #2)
+2e4ed2d33	2011-11-24	Person B	human	0	(top level)	1	4	1	Added travis support
+e33a6cf57	2011-11-24	Person B	human	0	(top level)	1	2	1	travis badge
+b3751b66e	2011-11-24	Person B	human	0	(top level)	1	1	1	grr script
+974555184	2011-11-24	Person B	human	0	examples	1	11	2	Fixed: line-buffered input automatically trimmed. Closes #31
+22abcff0c	2011-11-24	Person B	human	0	(top level)	1	8	2	Release 0.4.2
+78dc4a1cd	2011-12-04	Person B	human	0	lib	1	2	1	Fixed custom help ordering. Closes #32
+0aec641d6	2011-12-04	Person B	human	0	(top level)	1	5	1	Release 0.4.3
+62a74c1eb	2011-12-04	Person B	human	0	(top level)	1	2	1	bump
+6ccb63972	2011-12-04	Person B	human	0	(none)	1	0	0	merged / tweaked
+8f2a30513	2011-12-04	Person B	human	0	examples	1	10	2	fixed ordering again
+901a52198	2011-12-04	Person B	human	0	(none)	1	0	0	Merge branch 'integration'
+f91f2035f	2011-12-04	Person B	human	0	(top level)	1	7	2	Release 0.5.0
+eea372f72	2011-12-07	Person DJ	human	0	lib	1	139	2	added prompt test and fixed four issues
+6f0558d78	2011-12-07	Person B	human	0	lib	1	3	1	use trimRight()
+731b4fc91	2011-12-07	Person B	human	0	(none)	1	0	0	Merge branch 'integration'
+c1220dd36	2011-12-16	Person B	human	0	lib	1	1	1	Fixed password() for recent nodes. Closes #36
+25705d69e	2011-12-20	Person B	human	0	(top level)	1	7	2	Release 0.5.1
+2beb29827	2012-01-15	Person B	human	0	examples	1	26	2	Added default support to .choose(). Closes #41
+10d4e350a	2012-01-17	Person ED	human	0	examples	1	8	1	Fixed the choice example
+8e2618815	2012-01-17	Person B	human	0	(none)	1	0	0	Merge pull request #45 from Person ED/hotfix/examples
+f2060ffcf	2012-04-11	Person B	human	0	examples	2	59	3	Added quick `.prompt(obj, callback)` support. Closes #49
+d660ff3bd	2012-04-11	Person B	human	0	(top level)	2	9	2	Release 0.6.0
+9312e109e	2012-05-04	Person O	human	0	lib	2	38	2	Issue #48 : Take -version from package.json
+63dc290b8	2012-05-04	Person O	human	0	lib	2	28	2	Issue #48 : Take -version from package.json
+aada286e7	2012-05-09	Person BV	human	0	(top level)	2	5	1	Version flag is -V, and not -v, according to https://github.com/visionmedia/commander.js/blob/master/lib/commander.js#L574
+43f75e720	2012-05-09	Person B	human	0	(none)	2	0	0	Merge pull request #58 from someone/patch-1
+b43c2708e	2012-05-17	Person B	human	0	lib	2	5	1	Added: append (yes or no) on confirmation
+a7d5c0aca	2012-06-01	Person EI	human	0	(top level)	2	2	1	allow node.js v0.7.x
+2651b4cfa	2012-06-01	Person B	human	0	(none)	2	0	0	Merge pull request #62 from someone/patch-1
+ef02666ab	2012-06-01	Person B	human	0	(none)	2	0	0	Merge branch 'master' of github.com:someone/commander.js
+df60805f2	2012-06-01	Person B	human	0	(top level)	2	8	2	Release 0.6.1
+5f5bd43da	2012-07-03	Person O	human	0	lib	2	25	2	Essai
+3bd2e9858	2012-07-03	Person O	human	0	lib	2	40	2	better package.json handling
+311887156	2012-07-03	Person O	human	0	(none)	2	0	0	Merge branch 'master' of git://someone/visionmedia/commander.js into version
+10f5cb764	2012-07-03	Person R	human	0	lib	2	3	1	Make description optional and avoid printing "--someoption undefined" in help message.
+f4fd782ad	2012-07-03	Person B	human	0	(none)	2	0	0	Merge pull request #69 from someone/patch-1
+12adc90fa	2012-07-03	Person B	human	0	(none)	2	0	0	Merge pull request #55 from someone/version
+cc966f6ce	2012-07-05	Person B	human	0	(top level)	2	8	2	Release 1.0.0
+2aac48ff6	2012-07-07	Person CY	human	0	lib	2	4	1	[fix] tty.setRawMode(mode) was moved to tty.ReadStream#setRawMode() (i.e. process.stdin.setRawMode())
+72344894f	2012-07-07	Person B	human	0	(none)	2	0	0	Merge pull request #73 from someone/clean
+d65dabd96	2012-08-03	Person BQ	human	0	lib	2	6	1	Fix issue #56
+4f1ddc143	2012-08-03	Person B	human	0	(none)	2	0	0	Merge pull request #77 from someone/master
+29f289c32	2012-08-03	Person B	human	0	lib	2	7	1	fix styling of prev commit
+77a337fff	2012-08-03	Person B	human	0	(top level)	2	8	2	Release 1.0.1
+a42471a54	2012-08-16	Person DB	human	0	lib	2	15	1	Add outputHelp method to Command object.
+c2edd81d6	2012-08-21	Person B	human	0	(top level)	2	2	1	>= 0.6.x
+dc8b80526	2012-08-23	Person CK	human	0	lib	2	23	2	Add support for equal sign
+413c9ca85	2012-08-23	Person B	human	0	test	2	2	1	add todo
+2024eb5d8	2012-08-23	Person B	human	0	(none)	2	0	0	Merge pull request #85 from someone/fix-equal-sign-in-name
+605441b53	2012-08-23	Person B	human	0	(none)	2	0	0	Merge branch 'master' of github.com:someone/commander.js
+11136ec0d	2012-08-23	Person R	human	0	(top level)	2	20	2	fix password on node 0.8.8. Make backward compatible with 0.6.
+1b37ea4b1	2012-08-24	Person R	human	0	lib	2	4	1	Tweaks as per TJ
+667afdfcf	2012-08-24	Person B	human	0	(none)	2	0	0	Merge pull request #87 from someone/keypress_node_0.8.8
+f0529b159	2012-08-24	Person B	human	0	(top level)	2	8	2	Release 1.0.2
+1ff97d38a	2012-08-30	Person B	human	0	lib	2	25	2	remove invalid .version() defaulting
+6092d8ef2	2012-08-30	Person B	human	0	(top level)	2	7	2	Release 1.0.3
+8c186ff34	2012-09-03	Person B	human	0	(none)	2	0	0	Merge pull request #86 from someone/output-help
+5fc280001	2012-09-03	Person B	human	0	lib	2	4	1	style refactor
+7cb5aeb88	2012-09-03	Person B	human	0	(top level)	2	7	2	Release 1.0.4
+1fc8330ff	2012-09-24	Person B	human	0	examples	2	13	2	fix examples/help. Closes #89
+2e4fe0825	2012-10-10	Person B	human	0	lib	2	9	1	fix --name clobbering. Closes #92
+53d38cfe2	2012-10-10	Person B	human	0	(top level)	2	8	2	Release 1.0.5
+639420803	2012-10-10	Person EX	human	0	lib	2	2	1	Update lib/commander.js
+72b462259	2012-10-10	Person B	human	0	(none)	2	0	0	Merge pull request #93 from someone/patch-1
+f5078e22c	2012-10-10	Person B	human	0	(top level)	2	8	1	docs
+f5054bb3c	2012-10-16	Person GT	human	0	examples	2	2	1	fix typo
+e1466b041	2012-10-16	Person B	human	0	(none)	2	0	0	Merge pull request #96 from Person GT/master
+7ab5bd186	2012-11-05	Person B	human	0	test	2	123	1	remove messy/broken test
+21b416939	2012-11-17	Person B	human	0	examples	2	126	3	add git-style executable subcommand support. Closes #94
+2a2165584	2012-11-17	Person B	human	0	(top level)	2	2267	4	Release 1.1.0
+e52a3216c	2012-11-20	Person B	human	0	(top level)	2	21	2	fix .usage() when args are present. Closes #106
+add023686	2012-11-20	Person B	human	0	(top level)	2	2	1	add more sub-command padding
+15da0f550	2012-11-20	Person B	human	0	(top level)	2	8	2	Release 1.1.1
+64a9b10bf	2012-12-13	Person FF	human	0	(top level)	2	3	1	Don't ship dot files with the npm package
+46f6628ce	2012-12-13	Person B	human	0	(none)	2	0	0	Merge pull request #111 from someone/fix-npmignore
+02ded4ff3	2012-12-13	Person CD	human	0	(top level)	2	29	2	fix mergeconfict
+2f12c8356	2013-01-22	Person DO	human	0	(top level)	2	31	2	support for RegExp coercion
+204e3ac90	2013-03-21	Person BW	human	0	(top level)	2	14	1	all unknownArg
+bd191c4a2	2013-03-22	Person FX	human	0	(top level)	2	27	2	allow "-" hyphen as an option argument
+3261f3e20	2013-04-09	Person R	human	0	(top level)	2	5	2	Use empty string for name if parse not called to avoid printing undefined in help output
+a3b353ab4	2013-06-13	Person B	human	0	(none)	3	0	0	Merge pull request #120 from someone/master
+fff7cacaf	2013-06-13	Person B	human	0	(none)	3	0	0	Merge pull request #139 from Person FX/work
+fc560de5a	2013-06-13	Person B	human	0	(top level)	3	10	2	Release 1.2.0
+06f61bd76	2013-06-20	Person GM	human	0	(top level)	3	39	2	beautify output
+3a1e7b5f1	2013-07-06	Person AX	human	0	(top level)	3	4	1	Fixing issue with subcommands and --help
+82c3cbece	2013-07-06	Person AX	human	0	(top level)	3	11	1	More nicer error handling
+698aebb4b	2013-07-07	Person BT	human	0	(top level)	3	6	1	Fixed spelling of 'pineapple' in Readme
+62cd70cac	2013-07-09	Person B	human	0	(none)	3	0	0	Merge pull request #158 from someone/master
+976640604	2013-07-09	Person B	human	0	(none)	3	0	0	Merge pull request #156 from someone/patch-1
+027b605c4	2013-07-09	Person B	human	0	(none)	3	0	0	Merge pull request #157 from someone/patch-2
+3dd56ef01	2013-07-09	Person B	human	0	(top level)	3	6	1	Release 1.3.0
+022d540ca	2013-07-09	Person B	human	0	(top level)	3	8	2	Release 1.3.0
+97b7cbdef	2013-07-09	Person B	human	0	(none)	3	0	0	Merge branch 'master' of github.com:someone/commander.js
+da34f30c9	2013-07-18	Person B	human	0	(top level)	3	2	1	add quick .runningCommand hack so you can opt-out of other logic when running a sub command
+1c6ea15fa	2013-07-18	Person B	human	0	(top level)	3	7	2	Release 1.3.1
+491969941	2013-07-18	Person B	human	0	(top level)	3	7	1	add support for sub-commands to co-exist with the original command
+bf228821c	2013-07-18	Person B	human	0	(top level)	3	7	2	Release 1.3.2
+bf5e1f5ec	2013-07-19	Person B	human	0	examples	3	499	8	remove input methods (.prompt, .confirm, etc)
+efc585c78	2013-07-19	Person B	human	0	(top level)	3	7	2	Release 2.0.0
+6915b124c	2013-07-20	Person ER	human	0	(top level)	3	8	2	Explicitly define contents of npm package
+38b7adbd3	2013-07-30	Person B	human	0	(none)	3	0	0	Merge pull request #161 from someone/files-prop
+892d8c33d	2013-09-30	Person GS	human	0	(top level)	3	7	1	support subcommands on windows. Fixes #142
+a8248965b	2013-10-23	Person H	human	0	(top level)	3	23	2	allow cflag style option params, unit test, fixes #174
+edbcdacae	2013-10-23	Person H	human	0	test	3	11	1	improve unit test for #174
+1317a0264	2013-11-21	Person B	human	0	(none)	3	0	0	Merge pull request #176 from someone/174-1
+963458a07	2013-11-21	Person B	human	0	(top level)	3	7	2	Release 2.1.0
+d026976b2	2013-11-22	Person CC	human	0	(top level)	3	7	1	clean up usage argument summary
+a1cc98c8d	2014-01-16	Person CG	human	0	(top level)	3	8	2	remove unused list function from custom-help example
+b970a4476	2014-02-25	Person B	human	0	(none)	3	0	0	Merge pull request #173 from Person GS/issue_142
+56f4796cb	2014-03-21	Person AV	human	0	test	3	4	1	Fixed failing test.
+edafae1b4	2014-03-29	Person AV	human	0	(top level)	3	47	4	Pass previous option value or default value to coercion function so it can be used to collect values.
+41bc6a9f3	2014-03-29	Person B	human	0	(none)	3	0	0	Merge pull request #198 from someone/repeated-options
+cb446166a	2014-03-29	Person B	human	0	(top level)	3	50	1	refactor ternary
+534c63a55	2014-03-29	Person B	human	0	(top level)	3	72	2	Release 2.2.0
+a11b34f0a	2014-04-06	Person GE	human	0	(top level)	3	2	1	Update Readme.md
+d679feb6e	2014-04-10	Person AB	human	0	(top level)	3	28	3	Descriptions: support multiline strings
+34abab6b2	2014-04-11	Person FG	human	0	(top level)	3	2	1	if args is falsy, assume a default collection.
+b64adf693	2014-04-11	Person P	human	0	(top level)	3	41	3	Added alias feature
+3a3ddf7e1	2014-04-11	Person P	human	0	(top level)	3	13	2	Update main help too
+d17cf5767	2014-04-11	Person P	human	0	(top level)	3	2	1	Restore node versions in travis file
+7e95a0f37	2014-04-20	Person Q	human	0	(top level)	3	2	1	use SVG to display Travis CI build testing status
+fae41dae1	2014-04-22	Person B	human	0	(none)	3	0	0	Merge pull request #214 from Person Q/patch-1
+89a6a92e3	2014-04-25	Person B	human	0	(none)	3	0	0	Merge pull request #203 from Person GE/patch-1
+fa2ce5cce	2014-04-25	Person B	human	0	(none)	3	0	0	Merge pull request #209 from someone/feature/minor-action-fix
+fa3aa3fc0	2014-04-26	Person FP	human	0	(top level)	3	9	2	bug fixing: function normalize doesn't honor option terminator.
+3af011a50	2014-05-06	Person H	human	0	(top level)	3	2	1	removed unused fs module
+2a37c3fab	2014-05-07	Person Q	human	0	(top level)	3	1	1	drop Node.js v0.4.x testing
+b26da5ec3	2014-05-07	Person Q	human	0	(top level)	3	2	1	add testing in Node.js v0.8.x, v0.10.x
+9f2ea1d7a	2014-05-07	Person Q	human	0	(top level)	3	6	1	Node.js versions are actually strings (e.g. "0.10" !== 0.1)
+93e9dc6e5	2014-05-07	Person B	human	0	(none)	3	0	0	Merge pull request #218 from Person Q/patch-1
+0880980fb	2014-07-04	Person E	human	0	(top level)	3	6	1	fix typo reported in #99
+ebdd789f0	2014-07-05	Person C	human	0	(none)	3	0	0	Merge pull request #217 from someone/patch-1
+e00c4cab6	2014-07-14	Person P	human	0	(none)	3	0	0	Merge upstream master
+33db110e7	2014-07-16	Person E	human	0	(none)	3	0	0	Merge pull request #210 from someone/add-alias
+7e9f407ec	2014-07-16	Person E	human	0	(top level)	3	2	1	version bump
+a32be0c20	2014-07-17	Person CQ	human	0	(top level)	3	6	1	Update History.md for 2.3.0
+7064153ba	2014-07-17	Person E	human	0	(none)	3	0	0	Merge pull request #231 from someone/patch-1
+71faa8a9d	2014-07-26	Person G	human	0	(top level)	3	21	1	Changed some code to make it more readable
+4e839c2fc	2014-07-26	Person G	human	0	(none)	3	0	0	Merge pull request #234 from someone/master
+3242851db	2014-07-28	Person G	human	0	(none)	3	0	0	Merge pull request #216 from Person FP/abbr_bugfix
+4428a0758	2014-07-28	Person G	human	0	(top level)	3	4	1	Style fixes to pull request #216
+5d3ea91e7	2014-08-01	Person BH	human	0	(top level)	3	41	1	add space padding, fix #236
+5a95ce18b	2014-08-05	Person G	human	0	(none)	3	0	0	Merge pull request #237 from someone/236
+133336540	2014-08-12	Person G	human	0	(none)	3	0	0	Merge pull request #186 from someone/cleanup-usage
+b1948053f	2014-09-02	Person CR	human	0	(top level)	3	2	1	Output version information using process.stdout.write instead of console.log - fixes #246
+f2ca98ebb	2014-09-02	Person AN	human	0	(top level)	3	4	1	Fix #248
+808745f40	2014-09-02	Person AN	human	0	(top level)	3	2	1	Fixes the fix
+14d77b429	2014-09-03	Person G	human	0	(none)	3	0	0	Merge pull request #249 from someone/patch-1
+070dd26cd	2014-09-04	Person E	human	0	(none)	3	0	0	Merge pull request #247 from someone/master
+fdc3c2958	2014-09-09	Person AS	human	0	(top level)	3	46	2	Add ability to specify arguments syntax for top-level command
+19bf696e7	2014-09-10	Person DY	human	0	(top level)	3	2	1	fixes exit code from sub-commands not propagating
+c0fcf8f7e	2014-09-15	Person E	human	0	(top level)	3	2	1	removed STDIN from keywords
+ed8c945e0	2014-09-19	Person H	human	0	(top level)	3	38	2	add opts() for getting key-value pairs
+6089ed4d6	2014-09-21	Person G	human	0	(none)	3	0	0	Merge pull request #262 from someone/options_func
+bfa7a73d5	2014-09-23	Person H	human	0	(top level)	3	28	2	implement Command.prototype.name()
+f1d6a0cfb	2014-09-24	Person G	human	0	(none)	3	0	0	Merge pull request #264 from someone/name_func
+f6f81bba9	2014-09-26	Person C	human	0	(top level)	3	6	1	rm unused variable
+1114d7551	2014-09-26	Person C	human	0	(none)	3	0	0	Merge pull request #265 from Person C/typo
+ba9804117	2014-09-26	Person C	human	0	(top level)	3	8	2	remove the set functionality of the name
+4fd6aa660	2014-09-26	Person G	human	0	(none)	3	0	0	Merge pull request #266 from Person C/fix
+f4a8bf24b	2014-10-04	Person C	human	0	(top level)	3	16	2	fix subCommand
+1b7df5ce5	2014-10-04	Person G	human	0	(none)	3	0	0	Merge pull request #270 from Person C/fix-subCommand
+2463925f1	2014-10-06	Person DW	human	0	(top level)	3	1	1	Add license field to package.json
+ffe9ff338	2014-10-06	Person G	human	0	(none)	3	0	0	Merge pull request #271 from someone/package-json-license
+ae24232d8	2014-10-08	Person C	human	0	(top level)	3	90	1	lint `){` ==> `) {`
+0ecb81ce7	2014-10-08	Person G	human	0	(none)	3	0	0	Merge pull request #272 from Person C/lint
+41c32d6ad	2014-10-13	Person C	human	0	(top level)	3	1	1	add .idea to .gitignore
+c0d13ac3d	2014-10-13	Person C	human	0	(none)	3	0	0	Merge pull request #274 from Person C/new
+a92b368f5	2014-10-17	Person C	human	0	(top level)	3	10	2	v2.4.0
+c5305b9e0	2014-10-17	Person C	human	0	(top level)	3	2	1	typo
+db67c895d	2014-10-17	Person C	human	0	(none)	3	0	0	Merge pull request #275 from Person C/2.4.0
+a150a2161	2014-10-20	Person CX	human	0	(top level)	3	169	3	Add support for variadic arguments
+83d1c4fb2	2014-10-20	Person EP	human	0	(top level)	3	6	1	Updates links in readme
+ccc5178ea	2014-10-20	Person E	human	0	(none)	3	0	0	Merge pull request #278 from Person EP-dev/master
+06e66d744	2014-10-21	Person C	human	0	(top level)	3	7	1	update README.md
+5389971b1	2014-10-21	Person C	human	0	(top level)	3	2	1	update readme
+558169f44	2014-10-21	Person C	human	0	(none)	3	0	0	Merge pull request #279 from Person C/readme
+af05389a5	2014-10-21	Person C	human	0	(none)	3	0	0	Merge pull request #277 from someone/fix-issue-53
+2147ce8bf	2014-10-22	Person C	human	0	(top level)	3	5	1	fix a bug in demo
+287861164	2014-10-22	Person C	human	0	(none)	3	0	0	Merge pull request #280 from Person C/fixdemo
+ca15db96b	2014-10-24	Person C	human	0	(top level)	3	16	1	version bump v2.5.0
+61d8572a2	2014-10-24	Person C	human	0	(top level)	3	4	1	version bump v2.5.0
+a12386a95	2014-10-24	Person C	human	0	(none)	3	0	0	Merge pull request #282 from Person C/v2.5.0
+79ea1205e	2014-10-28	Person G	human	0	(top level)	3	4	1	Updated Readme.md to make custom help example portable
+aa72d844f	2014-12-02	Person AY	human	0	(top level)	3	2	1	Fix a bug with variadic argument
+56ae43ecf	2014-12-02	Person AY	human	0	test	3	1	1	Add a test case for this bug fix
+875e498fe	2014-12-02	Person C	human	0	(none)	3	0	0	Merge pull request #291 from someone/master
+f6864742c	2014-12-04	Person DE	human	0	(top level)	3	6	1	Make app name settable #292
+1a065da6b	2014-12-05	Person E	human	0	(none)	3	0	0	Merge pull request #293 from someone/custom-name
+5204e0f99	2014-12-05	Person C	human	0	(top level)	3	17	1	add info for git-style subcommand
+fe3f70c1d	2014-12-05	Person C	human	0	(top level)	3	14	1	small refactor
+ce5dd0db5	2014-12-05	Person C	human	0	(top level)	3	4	1	update code highlight
+76754b81c	2014-12-05	Person C	human	0	(none)	3	0	0	Merge pull request #296 from Person C/small-refactor
+fc543c844	2014-12-06	Person C	human	0	(none)	3	0	0	Merge pull request #295 from Person C/git-style-readme
+87c6acb7c	2014-12-07	Person C	human	0	(top level)	3	6	1	Revert "Make app name settable #292"
+5f6f43240	2014-12-07	Person C	human	0	(none)	3	0	0	Merge pull request #298 from someone/revert-293-custom-name
+ac5d214a8	2014-12-07	Person X	human	0	(none)	3	0	0	Merge branch 'master' into gh-pages
+53a339abf	2014-12-07	Person X	human	0	(top level)	3	61	2	Makefile: Rewrite for simplicity
+b7b558ed1	2014-12-07	Person X	human	0	(top level)	3	2127	2	index: Update documentation via `$ make docs`
+0f57ab9fd	2014-12-08	Person C	human	0	(none)	3	0	0	Merge pull request #299 from someone/gh-pages
+9c745dd12	2014-12-08	Person C	human	0	(top level)	3	4	1	update README
+1444cf356	2014-12-08	Person C	human	0	(none)	3	0	0	Merge pull request #300 from Person C/ghread
+fdca08f5d	2014-12-15	Person C	human	0	(top level)	3	4	1	fix #302
+3cddb2352	2014-12-15	Person C	human	0	test	3	2	1	fix test
+a03b90296	2014-12-15	Person C	human	0	(none)	3	0	0	Merge pull request #308 from Person C/fixvariadic
+f40ac131f	2014-12-15	Person C	human	0	(top level)	3	8	2	version bump
+863e73a31	2014-12-15	Person C	human	0	(none)	3	0	0	Merge pull request #309 from Person C/2.5.1
+c03bf0b21	2014-12-16	Person C	human	0	(top level)	3	10	1	refactor
+96fa6a6d0	2014-12-16	Person C	human	0	(top level)	3	43	2	add tests
+bcda184fd	2014-12-16	Person C	human	0	test	3	2	1	fix test
+2c013fa07	2014-12-16	Person C	human	0	(none)	3	0	0	Merge pull request #310 from Person C/uk
+b2eee21f2	2014-12-23	Person C	human	0	(top level)	3	3	1	subcommand allowUnknown option
+d71d4715f	2014-12-23	Person C	human	0	test	3	93	2	add tests
+e6483cfa0	2014-12-23	Person C	human	0	(none)	3	0	0	Merge pull request #311 from Person C/subcommanduk
+cc947d839	2014-12-23	Person C	human	0	test	3	3	1	make the test silent
+992bcc56a	2014-12-23	Person C	human	0	(none)	3	0	0	Merge pull request #312 from Person C/silenttest
+faa641381	2014-12-23	Person C	human	0	test	3	68	7	unify codestyle
+543e47fd7	2014-12-24	Person C	human	0	(none)	3	0	0	Merge pull request #313 from Person C/codestyle
+56276ec06	2014-12-26	Person C	human	0	(top level)	3	3	1	modify indent
+71a5bda38	2014-12-26	Person C	human	0	(none)	3	0	0	Merge pull request #315 from Person C/description
+9d35a1252	2014-12-26	Person C	human	0	(top level)	3	6	2	update README for application description
+0b95ea2ff	2014-12-26	Person C	human	0	(none)	3	0	0	Merge pull request #316 from Person C/updatereadme
+79f04b342	2014-12-26	Person C	human	0	(top level)	3	139	1	reorganize readme
+a2afb83e2	2014-12-29	Person C	human	0	test	3	124	3	Rename allowunknown to allowUnknownOption
+4ccfe0e95	2014-12-29	Person C	human	0	(none)	3	0	0	Merge pull request #318 from Person C/rename
+5caca2fc9	2014-12-29	Person C	human	0	(top level)	3	8	2	v2.6.0
+c6807fd15	2014-12-29	Person C	human	0	(none)	3	0	0	Merge pull request #319 from Person C/v2.6.0
+09fcc1eaa	2014-12-29	Person C	human	0	(none)	3	0	0	v2.6.0
+8d1711f43	2014-12-29	Person C	human	0	(top level)	3	172	2	update doc for v2.6.0
+9a17ad89b	2014-12-29	Person C	human	0	(none)	3	0	0	Merge pull request #320 from Person C/ghv2.6.0
+9323234a4	2014-12-31	Person BA	human	0	(top level)	3	2	1	Removed 'prompt' from keywords
+fab08370b	2014-12-31	Person C	human	0	(none)	3	0	0	Merge pull request #321 from Person BA/patch-1
+3455549a8	2015-01-06	Person BJ	human	0	(top level)	3	4	1	Update index.js
+c7769486e	2015-01-09	Person C	human	0	test	3	20	1	add test for git-style command Close #290
+2051ab004	2015-01-09	Person C	human	0	(none)	3	0	0	Merge pull request #324 from Person C/tt
+154fb8b37	2015-01-10	Person C	human	0	(top level)	3	20	1	solve #306, and bin in $PATH make sense
+19f115fa3	2015-01-11	Person BP	human	0	(top level)	3	19	1	fixes #7 - docs patch
+0d842dc99	2015-01-15	Person C	human	0	(top level)	3	36	1	add `outputhelp` usage tip
+d48cda98c	2015-01-17	Person C	human	0	(none)	3	0	0	Merge pull request #327 from Person C/git-style
+231a65f6c	2015-01-17	Person C	human	0	test	3	6	1	add test
+29b4ea91a	2015-01-17	Person C	human	0	(none)	3	0	0	Merge pull request #332 from Person C/fixexit
+b1ede65bf	2015-01-27	Person C	human	0	(none)	3	0	0	Merge pull request #323 from someone/patch-1
+f21e416c6	2015-02-01	Person BA	human	0	(top level)	3	58	4	RegEx options
+46f9c522b	2015-02-03	Person E	human	0	(none)	3	0	0	Merge pull request #337 from Person BA/master
+ae53fcd3c	2015-02-07	Person BI	human	0	(top level)	3	2	1	Remove unused method parameter.
+93ec78d50	2015-02-07	Person C	human	0	(none)	3	0	0	Merge pull request #341 from someone/patch-1
+269da52f3	2015-02-08	Person FY	human	0	(top level)	3	2	1	Add node.js 0.12 and io.js to travis.yml
+6135fbcdf	2015-02-08	Person C	human	0	(none)	3	0	0	Merge pull request #342 from someone/patch-1
+c4fee5b66	2015-02-09	Person AK	human	0	(top level)	3	2	1	Add support for optional boolean flag
+d9a25a2fb	2015-02-10	Person H	human	0	(top level)	3	23	2	handle when action and option have same name, fixes #346
+98a390b8f	2015-02-10	Person H	human	0	(top level)	3	1	1	remove unused action boolean
+cc773ae95	2015-02-11	Person C	human	0	(top level)	3	52	2	fix #335 fix Subcommands not found when installed globally
+30ba68ece	2015-02-11	Person C	human	0	(top level)	3	2	1	node <= 0.8 do not support ^version
+50fc2df77	2015-02-15	Person AK	human	0	test	3	46	3	Fixed optional boolean check and added tests.
+26b0e125c	2015-02-17	Person E	human	0	(none)	3	0	0	Merge pull request #345 from Person AK/patch-1
+22b9168e8	2015-02-24	Person DR	human	0	(top level)	3	6	2	add support for camelCase on opts()
+2120cb182	2015-02-25	Person E	human	0	(none)	3	0	0	Merge pull request #353 from someone/patch-0
+f2e000b5a	2015-02-26	Person E	human	0	(none)	3	0	0	Merge pull request #347 from someone/issue-346
+9fcda84cf	2015-03-03	Person EV	human	0	(top level)	3	2	1	Added Gitter badge
+54583a3a7	2015-03-04	Person C	human	0	(none)	3	0	0	Merge pull request #356 from someone/gitter-badge
+a10297f4a	2015-03-04	Person C	human	0	(top level)	3	4	1	resort
+5ae016fee	2015-03-04	Person C	human	0	(none)	3	0	0	Merge pull request #358 from Person C/gitter
+49295a9a7	2015-03-04	Person C	human	0	(none)	3	0	0	Merge branch 'master' into fix-global
+2fb791af0	2015-03-04	Person C	human	0	test	3	47	4	update test cases for executablesubcommand
+1e5530ab9	2015-03-04	Person C	human	0	test	3	13	4	add tests for global install
+707e9252b	2015-03-04	Person C	human	0	test	3	4	1	rm unused module
+9001612dd	2015-03-04	Person C	human	0	test	3	3	1	fix test for <v0.10
+666e54c64	2015-03-04	Person C	human	0	test	3	4	1	fix tests for v0.8
+9c42834db	2015-03-04	Person C	human	0	(top level)	3	3	2	stop support versions below v0.8
+3452b70a0	2015-03-06	Person C	human	0	(top level)	3	3	2	Revert "stop support versions below v0.8"
+eb850dda8	2015-03-06	Person C	human	0	(top level)	3	2	1	fix for v0.6
+1ebf2a453	2015-03-06	Person C	human	0	(none)	3	0	0	Merge pull request #349 from Person C/fix-global
+5aa19a5b3	2015-03-06	Person C	human	0	(top level)	3	2	1	refactor
+89ac7f303	2015-03-06	Person C	human	0	(none)	3	0	0	Merge pull request #360 from Person C/refactor
+a8189a9cd	2015-03-07	Person C	human	0	test	3	25	1	add test for required argument
+802bada4a	2015-03-07	Person C	human	0	test	3	1	1	fix
+a255fea1b	2015-03-07	Person C	human	0	(none)	3	0	0	Merge pull request #361 from Person C/test_required
+ad1573a23	2015-03-07	Person C	human	0	test	3	44	3	Revert "Add support for optional boolean flag"
+86aa3a4d9	2015-03-07	Person C	human	0	(none)	3	0	0	Merge pull request #362 from someone/revert-345-patch-1
+14100b7ef	2015-03-07	Person C	human	0	(top level)	3	14	2	version v2.7.0
+5a15a346c	2015-03-08	Person C	human	0	(none)	3	0	0	Merge pull request #363 from Person C/v2.7.0
+4931c338e	2015-03-09	Person AB	human	0	(top level)	3	61	4	Descriptions: tests for multiline support
+ef0a54ff1	2015-03-09	Person C	human	0	(top level)	3	48	2	update README close #364 move license info to LICENSE
+0109a4407	2015-03-09	Person C	human	0	(none)	3	0	0	Merge pull request #365 from Person C/subcommand
+ec1dbbb95	2015-03-09	Person C	human	0	(top level)	3	4	1	fix typo
+481e94381	2015-03-09	Person C	human	0	(none)	3	0	0	Merge pull request #366 from Person C/typo
+f9bcf37b8	2015-03-11	Person C	human	0	(top level)	3	22	2	Revert "Issue #346, fix collisions when option and first arg have same name"
+716dd375a	2015-03-11	Person C	human	0	(none)	3	0	0	Merge pull request #368 from someone/revert-347-issue-346
+bfe4df1a2	2015-03-11	Person C	human	0	(top level)	3	9	2	patch version
+103654f8f	2015-03-11	Person C	human	0	(none)	3	0	0	Merge pull request #369 from Person C/patchrelease
+34e73fc48	2015-03-12	Person DH	human	0	(top level)	3	4	1	Update example in Readme.md to include camelCase
+e326d943b	2015-03-12	Person C	human	0	(none)	3	0	0	Merge pull request #371 from someone/readme-camelcase-example
+6134fe449	2015-03-12	Person E	human	0	(none)	3	0	0	Merge pull request #208 from someone/feature/descriptions-multiline-support
+5091eacd6	2015-03-19	Person E	human	0	(none)	3	0	0	Merge pull request #258 from someone/args-for-top-level
+854cfd8a0	2015-03-21	Person CV	human	0	(top level)	3	4	1	Added .npmignore
+ec55bd545	2015-03-21	Person C	human	0	(none)	3	0	0	Merge pull request #378 from someone/npmignore
+2d68cf40b	2015-03-23	Person C	human	0	(top level)	3	4	1	Revert "Added .npmignore"
+c03d41e25	2015-03-23	Person C	human	0	(none)	3	0	0	Merge pull request #380 from someone/revert-378-npmignore
+37bcdf3b0	2015-03-24	Person DN	human	0	(top level)	3	2	1	fix typo
+ada47874b	2015-03-24	Person C	human	0	(none)	3	0	0	Merge pull request #381 from someone/master
+7a2fad375	2015-03-26	Person FS	human	0	(top level)	3	18	2	When git-style sub-commands are in use, yet none are called, display help
+b91f7dbce	2015-03-26	Person E	human	0	(none)	3	0	0	Merge pull request #382 from Person FS/master
+45fe5eb35	2015-03-26	Person H	human	0	test	3	46	1	tests for no help
+cf772fb97	2015-03-26	Person H	human	0	(top level)	3	8	1	allow commands to be hidden from help
+266645748	2015-03-26	Person E	human	0	(none)	3	0	0	Merge pull request #383 from someone/nohelp
+7b023b1a8	2015-04-03	Person C	human	0	test	3	64	4	fix #372
+7def9f11e	2015-04-03	Person C	human	0	(top level)	3	2	1	fix process.execArg not exists in old version
+dae780215	2015-04-04	Person C	human	0	(none)	3	0	0	Merge pull request #387 from Person C/bugfix_subcommand
+e0e5b4ef5	2015-04-08	Person C	human	0	(top level)	3	9	1	update History.md
+0bd457588	2015-04-08	Person C	human	0	(top level)	3	2	1	version bump
+44926e517	2015-04-08	Person AS	human	0	(top level)	3	49	3	Fix #376: add documentation for arguments() method
+c6ddd55d8	2015-04-08	Person E	human	0	(none)	3	0	0	Merge pull request #392 from someone/document-arguments
+e724fd4a6	2015-04-09	Person C	human	0	examples	3	7	2	add demo for harmony
+0052b7ee3	2015-04-09	Person C	human	0	(top level)	3	7	2	update README
+4dae21d93	2015-04-09	Person C	human	0	(none)	3	0	0	Merge pull request #391 from Person C/newversion
+8e75320e6	2015-04-17	Person C	human	0	(top level)	3	89	6	Revert "multiline descriptions support"
+9e7f2f6b7	2015-04-17	Person C	human	0	(top level)	3	3	1	keep sinon
+64a5a5d9c	2015-04-17	Person C	human	0	(none)	3	0	0	Merge pull request #397 from someone/revert-208-feature/descriptions-multiline-support
+f0521e1fc	2015-04-22	Person C	human	0	(top level)	3	2	1	2.8.1
+29537f5bf	2015-04-22	Person C	human	0	(top level)	3	7	1	modify history
+c6c847260	2015-04-22	Person C	human	0	(none)	3	0	0	Merge pull request #398 from Person C/backout
+38d8225ea	2015-05-25	Person BX	human	0	(top level)	3	2	1	Fix #407 of commander.js
+5aa7b813a	2015-05-25	Person C	human	0	(none)	3	0	0	Merge pull request #408 from someone/master
+7ac756c9c	2015-06-19	Person BY	human	0	test	3	4	1	Remove `parseRange` function
+f68ab32a2	2015-06-19	Person C	human	0	(none)	3	0	0	Merge pull request #412 from someone/rm-unused-function
+a45653981	2015-06-21	Person EC	human	0	test	3	60	5	add default executable (subcommand) option
+7eaeaf3c8	2015-06-22	Person C	human	0	(none)	3	0	0	Merge pull request #143 from someone/bugfix-name-defaults-to-empty
+619c64839	2015-06-22	Person C	human	0	(top level)	3	28	1	fix the undefined in help #414
+93c532122	2015-06-22	Person C	human	0	test	3	51	1	refactor test with sinion stub
+0238972c6	2015-06-22	Person C	human	0	(none)	3	0	0	Merge pull request #417 from Person C/Person C/refactor_test
+0af40a523	2015-06-23	Person E	human	0	(none)	3	0	0	Merge pull request #415 from Person EC-/default-subcommand
+4d421f9fd	2015-09-12	Person FU	human	0	(top level)	4	24	3	add callback to allow filtering or post-processing of help text
+0a14d4c9e	2015-10-11	Person C	human	0	(none)	4	0	0	merge master
+2eeedaa5b	2015-10-11	Person C	human	0	(top level)	4	4	1	update travis
+86467e39b	2015-10-11	Person C	human	0	(none)	4	0	0	Merge pull request #448 from Person C/lizhiye/travis
+e553d4cf1	2015-10-11	Person C	human	0	test	4	14	1	add test
+1559b3ee8	2015-10-11	Person C	human	0	(none)	4	0	0	Merge pull request #416 from Person C/Person C/fixHelpUndefined
+8024df2a3	2015-10-12	Person C	human	0	(top level)	4	33	4	fix nohelp test
+768912645	2015-10-12	Person C	human	0	(top level)	4	2	1	fix package for v0.6
+272e22ffa	2015-10-12	Person C	human	0	(none)	4	0	0	Merge pull request #450 from Person C/lizhiye/fixtest
+39e59016a	2015-10-13	Person C	human	0	(top level)	4	11	2	version bump
+b2aad7a84	2015-10-13	Person C	human	0	(none)	4	0	0	Merge pull request #453 from Person C/master
+a4a684ee9	2015-10-13	Person C	human	0	(none)	4	0	0	merge master
+c140367b1	2015-10-13	Person C	human	0	(top level)	4	279	3	update doc
+89e77c2ef	2015-10-15	Person DG	human	0	(top level)	4	343	1	Add chinese Readme file
+e741c1847	2015-10-15	Person C	human	0	(none)	4	0	0	Merge pull request #456 from someone/master
+a33ad704a	2015-12-21	Person EA	human	0	(top level)	5	1	1	Update README.md
+66e487f72	2015-12-29	Person E	human	0	(none)	5	0	0	Merge pull request #480 from someone/update-readme
+0399879f4	2016-01-05	Person CZ	human	0	(top level)	5	2	1	when a command has a `--description` option, `cmd.description` is `undefined`. Prevent `TypeError` by using `_description`.
+1452f6ff6	2016-01-06	Person E	human	0	(none)	5	0	0	Merge pull request #484 from someone/master
+5549aaef0	2016-02-04	Person DZ	human	0	(top level)	5	1	1	test node.js stable
+920dc8797	2016-02-04	Person E	human	0	(none)	5	0	0	Merge pull request #501 from someone/test-node-stable
+06f53af52	2016-02-11	Person AD	human	0	test	5	41	5	add test for sub-subcommands
+33751b444	2016-02-11	Person AD	human	0	(top level)	5	4	1	fix: use bin rather than localBin for subcommand
+c3ca1f662	2016-02-11	Person E	human	0	(none)	5	0	0	Merge pull request #502 from someone/fix-sub-sub-commands
+975e5a42f	2016-02-11	Person EJ	human	0	test	5	43	3	For a required option, when even option flag is not given throw error. Fixes tests accordingly.
+98e66bcbc	2016-02-17	Person GL	human	0	(top level)	5	6	1	#330 make .option defaultValue and fn and .version flag optional
+e7330f633	2016-04-04	Person CU	human	0	(top level)	5	1	1	added keyword commander for better search result on npm
+ad2e5392f	2016-04-04	Person C	human	0	(none)	5	0	0	Merge pull request #519 from someone/master
+d49573ac2	2016-04-20	Person AP	human	0	(top level)	5	14	2	Allow literal '--' to be passed-through as an argument
+aa974a745	2016-05-17	Person BF	human	0	(top level)	5	2	1	link build badge to master branch
+81577a654	2016-06-06	Person AA	human	0	test	5	69	4	Support the alias of Git style sub-command
+47f678fac	2016-06-24	Person AL	human	0	(none)	5	0	0	Merge pull request #1 from someone/support_subcommand_alias
+9ff0fd800	2016-06-24	Person AL	human	0	test	5	37	2	Add tests for subcommand aliases
+8bfea1382	2016-06-30	Person C	human	0	(none)	5	0	0	Merge pull request #538 from someone/patch-2
+48deff97c	2016-07-01	Person AP	human	0	(top level)	5	2	1	Try to fix travis build for node versions 0.6 and 0.8
+afd6f4937	2016-07-01	Person AA	human	0	(none)	5	0	0	Merge pull request #1 from someone/support_subcommand_alias_help
+7a281b9b4	2016-07-01	Person C	human	0	(none)	5	0	0	Merge pull request #550 from someone/travis-fix-via-should
+c86ba2abb	2016-07-01	Person C	human	0	(none)	5	0	0	Merge pull request #525 from someone/allow-literal-passthrough
+ad46a4d19	2016-07-05	Person C	human	0	test	5	42	4	minor update
+c6236d950	2016-07-05	Person C	human	0	(none)	5	0	0	Merge branch 'pr/545'
+90b7fefde	2016-07-31	Person DF	human	0	(top level)	5	2	1	use current node
+5cfcdcd1e	2016-08-21	Person GX	human	0	(top level)	5	2	1	Update Readme_zh-CN.md
+5b396ab34	2016-09-19	Person C	human	0	(none)	5	0	0	Merge pull request #503 from someone/master
+ce35c35e9	2016-09-20	Person C	human	0	test	5	43	3	Revert "For a required option, when even option flag is not given throw error."
+9aad0d01b	2016-09-20	Person C	human	0	(none)	5	0	0	Merge pull request #573 from someone/revert-503-master
+89858e507	2016-11-03	Person C	human	0	(none)	5	0	0	Merge pull request #562 from someone/patch-1
+274c257d9	2016-11-05	Person EQ	human	0	(top level)	5	2	1	Add missing semi colon in readme
+8e370e822	2016-12-06	Person CS	human	0	(top level)	5	2	1	Add save param to npm install
+ec38c8ea9	2016-12-28	Person EW	human	0	(top level)	5	40	2	#395  fix, short options do not understand adjacent values
+34674a526	2017-01-09	Person FB	human	0	(top level)	5	1	1	node v6 travis test
+add00ad82	2017-01-31	Person AF	human	0	(top level)	5	1	1	Add .vscode directory to .gitignore (Visual Studio Code metadata)
+57bc3ba01	2017-01-31	Person AF	human	0	(top level)	5	26	2	Support setting name in #name function and make it chainable
+4fb738e8c	2017-02-15	Person C	human	0	(none)	5	0	0	Merge pull request #602 from someone/master
+ff501a1c7	2017-02-15	Person C	human	0	(none)	5	0	0	Merge pull request #593 from someone/patch-1
+3367806ab	2017-02-15	Person C	human	0	(none)	5	0	0	Merge pull request #585 from someone/simeg-patch-1
+8a4f1ad41	2017-03-09	Person GQ	human	0	(top level)	5	4	1	Fix require arguments in README.md
+2c3cf60b1	2017-03-16	Person BD	human	0	(top level)	5	2	1	add executable arguments to spawn in win32
+20493bb59	2017-04-09	Person CM	human	0	(top level)	5	18	1	On SemVer you do not start from 0.0.1
+648629f86	2017-06-16	Person C	human	0	(none)	6	0	0	Merge pull request #619 from someone/patch-1
+9bfc4eb97	2017-06-16	Person C	human	0	(none)	6	0	0	Merge pull request #610 from Person GQ/patch-1
+8049258a4	2017-06-19	Person D	human	0	(top level)	6	2	1	Do not test older versions
+4c7c1cf11	2017-06-19	Person D	human	0	(top level)	6	2	1	Add new version
+579f670c9	2017-06-19	Person D	human	0	(top level)	6	2	1	Do not test older versions
+5ac0439d2	2017-06-19	Person D	human	0	(top level)	6	2	1	Do not test older versions
+b88828270	2017-06-19	Person D	human	0	(top level)	6	1	1	Add version 5
+45ce03268	2017-06-19	Person D	human	0	(top level)	6	1	1	Remove io.js
+d6743843a	2017-06-19	Person AU	human	0	(none)	6	0	0	Merge pull request #639 from someone/update_version_to_be_tested
+e0bea6722	2017-06-19	Person D	human	0	(top level)	6	22	2	version bump 2.10.0
+8870675aa	2017-06-19	Person D	human	0	(top level)	6	22	2	version bump 2.10.0
+5c977073b	2017-06-24	Person FJ	human	0	(top level)	6	6	2	Updated link to ruby commander in readme files
+85450a044	2017-06-26	Person CT	human	0	(top level)	6	7	2	Removing dependency on graceful-readlink
+b00b6aaf0	2017-06-27	Person D	human	0	(top level)	6	4	1	Upgrade package version
+14c2c81f9	2017-06-27	Person D	human	0	(top level)	6	3	1	Remove engines
+6106f1045	2017-06-27	Person D	human	0	(top level)	6	104	1	Add package-lock.json
+78c563d5d	2017-06-27	Person AC	human	0	(top level)	6	45	2	Prefix events to prevent conflicts between commands and options (#494)
+f2eb7e30a	2017-06-29	Person CO	human	0	(top level)	6	27	1	Fix translation errors. (#570)
+3c2fd5cc1	2017-07-01	Person FE	human	0	(top level)	6	11	1	Fixed #37, --help should not display first (#447)
+1e4c68910	2017-07-03	Person EY	human	0	test	6	158	8	feature: support for signals to subcommands (#632)
+14e573899	2017-07-03	Person FD	human	0	(top level)	6	7	2	Fix help section order and padding (#652)
+30535a67a	2017-07-03	Person D	human	0	(top level)	6	19	2	Version bump 2.11.0 (#657)
+66dfb8c62	2017-07-23	Person J	human	0	(top level)	6	421	4	feat(typings): add typings to support TypeScript (#646)
+f249c85d3	2017-07-24	Person J	human	0	(top level)	6	596	2	Rename History.md to CHANGELOG.md (#668)
+df3b52916	2017-07-27	Person CN	human	0	(top level)	6	6	1	Format js code
+df86179f7	2017-07-27	Person BZ	human	0	typings	6	12	1	feat(typings): add help callback
+5c7443192	2017-08-07	Person BL	human	0	(top level)	6	64	3	fix bug when description is add after command with options (#662)
+2f07e2964	2017-08-09	Person AC	human	0	(top level)	6	16	2	Fail when using same command and alias (#491)
+b92a7c60a	2017-08-10	Person GK	human	0	(top level)	6	2	1	Fix translation error
+0060dde2f	2017-08-24	Person FK	human	0	(top level)	6	16	1	add attributeName() method to Option objects
+d9abf56c4	2017-08-31	Person CW	human	0	(top level)	6	10	1	Print default value in option help
+78f401590	2017-09-17	Person GB	human	0	(top level)	6	23	2	allow "-" hyphen as an option argument with subcommand
+aed923dd6	2017-09-19	Person FW	human	0	test	6	16	1	fix indent
+7a122e75e	2017-09-28	Person J	human	0	typings	6	24	2	feat(typings): update to match js api
+c5511a22f	2017-09-28	Person J	human	0	typings	6	18	2	typings: use overloads
+0ae835315	2017-09-30	Person J	human	0	typings	6	4	1	typings: `outputHelp` takes a string as the first parameter
+d359b7591	2017-10-24	Person FT	human	0	(top level)	6	19	1	Documentation updated for options with --no prefix
+f22625900	2017-11-07	Person N	human	0	(top level)	6	128	2	Arguments description
+965188fd9	2017-11-13	Jules Randolph	agent	0	typings	6	27	1	typedefs: Command and Option types added to commander namespace
+498ce7187	2017-11-21	Person D	human	0	(top level)	6	3	1	Update CI's Node.js to LTS and latest version
+7e22f38a0	2017-11-22	Person D	human	0	(top level)	6	37	3	version bump 2.12.0
+245584e4a	2017-11-23	Person FR	human	0	(top level)	6	7	1	Move @types/node to dev dependency
+a7124fcd3	2017-11-23	Person D	human	0	(none)	6	0	0	Merge pull request #718 from Person FR/patch-1
+0a9155433	2017-11-23	Person D	human	0	(top level)	6	151	3	version bump 2.12.1
+91c2514f8	2017-11-23	Person D	human	0	(none)	6	0	0	Merge pull request #721 from someone/version_bump_2.12.1
+4fe657815	2017-11-28	Person J	human	0	(top level)	6	3	1	fix: typings are not shipped
+a670f9306	2017-11-28	Person D	human	0	(none)	6	0	0	Merge pull request #725 from someone/patch-2
+451edf9d4	2017-11-28	Person D	human	0	(top level)	6	17	3	version bump 2.12.2
+6864c953d	2017-11-28	Person D	human	0	(none)	6	0	0	Merge pull request #726 from someone/version_bump_2.12.2
+f44fa3b63	2017-12-04	Person S	human	0	test	6	20	1	Add test for empty option on command
+92d6e4909	2017-12-04	Person S	human	0	(top level)	6	2	1	Check if argv is set in array, instead of checking falsey
+d81217185	2017-12-06	Person D	human	0	(none)	6	0	0	Merge pull request #723 from someone/add_nodejs_version_to_ci_yml
+fefda77f4	2017-12-08	Person D	human	0	(none)	6	0	0	Merge pull request #713 from someone/feature/enhanced-typedefs
+f13ee188b	2018-01-03	Person GW	human	0	(top level)	6	2	1	Do not print default for --no-
+2365feb28	2018-01-05	Person I	human	0	(top level)	6	13	2	resolves #739 add parent command as prefix of subcommand
+ff712f1a7	2018-01-06	Person I	human	0	(top level)	6	12	2	remove trailing spaces in command help
+63f1ee92f	2018-01-09	Person D	human	0	(top level)	6	12	3	version bump 2.13.0
+ac337d180	2018-01-11	Person I	human	0	(top level)	6	21	1	document using options per command
+291fbaa61	2018-01-11	Person D	human	0	(none)	6	0	0	Merge pull request #748 from someone/version_bump_2.13.0
+447ce8f38	2018-01-11	Person D	human	0	(none)	6	0	0	Merge pull request #751 from someone/options-for-command
+9cee32493	2018-01-19	Person I	human	0	(top level)	6	21	1	document how to override the version flag
+e5d8f0416	2018-01-19	Person D	human	0	(none)	6	0	0	Merge pull request #752 from someone/document-version-flag
+37359ee36	2018-01-19	Person I	human	0	(top level)	6	48	4	resolves #560 respect custom name for version option
+4c9b4b8ee	2018-01-23	Person I	human	0	(top level)	6	2039	5	resolves #754 add linter configuration to project
+cdb7a9554	2018-01-24	Person I	human	0	(top level)	6	35	2	enable eqeqeq rule
+38f41bf06	2018-01-24	Person D	human	0	(none)	6	0	0	Merge pull request #760 from someone/enable-eqeqeq-rule
+d5ac7935e	2018-01-30	Person D	human	0	(none)	6	0	0	Merge pull request #753 from someone/issue-560-version-option
+06451e30a	2018-01-30	Person S	human	0	(top level)	6	4	1	Add missing semi-colons for linting.
+f5abcdb2d	2018-01-30	Person D	human	0	(none)	6	0	0	Merge pull request #728 from someone/master
+ba6592f51	2018-01-31	Person I	human	0	(top level)	6	6	1	only register the option:version event once
+445e80e7c	2018-02-01	Person D	human	0	(none)	6	0	0	Merge pull request #761 from someone/register-on-version-once
+de4af3abb	2018-02-05	Person D	human	0	(top level)	6	25	3	version bump 2.14.0
+689c0eaa8	2018-02-06	Person FL	human	0	typings	6	7	1	Fix typing of help function
+6b026a5c8	2018-02-07	Person D	human	0	(top level)	6	9	3	version bump 2.14.1
+1d520489b	2018-02-19	Person N	human	0	(none)	6	0	0	Merge branch 'master' into args_description
+c92ca1de8	2018-02-23	Person D	human	0	(none)	6	0	0	Merge pull request #711 from someone/args_description
+956b9e532	2018-03-02	Person BR	human	0	(top level)	6	2	1	Update downloads badge to point to graph of downloads
+5c880fc60	2018-03-02	Person D	human	0	(none)	6	0	0	Merge pull request #772 from someone/patch-2
+cb6f68036	2018-03-07	Person D	human	0	(top level)	6	26	3	version bump 2.15.0
+d8404f8de	2018-03-08	Person D	human	0	(none)	6	0	0	Merge pull request #775 from someone/version_bump_2.15.0
+649eaef33	2018-03-20	Person D	human	0	(top level)	6	4	2	2.15.1
+503845b75	2018-04-19	Person AT	human	0	(top level)	6	16	1	updated readme with custom event listeners
+dcddf698c	2018-04-29	Person BB	human	0	test	6	67	12	fix tests
+26594fbec	2018-05-02	Person BB	human	0	(top level)	6	79	6	fixes behavior of --no-* options
+988d09bb7	2018-05-03	Person AU	human	0	(none)	6	0	0	Merge pull request #791 from someone/master
+001d560f5	2018-05-10	Person DU	human	0	(top level)	6	1409	2	Update eslint to resolve vulnerabilities in lodash
+89edef006	2018-05-21	Person BN	human	0	typings	6	6	1	Fix types (#804)
+2415089a0	2018-05-22	Person ET	human	0	(top level)	6	1	1	Add badge to display install size
+55ff22f09	2018-06-04	Person AT	human	0	(top level)	6	2	1	fixed typo in readme
+c05ed98ae	2018-06-05	Person D	human	0	(none)	6	0	0	Merge pull request #812 from someone/fixReadme
+d5c1d7d0b	2018-06-10	Person AH	human	0	(top level)	6	4	1	chore: remove Node.js 4 (EOL), add Node.js 10
+6889693e6	2018-06-10	Person AH	human	0	(top level)	6	3	1	chore: cache node_modules
+ff2f618c6	2018-06-11	Person D	human	0	(none)	6	0	0	Merge pull request #813 from someone/chore/remove-nodejs-4-add-nodejs-10
+77ffd4f59	2018-06-11	Person D	human	0	(none)	6	0	0	Merge pull request #814 from someone/chore/cache-node-modules
+3b8e519f9	2018-06-25	Person D	human	0	(none)	6	0	0	Merge pull request #807 from someone/patch-1
+3f4f5cafb	2018-06-28	Person BM	human	0	(top level)	6	27	3	Make 'npm test' run on Windows (#820)
+1f9354f24	2018-06-28	Person D	human	0	(top level)	6	22	2	Remove Makefile and `test/run` (#821)
+8db14db0e	2018-06-29	Person D	human	0	(top level)	6	34	3	version bump 2.16.0
+4cc348bd9	2018-06-29	Person D	human	0	(none)	6	0	0	Merge pull request #822 from someone/version_bump_2.16.0
+aaa447a8f	2018-07-03	Person D	human	0	(top level)	6	1431	2	npm update (#823)
+2d49ddf7a	2018-07-13	Person D	human	0	(top level)	6	2	1	Fix the path of tsc command (#824)
+28ff02a9e	2018-07-17	Person D	human	0	(top level)	6	16	2	Fix to emit the action even without command (#778)
+6ddb8ebf0	2018-08-02	Person K	human	0	(top level)	6	25	2	fixed newline output after help information (#833)
+25b06ee12	2018-08-03	Person D	human	0	(top level)	6	85	3	version bump 2.17.0
+ad347172a	2018-08-07	Person D	human	0	(top level)	6	3	1	Fix a bug in command emit
+a604a5d3f	2018-08-07	Person D	human	0	test	6	15	1	Add test case
+e5b27cc55	2018-08-07	Person D	human	0	(top level)	6	33	3	version bump 2.17.1
+bf47dcca6	2018-08-17	Person DC	human	0	(top level)	6	81	6	add support for execute typescript subcommand via ts-node
+8bcc49399	2018-08-28	Person D	human	0	(none)	6	0	0	Merge pull request #849 from Person DC/feature/executeSubCommand-tsnode
+af1799672	2018-08-28	Person D	human	0	(top level)	6	0	1	chmod 644 travis.yml
+5f8ef7bbc	2018-08-29	Person D	human	0	test	6	64	3	Implement specification of subcommand
+713db77d5	2018-08-31	Person K	human	0	test	6	145	8	Standardize help output (#853)
+4c294c174	2018-09-03	Person D	human	0	(top level)	6	2	1	Fix to change default value to string
+03f7d3870	2018-09-06	Person AZ	human	0	(top level)	6	12	1	Added example of receiving args from options
+d24008158	2018-09-06	Person AZ	human	0	(top level)	6	5	1	Update Readme.md
+54b7f142b	2018-09-07	Person D	human	0	(top level)	6	672	3	version bump 2.18.0
+b6549f272	2018-09-17	Person K	human	0	test	6	14	3	removed indentation from errors
+6c0c1f64b	2018-09-17	Person K	human	0	test	6	22	4	removed newline above and below errors
+2c20e91d5	2018-09-17	Person K	human	0	(top level)	6	23	6	removed newline after options and commands headers
+6aafa2002	2018-09-29	Person K	human	0	(top level)	6	4	1	prefixed error messages with "error:"
+78b7dbd18	2018-10-02	Person D	human	0	(top level)	6	135	3	version bump 2.19.0
+700130ee5	2018-10-08	Person DI	human	0	(top level)	6	16	2	Add extension to .eslintrc
+f054510f1	2018-10-20	Person GG	human	0	(top level)	6	4	2	Added missing semicolon
+27aeac1c2	2018-10-21	Person D	human	0	(none)	6	0	0	Merge pull request #882 from Person GG/patch-1
+cec57f550	2018-12-28	Person U	human	0	(top level)	7	2	1	Add link to the license file :+1:
+82d0d0ae6	2018-12-28	Person U	human	0	(top level)	7	2	1	fix url :construction:
+a683b1920	2019-02-14	Person BC	human	0	test	7	14	3	fix: errors quote
+68545af71	2019-02-18	Person ES	human	0	(top level)	7	2	1	Remove --save option as it isn't required anymore
+77bb58074	2019-03-02	Person CE	human	0	(top level)	7	2	1	Update Readme.md
+45423069d	2019-03-02	Person D	human	0	(none)	7	0	0	Merge pull request #924 from someone/patch-1
+e31bb8ad6	2019-03-14	Person Z	human	0	typings	7	3	1	Update index.d.ts Add the optional parameter `argsDescription` to description() function
+a67994996	2019-03-14	Person Z	human	0	typings	7	2	1	Refine variable name. Use strict type definition instead of
+a4691373f	2019-03-14	Person Z	human	0	typings	7	2	1	some more fix.
+291fc04a4	2019-03-15	Person D	human	0	(none)	7	0	0	Merge pull request #930 from Person Z/update-index.d.ts
+dddba4411	2019-03-17	Person BC	human	0	test	7	14	3	use straight single quotes
+994d24dda	2019-03-21	Person EL	human	0	test	7	34	6	fix: resolve symbol links until their are no more symbolic links
+50922d845	2019-04-01	Person D	human	0	(none)	7	0	0	Merge pull request #935 from someone/fix-deep-sym-link-resolution
+1ffcbefb1	2019-04-02	Person D	human	0	(top level)	7	16	3	version bump 2.20.0
+3e8bf54b9	2019-04-03	Person D	human	0	(none)	7	0	0	Merge pull request #946 from someone/version_bump_2.20.0
+f8fd9da4a	2019-04-06	Person A	human	0	(top level)	7	2	2	Remove gitter badge as chat inactive
+59fcf65f2	2019-04-07	Person D	human	0	(none)	7	0	0	Merge pull request #949 from someone/feature/929-remove-gitter
+62ef8e8d0	2019-04-12	Person CI	human	0	(top level)	7	3	1	Add mjs file extension
+d3552abd0	2019-04-16	Person A	human	0	(top level)	7	12	1	Add editorconfig with existing style
+143c4426a	2019-04-17	Person D	human	0	(none)	7	0	0	Merge pull request #950 from someone/add_mjs_file_extension
+6e1a979a7	2019-04-18	Person D	human	0	(none)	7	0	0	Merge pull request #952 from someone/feature/editorconfig
+430942101	2019-04-27	Person A	human	0	examples	7	375	7	Rework options description to clarify option types and custom processing
+f51f8dad4	2019-04-29	Person A	human	0	(top level)	7	18	1	Rework version option description
+66768e7bc	2019-04-30	Person BD	human	0	(none)	7	0	0	Merge branch 'master' into master
+fd100caab	2019-05-01	Person D	human	0	(top level)	7	1	1	Remove sudo settings from .travis.yml
+9fde077e3	2019-05-01	Person D	human	0	(top level)	7	1	1	Add Node.js 12 to CI setting
+b2dd7e693	2019-05-03	Person D	human	0	(none)	7	0	0	Merge pull request #954 from someone/add_nodejs12_to_ci_setting
+57a337521	2019-05-06	Person A	human	0	(top level)	7	2	1	Fix example creating non-global command
+ccee61cdf	2019-05-06	Person A	human	0	examples	7	89	5	Add README reference and example output to new examples
+9b6fdae3e	2019-05-08	Person D	human	0	(none)	7	0	0	Merge pull request #953 from someone/feature/943-options
+e7a16da8a	2019-05-09	Person EU	human	0	(top level)	7	4	1	Add missing quote in Readme.md
+3598303de	2019-05-09	Person A	human	0	(none)	7	0	0	Merge pull request #958 from someone/master
+d7a43e3d3	2019-05-15	Person AR	human	0	(top level)	7	6	1	Add check for help output callback
+6b4992c86	2019-05-15	Person AR	human	0	(top level)	7	2	1	Implement requested changes
+cb64ba3e1	2019-05-20	Person Y	human	0	(top level)	7	246	1	update chinese README
+da3efe7e1	2019-05-26	Person A	human	0	(top level)	7	48	3	Add TypeScript to README, and remove option RegExpr
+a5c92d244	2019-05-27	Person A	human	0	(none)	7	0	0	Merge pull request #967 from someone/feature/readme-bits-and-pieces
+4d468a4af	2019-05-27	Person AW	human	0	(top level)	7	367	2	Update eslint to 5.16.0 to fix security vulnerability
+7da3c294b	2019-05-28	Person AW	human	0	(top level)	7	64	1	Update to fix security vulnerability
+35dc3a395	2019-05-30	Person A	human	0	(none)	7	0	0	Merge pull request #964 from Person Y/update-chinese-readme
+0f129d6dc	2019-05-31	Person Y	human	0	(top level)	7	41	1	docs: ✏️ update chinese readme
+82d9c29ab	2019-05-31	Person Y	human	0	(top level)	7	2	1	Update Readme_zh-CN.md
+52247fc07	2019-05-31	Person D	human	0	(none)	7	0	0	Merge pull request #970 from Person Y/update-chinese-readme
+d159e434b	2019-06-09	Person A	human	0	.github	7	40	1	Add CONTRIBUTING
+14d4dd004	2019-06-12	Person D	human	0	(none)	7	0	0	Merge pull request #960 from someone/improve-help-output
+c681ffdf1	2019-06-12	Person D	human	0	(none)	7	0	0	Merge pull request #968 from someone/master
+c7471a5fa	2019-06-12	Person CL	human	0	typings	7	2	1	fix: Add node types
+1b2b95016	2019-06-12	Person A	human	0	(none)	7	0	0	Merge pull request #973 from someone/feature/contributing
+61fd52297	2019-06-23	Person A	human	0	(top level)	7	4	2	Bump to prerelease major version
+91db0be32	2019-06-23	Person A	human	0	(none)	7	0	0	Merge branch 'fix-errors-quote' of https://someone/Person BC/commander.js into Person BC-fix-errors-quote
+c9627c517	2019-06-23	Person A	human	0	(top level)	7	3	1	Update missing details for js.yaml
+52b7e7926	2019-06-23	Person A	human	0	(top level)	7	4	1	Add change to error quotes
+e717283cd	2019-06-23	Person A	human	0	(none)	7	0	0	Merge branch 'Person BC-fix-errors-quote' into release/3.0.0
+8f8881bf2	2019-06-23	Person A	human	0	(top level)	7	12	4	Update quotes in examples to match new behaviour
+bc755afc3	2019-06-23	Person A	human	0	(none)	7	0	0	Merge branch 'ffflorian-fix/node-types' into release/3.0.0
+b302e43ad	2019-06-23	Person A	human	0	(top level)	7	3	1	Add #974 to CHANGELOG
+862e2605a	2019-06-23	Person A	human	0	(none)	7	0	0	Merge with conflicts
+76fea4a76	2019-06-23	Person A	human	0	(none)	7	0	0	Merge branch 'Person GB-allow-hyphen-with-subcommand' into release/3.0.0
+143cc84f4	2019-06-23	Person A	human	0	(top level)	7	1	1	Add #697 to CHANGELOG
+e8b463d5f	2019-06-23	Person A	human	0	(none)	7	0	0	Merge with conflicts
+ad6cf1204	2019-06-23	Person A	human	0	(none)	7	0	0	Merge branch 'Person EW-master' into release/3.0.0
+ff156f0e1	2019-06-23	Person A	human	0	(top level)	7	1	1	Add #599 to CHANGELOG
+b937dd4c8	2019-06-23	Person A	human	0	(none)	7	0	0	Merge with conflicts
+23ddb5626	2019-06-23	Person A	human	0	(none)	7	0	0	Merge branch 'mojavelinux-issue-739-command-prefix' into release/3.0.0
+cd6e6085c	2019-06-23	Person A	human	0	(top level)	7	9	1	Fix order of nested parent commands in help
+5eefd9e73	2019-06-23	Person A	human	0	test	7	2	1	Fix new test for latest help style
+1979261d2	2019-06-24	Person D	human	0	(none)	7	0	0	Merge pull request #611 from someone/master
+517ee439b	2019-06-24	Person D	human	0	(top level)	7	2	1	Revert "add executable arguments to spawn in win32"
+1c1ffca5d	2019-06-24	Person A	human	0	(none)	7	0	0	Merge pull request #981 from someone/revert-611-master
+f08adb2b6	2019-06-24	Person A	human	0	(none)	7	0	0	Merge pull request #980 from someone/feature/739-command-prefix
+bd9248f5c	2019-06-24	Person A	human	0	(none)	7	0	0	Merge branch 'master' of github.com:someone/commander.js into hxsf-master
+402caaeec	2019-06-24	Person A	human	0	(top level)	7	3	1	Add #611 to CHANGELOG
+b99bcb19f	2019-06-24	Person A	human	0	(none)	7	0	0	Merge branch 'master' into release/3.0.0
+cc24efd6f	2019-06-24	Person A	human	0	(top level)	7	2	1	Add executable arguments to spawn in win32
+d0608971f	2019-06-24	Person A	human	0	(top level)	7	1	1	Add #980 to CHANGELOG
+c61d7248b	2019-06-26	Person CP	human	0	test	7	265	8	Add a way to override help and version help message #963
+afb81562d	2019-06-26	Person A	human	0	(none)	7	0	0	Merge branch 'idmontie-feature/issue-47-add-version-help-message-override' into release/3.0.0
+b877caea6	2019-06-26	Person A	human	0	(top level)	7	15	1	Combine custom version flags and description in README
+01e865c26	2019-06-26	Person A	human	0	test	7	4	1	Fix tests for subcommand help with parent now included
+c13988c56	2019-06-26	Person A	human	0	(top level)	7	2	1	Add #963 to CHANGELOG
+19f52c2af	2019-06-27	Person A	human	0	(none)	7	0	0	Merge branch 'fix---no-logic' of https://someone/Person BB/commander.js into Person BB-fix---no-logic
+8ca413444	2019-06-27	Person A	human	0	(none)	7	0	0	Merge branch 'Person BB-fix---no-logic' into release/3.0.0
+f1924dde0	2019-06-27	Person A	human	0	(top level)	7	48	3	Added documentation for #795, --no-* improvements
+58c2ad828	2019-06-30	Person A	human	0	(top level)	7	20	1	Rename bool property for clarity
+80d80af65	2019-07-01	Person A	human	0	(none)	7	0	0	Merge pull request #986 from someone/feature/928-refactor-negate
+270cdf39e	2019-07-03	Person A	human	0	(top level)	7	7	2	Remove API link, which is not being updated (#988)
+fe7850a59	2019-07-10	Person A	human	0	(top level)	7	296	5	Rework docs to clarify action vs executable commands (#990)
+4ca8ae7cf	2019-07-12	Person D	human	0	(top level)	7	1570	2	Upgrade packages
+a18c00da2	2019-07-12	Person D	human	0	(top level)	7	1	1	Drop Node.js 6 from .travis.yml
+631dfdc1d	2019-07-12	Person D	human	0	(none)	7	0	0	Merge pull request #993 from someone/upgrade_packages
+8576ae117	2019-07-19	Person A	human	0	.github	7	2	1	Adding develop branch.
+0cc13da98	2019-07-19	Person A	human	0	.github	7	2	1	Better syntax
+669272add	2019-07-20	Person A	human	0	(none)	7	0	0	Merge branch 'feature_specify_subcommand' of https://someone/abetomo/commander.js into abetomo-feature_specify_subcommand
+2c4d7435b	2019-07-20	Person A	human	0	(none)	7	0	0	Merge with minor conflicts
+6d5e11a18	2019-07-20	Person A	human	0	(top level)	7	76	3	Rework executeableFIle support
+facd66f94	2019-07-20	Person A	human	0	(top level)	7	1	1	Add debugging note with issue for mixed action/executable
+6d6863797	2019-07-22	Person A	human	0	(top level)	7	115	6	Increment inspector port for spawned subcommands (#991)
+a59e90fb8	2019-07-23	Person A	human	0	(none)	7	0	0	Merge pull request #998 from someone/feature/develop
+831d52fae	2019-07-23	Person A	human	0	(none)	7	0	0	Merge pull request #999 from someone/feature/specifyExecutableFile
+fb00b0e2a	2019-07-23	Person A	human	0	(none)	7	0	0	Merge branch 'master' into release/3.0.0
+55e88dca4	2019-07-25	Person A	human	0	(top level)	7	2	1	Add missing changes to v3.0.0 changelog
+a9503bb60	2019-07-25	Person A	human	0	test	7	178	7	Allow boolean default for flag option (#987)
+e5bce2fc7	2019-07-25	Person A	human	0	(top level)	7	1	1	Add #987 to CHANGELOG
+f743bf456	2019-07-27	Person A	human	0	(top level)	7	14	1	Expand changelog for prerelease
+fb5637080	2019-07-27	Person A	human	0	(top level)	7	21	2	Add Tidelift links (#1004)
+5b1b2fe3d	2019-07-27	Person A	human	0	(top level)	7	43	1	Add links for issues (so work for direct viewing of CHANGELOG)
+41d0bdbe1	2019-08-06	Person A	human	0	(top level)	7	31	1	Add explicit breaking notes (#1006)
+d1469c04c	2019-08-06	Person A	human	0	(top level)	7	13	3	Bump version for release
+bfcd39a43	2019-08-08	Person A	human	0	(top level)	7	2	1	Set release date for 3.0.0
+3b0127b19	2019-08-08	Person L	human	0	(top level)	7	238	1	update Readme_zh-CN to v3.0.0 and modify some old translation problems
+2c65463d2	2019-08-10	Person A	human	0	(top level)	7	78	1	Add .name and .usage, TOC, and tidy README
+dab6ba8d1	2019-08-10	Person U	human	0	(top level)	7	2	1	fix typo
+b19b58ef8	2019-08-11	Person A	human	0	(top level)	7	81	1	Add TOC and some lint
+b9392427d	2019-08-12	Person A	human	0	(top level)	7	9	1	Add Chinese translation for .name and .usage section
+fea94a9fe	2019-08-13	Person A	human	0	.github	7	131	3	Move CONTRIBUTING and add PULL_REQUEST_TEMPLATE (#1017)
+8b8d6e663	2019-08-13	Person A	human	0	(none)	7	0	0	Merge branch 'master' into develop
+bd8be0002	2019-08-14	Person EG	human	0	(top level)	7	15	1	fix showing help for sub commands with custom executableFile
+3e89cc948	2019-08-16	Person A	human	0	(none)	7	0	0	Merge pull request #1018 from someone/develop
+7d88c967f	2019-08-16	Person A	human	0	(top level)	7	520	2	Update devDependencies
+c0e765177	2019-08-17	Person D	human	0	(none)	7	0	0	Merge pull request #1021 from someone/feature/update-dependencies
+3b3d3b56e	2019-08-17	Person A	human	0	(top level)	7	50	1	Change CHANGELOG format for next release, and add pending changes (#1022)
+e9c24fefb	2019-08-23	Person D	human	0	(top level)	7	36	2	Unify readme code examples with 'const'
+1298a7947	2019-08-23	Person D	human	0	(none)	7	0	0	Merge pull request #1026 from someone/unify_readme_code_examples_with_const
+4c34d0e3c	2019-08-24	Person A	human	0	typings	7	1	1	Add definition for executableFile CommandOption (#1028)
+3286dc7c4	2019-08-30	Person A	human	0	(top level)	7	12	1	Update CHANGELOG for 3.0.1 (#1029)
+7cf3ee743	2019-08-30	Person A	human	0	(top level)	7	2	1	Add date for 3.0.1
+43123022c	2019-08-30	Person A	human	0	(top level)	7	4	2	3.0.1
+977db097b	2019-08-30	Person D	human	0	.github	7	24	1	Add GitHub Actions config file
+9e392274b	2019-08-30	Person D	human	0	(none)	7	0	0	Merge pull request #1027 from someone/add_github_actions_config_file
+0acc9c17b	2019-08-31	Person A	human	0	(top level)	7	2	1	Minor typo in README
+138a32eba	2019-09-04	Person A	human	0	(top level)	7	631	1	Cosmetic changes to markdown (lint) (#1034)
+d7f9cd443	2019-09-20	Person A	human	0	test	7	11596	127	Move to Jest as testing framework (#1035)
+8df692e20	2019-09-20	Person A	human	0	tests	7	127	12	Add override to allow throw instead of process.exit (#1040)
+c0d8043c1	2019-09-20	Person A	human	0	(top level)	7	12	1	Update CHANGELOG with PR that have landed on develop
+550deb389	2019-09-20	Person A	human	0	(top level)	7	2	1	Disable markdownlint warning about duplicate headings
+9593656ab	2019-09-21	Person A	human	0	(top level)	7	87	2	Pass unknown to command:* to detect unknown options (#1049)
+5cac9d66b	2019-09-21	Person A	human	0	(top level)	7	18	3	Call default subcommand when there are unknown options on command line. (#1047)
+cc4a525a0	2019-09-21	Person A	human	0	(top level)	7	52	2	Do not mutate program.args when calling action handler (#1048)
+1bed2ff88	2019-09-21	Person A	human	0	(top level)	7	10	1	Add merged PR to CHANGELOG
+53a7c9862	2019-09-21	Person A	human	0	(top level)	7	395	4	Update dependencies, and lint for new rules
+36ae7a936	2019-09-21	Person D	human	0	(none)	7	0	0	Merge pull request #1050 from someone/feature/update-dependencies
+725ebd1f7	2019-09-21	Person A	human	0	(top level)	7	184	2	Wrap and indent help descriptions for options and commands
+8d7d08016	2019-09-21	Person A	human	0	(top level)	7	25	1	Code tidy from review suggestions
+97b5fee6f	2019-09-21	Person A	human	0	tests	7	3	1	Fix a (false positive) eslint report from command line that was not showing in editor
+1b4f0c8c7	2019-09-21	Person A	human	0	(top level)	7	4	1	Remove deprecated customFds
+85d4c2b0e	2019-09-22	Person D	human	0	(none)	7	0	0	Merge pull request #1052 from someone/feature/customFds
+55386f4b1	2019-09-22	Person A	human	0	(none)	7	0	0	Merge pull request #1051 from someone/feature/pretty-help
+2544df81b	2019-09-26	Person A	human	0	(top level)	7	349	4	Improve executable subcommand tracking (#1056)
+c2851d51e	2019-09-28	Person A	human	0	(none)	7	0	0	Merge from master (and rebuild of package-lock.json)
+4d61d16de	2019-09-28	Person D	human	0	(none)	7	0	0	Merge pull request #1058 from someone/feature/merge-3.0.2
+48b02f06d	2019-09-28	Person A	human	0	(top level)	7	1579	4	Improve 2.x executable subcommand tracking and update dependencies (#1059)
+1928ad944	2019-09-29	Person A	human	0	(top level)	7	12	1	Add 2.20.1 and reference links to CHANGELOG
+fd54342d0	2019-09-29	Person A	human	0	tests	7	54	1	Add more tests on action handlers on program
+03b00349c	2019-09-29	Person A	human	0	tests	7	27	1	Add test for PR #1062
+9499d471c	2019-09-29	Person D	human	0	(none)	7	0	0	Merge pull request #1060 from someone/feature/changelog-2.20.1
+a45d676ca	2019-09-29	Person D	human	0	(none)	7	0	0	Merge pull request #1063 from someone/feature/test-main
+3f7ef6600	2019-09-30	Person A	human	0	(top level)	7	4	1	Add note that only supported on node 8 and above (#1053)
+2ca5390b5	2019-09-30	Person A	human	0	(top level)	7	23	1	Update v4 changelog (#1061)
+e599f3481	2019-10-01	Person A	human	0	(top level)	7	19	4	4.0.0-0 prerelease (#1066)
+400e6afd4	2019-10-01	Person A	human	0	(top level)	7	2	1	Set date for release
+f302f9bbd	2019-10-03	Person A	human	0	(top level)	7	4	1	Use dynamic references for lts and current versions of node
+a92da6295	2019-10-03	Person D	human	0	(none)	7	0	0	Merge pull request #1068 from someone/feature/node-versions
+7ab5fbfa7	2019-10-04	Person A	human	0	tests	7	101	5	Windows tests (and GitHub Actions) (#1070)
+57e9d986a	2019-10-07	Person A	human	0	examples	7	58	14	Examples: use "require" that works from git repo, and lint. (#1072)
+7f9edba02	2019-10-08	Person A	human	0	(top level)	7	465	7	Add .requiredOption() for mandatory options (#1071)
+82fd44aa0	2019-10-08	Person A	human	0	(top level)	7	8	1	Add .requiredOption to CHANGELOG
+e9929fb8c	2019-10-08	Person A	human	0	(top level)	7	4	2	4.0.0-1
+a591f870f	2019-10-11	Person D	human	0	(top level)	7	17	4	Support Node.js 0.10 (Revert #1059) (#1074)
+5a0b3f9a2	2019-10-11	Person D	human	0	(top level)	7	3	1	Update CHANGELOG with v2.20.3
+fe9927dab	2019-10-11	Person D	human	0	(top level)	7	4	2	2.20.3
+6b8499b24	2019-10-11	Person D	human	0	(top level)	7	7	3	Version bump 2.20.3 (#1075)
+a98f35a78	2019-10-13	Person D	human	0	.github	7	2	1	Add 'pull_request' to GitHub Actions trigger (#1076)
+41c69851e	2019-10-27	Person A	human	0	typings	7	45	1	Switch from class to class-like to include all types in commander namespace
+3fd7913b6	2019-10-27	Person A	human	0	(top level)	7	5	1	Explicitly require node 6, so hopefully get a warning on install if there is an older version of node.
+8b656f917	2019-10-27	Person L	human	0	(top level)	7	40	1	add requiredOption and exitOverride for Chinese Readme
+2ef54010a	2019-10-27	Person D	human	0	(none)	7	0	0	Merge pull request #1082 from someone/feature/engines_node6
+c1c1db6bd	2019-10-28	Person A	human	0	(top level)	7	7	1	Update Tidelift description to use enterprise wording
+7fa903f79	2019-10-28	Person A	human	0	(top level)	7	4	1	Remove translated english text, and add new TOC items
+dad5c1a4a	2019-10-28	Person A	human	0	(top level)	7	4	2	Add translation links
+08a5f02e7	2019-10-28	Person A	human	0	(top level)	7	2	1	Add full width colon in Chinese introducing languages
+0a626bb96	2019-10-30	Person A	human	0	(top level)	7	13	1	Updates to CHANGELOG
+f0315b892	2019-11-01	Person A	human	0	(top level)	7	31	3	Prepare for 4.0.0
+6bfc58055	2019-11-02	Person A	human	0	(top level)	7	16	1	Adding migration tips to match manual additions on GitHub release notes
+36082ba09	2019-11-09	Person A	human	0	(top level)	7	76	2	Check for missing required options after check for displaying help
+88d1341d4	2019-11-11	Person A	human	0	(top level)	7	8	1	Update CHANGELOG for 4.0.1
+b38f262b1	2019-11-11	Person A	human	0	(top level)	7	4	2	Bump version for 4.0.1
+5083e1463	2019-11-11	Person D	human	0	(none)	7	0	0	Merge pull request #1094 from someone/release/4.0.1
+35404b8c4	2019-11-11	Person A	human	0	(top level)	7	2	1	Fix brackets in CHANGELOG entry
+11abe21c6	2019-11-14	Person BU	human	0	(top level)	7	10	2	Remove trailing blanks from wrapped help text
+f7778ceda	2019-11-15	Person D	human	0	(none)	7	0	0	Merge pull request #1096 from someone/chdh/helpFix
+28a9a1d1d	2019-11-22	Person A	human	0	(top level)	7	422	2	Update dependencies
+04766dc30	2019-11-23	Person D	human	0	(none)	7	0	0	Merge pull request #1101 from someone/feature/update-dependencies
+df8d9defe	2019-11-24	Person A	human	0	(top level)	7	3	1	Do not rely on "this" in listener (as per other listeners)
+09c4ab4ae	2019-11-24	Person A	human	0	tests	7	1	1	Extend timeout to hopefully reduce test failures
+7004c0ae3	2019-11-24	Person A	human	0	(top level)	7	3	1	Reword supported node versions
+7920697b4	2019-11-25	Person D	human	0	(none)	7	0	0	Merge pull request #1109 from someone/feature/support
+7c22701c5	2019-11-25	Person D	human	0	(none)	7	0	0	Merge pull request #1108 from someone/feature/timeout
+57e6c5d1a	2019-11-25	Person D	human	0	(none)	7	0	0	Merge pull request #1107 from someone/feature/version-listener
+bc16bd252	2019-12-06	Person A	human	0	(top level)	7	13	1	Change to six months support, rather than n-1
+3740834b4	2019-12-07	Person A	human	0	changelogs	7	287	3	Separate out changelog for old versions
+5e12c4422	2019-12-07	Person D	human	0	(none)	7	0	0	Merge pull request #1115 from someone/feature/changelog-split
+45d371e0b	2019-12-07	Person D	human	0	(none)	7	0	0	Merge pull request #1114 from someone/feature/support-six-months
+3baa16faf	2019-12-07	Person EM	human	0	(top level)	7	2	1	doc: typo (#1113)
+f119fc78e	2019-12-08	Person A	human	0	typings	7	71	1	Remove redundant @someone types, and tidy.
+df6284cde	2019-12-09	Person A	human	0	(top level)	7	15	1	Add current changes to CHANGELOG
+81c6e285b	2019-12-11	Person A	human	0	(top level)	7	458	11	Opt-in behaviour to avoid name pollution (#1102)
+29a7f46a6	2019-12-11	Person A	human	0	(top level)	7	4	2	4.1.0-0
+9de09686a	2019-12-11	Person A	human	0	(top level)	7	8	1	Add feature notes to README
+4fb9ed40d	2019-12-11	Person DA	human	0	tests	7	169	3	Run default command if it's not just * (#1062)
+b25cc3abf	2019-12-17	Person A	human	0	tests	7	1	1	Increase timeout for test using ts-node
+808d4bc65	2019-12-20	Person A	human	0	(top level)	7	60	3	Removed explicit use of ts-node (#1125)
+03e77df85	2019-12-25	Person L	human	0	(top level)	7	46	1	Update Chinese README for v4.1.0
+dd23b4c7f	2019-12-29	Person A	human	0	(none)	7	0	0	Merge branch 'develop' into release/5.x
+d47fb0c58	2019-12-30	Person A	human	0	(top level)	7	8	1	Rename help check routine
+4faad59f7	2019-12-30	Person A	human	0	(top level)	7	22	1	Improve JSDoc to match code
+80b3587e3	2019-12-30	Person A	human	0	(top level)	7	100	1	Refactor Option from prototype to class
+4922fb89d	2020-01-02	Person A	human	0	examples	7	99	21	Update examples
+1d9cc72c9	2020-01-04	Person D	human	0	(none)	7	0	0	Merge pull request #1132 from someone/feature/tidy-js-2
+7bcf1175a	2020-01-05	Person A	human	0	(top level)	7	77	5	Add parseAsync (#1118)
+6f692cf88	2020-01-05	Person A	human	0	(top level)	7	9	1	Updated changelog for 4.1
+81f5079b8	2020-01-06	Person A	human	0	(top level)	7	4	2	Bump version for release
+f16fecf78	2020-01-06	Person A	human	0	(none)	7	0	0	Merge remote-tracking branch 'origin/master' into develop
+1c66935d7	2020-01-06	Person L	human	0	(top level)	7	16	1	add zh-CN translation for parseAsync
+8e1cdf540	2020-01-06	Person D	human	0	(none)	7	0	0	Merge pull request #1142 from someone/develop
+d97aaaae8	2020-01-07	Person AG	human	0	(top level)	7	1	1	Add missing diff link for 4.1.0
+7a480a76d	2020-01-07	Person AG	human	0	(top level)	7	1	1	Add missing diff link for 4.1.0
+e45ae5ab8	2020-01-07	Person D	human	0	(none)	7	0	0	Merge pull request #1136 from someone/feature/update-examples
+82f515772	2020-01-07	Person A	human	0	(top level)	7	2	1	Fix diff order for 4.1 link
+40929568a	2020-01-07	Person A	human	0	(none)	7	0	0	Merge branch 'master' into develop
+491b2e48a	2020-01-07	Person A	human	0	(none)	7	0	0	Merge branch 'develop' into release/5.x
+68e584f2f	2020-01-09	Person FC	human	0	typings	7	10	1	fix option type definition to match usage. (#1119)
+32c26df50	2020-01-11	Person A	human	0	(top level)	7	20	1	Use consistent list character in markdown
+f31d75731	2020-01-11	Person A	human	0	.github	7	2	1	Add FUNDING file for enabling GitHub Sponsor on repo
+d9627f504	2020-01-11	Person D	human	0	(none)	7	0	0	Merge pull request #1147 from someone/feature/changelog-lint
+c448afba9	2020-01-11	Person A	human	0	(top level)	7	22	2	Remove EventEmitter from TypeScript definition file (#1146)
+62234f60f	2020-01-15	Person A	human	0	tests	7	433	6	parseOptions rework phase 1 (#1138)
+169134442	2020-01-21	Person A	human	0	tests	7	292	6	Combine normalize and parseoptions, and update combined option handling (#1152)
+6791884c6	2020-01-30	Person A	human	0	(none)	7	0	0	Merge branch 'master' into develop
+1345f98c0	2020-01-31	Person A	human	0	tests	7	1101	27	Parse rework for nested commands (#1149)
+30368b8f0	2020-01-31	Person A	human	0	(top level)	7	2411	1	Convert Command from prototype to class (#1159)
+3e5b05e1f	2020-01-31	Person A	human	0	examples	7	141	8	Replace use of var with const and let (#1161)
+6857562e2	2020-02-01	Person A	human	0	(top level)	7	100	3	Preparing for 5.0.0-0 (#1162)
+dd68652c9	2020-02-01	Person A	human	0	(top level)	7	10	1	Add VSCode tip and rework debugging
+3ab21966e	2020-02-02	Person A	human	0	(none)	7	0	0	Merge pull request #1166 from someone/feature/vscode-debugging
+cb54d5fa3	2020-02-02	Person EB	human	0	typings	7	16	2	fix(ts): action can be an async function (#1157)
+e5f316f94	2020-02-02	Person D	human	0	.github	7	2	1	Use `npm ci` with CI (#1164)
+37e942812	2020-02-02	Person A	human	0	(top level)	7	8	1	Add 4.1.1 to CHANGELOG
+d5186ba4b	2020-02-02	Person A	human	0	(top level)	7	4	2	Bump version to 4.1.1
+cb84f6e0b	2020-02-02	Person A	human	0	(none)	7	0	0	Merge branch 'develop' into release/5.x
+e242593e8	2020-02-05	Person D	human	0	(top level)	7	87	1	Replace anonymous functions with arrow functions
+d9ac483ee	2020-02-05	Person A	human	0	tests	7	96	4	Throw for author errors and improve (#1165)
+d736ff70c	2020-02-05	Person A	human	0	tests	7	6965	9	Update dependencies and rewrite tests (#1167)
+28af7960b	2020-02-05	Person A	human	0	(none)	7	0	0	Merge branch 'release/5.x' into feature/use_arrow_functions
+2ca5bc7ac	2020-02-05	Person A	human	0	(top level)	7	4	1	Switch to arrow function and not use self
+5893177c6	2020-02-05	Person A	human	0	(none)	7	0	0	Merge branch 'abetomo-feature/use_arrow_functions' into release/5.x
+5f725f651	2020-02-06	Person A	human	0	(top level)	7	417	3	Archive 2.x  CHANDGELOG now out of support (#1170)
+a094ef2c6	2020-02-06	Person A	human	0	(top level)	7	110	6	Make .helpInformation public and update help sections in README (#1169)
+fbdd1329b	2020-02-06	Person A	human	0	(top level)	7	18	2	Replace git-style wording from README (#1171)
+30ae4ac91	2020-02-07	Person A	human	0	(top level)	7	195	5	Parse argument conventions (#1172)
+1e1ed08ad	2020-02-08	Person A	human	0	(top level)	7	29	3	Preparing for 5.0.0-1 prerelease (#1174)
+6f3aebb09	2020-02-08	Person A	human	0	(top level)	7	10	1	Use real didYouMean example for .on('command:*') (#1176)
+a8a14c91b	2020-02-08	Person A	human	0	(top level)	7	8	1	Spell subcommand consistently without hyphen (#1177)
+170402262	2020-02-10	Person AJ	human	0	(top level)	7	48	2	Use this instead of Command as a return type in TypeScript (#1180)
+28b649dc6	2020-02-10	Person A	human	0	(top level)	7	10	2	Suggest help when unknown command (#1179)
+31f187851	2020-02-10	Person A	human	0	(top level)	7	114	1	Use basic types in JSDoc rather than  object types (#1178)
+1a84b806f	2020-02-11	Person A	human	0	(top level)	7	17	3	Prepare for 5.0.0-2 (#1183)
+729e4329c	2020-02-11	Person A	human	0	(top level)	7	4	1	Prefix items consistently with past usage
+08ec04ea2	2020-02-11	Person AJ	human	0	typings	7	2	1	Type commands property (#1184)
+733047f3e	2020-02-12	Person A	human	0	(top level)	7	21	2	Add parse result test (#1188)
+46f886f4e	2020-02-12	Person A	human	0	(top level)	7	4	1	Shorten example fragment and make obvious which code to supply (#1189)
+bdad7dc24	2020-02-12	Person L	human	0	(top level)	7	219	1	update Readme_zh-CN.md for v5.0
+2491c763e	2020-02-12	Person L	human	0	(top level)	7	6	1	URLEncode several chinese toc link
+516a14c65	2020-02-14	Person D	human	0	.github	7	1	1	Added `fail-fast: false` to GitHub actions settings (#1187)
+77e511fc1	2020-02-15	Person A	human	0	(top level)	7	22	1	Enable TypeScript checking of javascript, and resolve or suppress errors (#1194)
+0a50bd6c7	2020-02-15	Person A	human	0	(top level)	7	23	3	Add program to exports (#1195)
+1757564a0	2020-02-20	Person A	human	0	(top level)	7	28	1	Use a tidier global command (#1200)
+87bfca690	2020-02-20	Person A	human	0	(top level)	7	10	1	Add CHANGELOG entries for 5.0.0-3
+a3f453f11	2020-02-20	Person A	human	0	(top level)	7	4	2	5.0.0-3
+3cf8cff2a	2020-02-21	Person A	human	0	typings	7	309	2	Expand typescript checks (#1198)
+3c9f33fd8	2020-03-01	Person A	human	0	(top level)	7	2	1	Say we support LTS, so do not need to update when node changes (#1204)
+8c3dd6ffe	2020-03-02	Person A	human	0	(top level)	7	171	7	createCommand factory routine (#1191)
+bd5a49e9d	2020-03-03	Person A	human	0	(top level)	7	12	1	Add factory to CHANGELOG
+95e0d193e	2020-03-03	Person A	human	0	(top level)	7	4	2	5.0.0-4
+f14df0709	2020-03-04	Person D	human	0	(top level)	7	4398	5	Add eslint settings for TypeScript (#1205)
+83af0fd04	2020-03-10	Person A	human	0	(top level)	7	97	4	Prepare for 5.0.0 (#1211)
+f86d87816	2020-03-12	Person A	human	0	(top level)	7	6	1	Add cli keyword (#1213)
+2aad52564	2020-03-12	Person A	human	0	(top level)	7	200	2	Update dependencies (#1214)
+9b0a99151	2020-03-16	Person A	human	0	examples	7	6	1	Fix typos
+c3895dbc2	2020-03-16	Person A	human	0	(top level)	7	3	1	Add 5.x, EOL for 4.x
+2ffa6f220	2020-03-16	Person A	human	0	(none)	7	0	0	Add 5.x, EOL for 4.x (#1222)
+ebc8b41c9	2020-03-16	Person A	human	0	(none)	7	0	0	Merge pull request #1221 from someone/feature/nested-typos
+e960c9087	2020-03-23	Person A	human	0	typings	7	181	2	Fixing lint errors in TypeScript (#1208)
+2c0a237f9	2020-03-30	Person A	human	0	(top level)	7	14	3	Remove most uses of top-level, as less accurate now with command nesting. (#1230)
+8ec3e7fa4	2020-03-30	Person A	human	0	(top level)	7	52	2	Consistently refer to returning this for chaining (not parent) (#1231)
+b5d95ee45	2020-03-30	Person A	human	0	(top level)	7	87	7	Add opts to addCommand, and rename noHelp to hidden (#1232)
+b59adfc96	2020-04-03	Person A	human	0	(top level)	7	32	1	Replace use of arguments.length (#1235)
+28e8d3f31	2020-04-21	Person A	human	0	typings	7	116	4	Add support for multiple aliases (#1236)
+56221f775	2020-04-21	Person A	human	0	(top level)	7	1	1	Allow helpOption to only include long flag (#1248)
+e1966fcff	2020-04-21	Person A	human	0	(top level)	7	44	2	Omit the help flags from help that are masked by other options (#1247)
+b8baafbbe	2020-04-21	Person A	human	0	(top level)	7	1698	2	Update dependencies (#1251)
+8c9cfbb0e	2020-04-23	Person D	human	0	.github	7	2	1	Add Node.js 14 to the CI settings of GitHub Actions (#1253)
+64053252c	2020-04-25	Person A	human	0	(top level)	7	34	3	Prepare for release (#1255)
+790553dbb	2020-05-10	Person A	human	0	(top level)	7	2949	4	Update dependencies and drop node 8 from testing (#1263)
+168ff5b97	2020-05-14	Person D	human	0	(top level)	7	58	1	Replace indexOf with includes (#1264)
+a31bb3fa1	2020-05-26	Person A	human	0	tests	7	199	6	Support options with only a short flag (#1256)
+24118fe08	2020-05-29	Person A	human	0	(top level)	7	22	5	Fix some typos
+4a7148a89	2020-05-30	Person A	human	0	(none)	7	0	0	Merge pull request #1269 from someone/feature/fix-typos
+379833400	2020-05-30	Person A	human	0	(top level)	7	5	1	Fix override for semi after base changed (#1270)
+e9a6109eb	2020-05-30	Person A	human	0	(none)	7	0	0	Merge branch 'develop' into release/6.x
+913389f2d	2020-06-01	Person A	human	0	tests	7	255	10	Add support for variadic options (#1250)
+6cad30ad7	2020-06-01	Person A	human	0	examples	7	196	27	Feature/examples tidy (#1271)
+0576033ce	2020-06-01	Person A	human	0	(none)	7	0	0	Merge branch 'develop' into release/6.x
+42f61cae1	2020-06-15	Person A	human	0	(top level)	7	97	2	Throw for likely option name problems (#1275)
+fc36472de	2020-06-18	Person A	human	0	(top level)	7	15	3	Prepare for prerelease (#1281)
+faac4d977	2020-06-20	Person A	human	0	(top level)	7	1	1	Add link for 6.0.0-0
+ca2256eb5	2020-06-22	Person A	human	0	(top level)	7	247	2	Feature/update dependencies (#1286)
+09c103d49	2020-07-04	Person AO	human	0	(top level)	7	166	1	Optimize Chinese readme typesetting (#1289)
+fdf6ee94e	2020-07-08	Person A	human	0	(top level)	7	231	5	Update supported versions (#1297)
+362857111	2020-07-08	Person A	human	0	(top level)	7	12	1	Add esm documentation (#1298)
+601f2de6d	2020-07-14	Person AO	human	0	(top level)	7	330	1	update Chinese README (#1299)
+3c8508781	2020-07-18	Person A	human	0	(top level)	7	11	3	Bump version for release
+531a0fd0c	2020-07-19	Person A	human	0	tests	7	19	1	Add regression test for #1301 (#1304)
+394caefb4	2020-07-19	Person A	human	0	(top level)	7	1847	2	Update dependencies except eslint (#1303)
+d7b179adf	2020-07-19	Person A	human	0	(top level)	7	5	1	Add fix that was quietly added along with other work
+c5a5e7b70	2020-07-19	Person D	human	0	(none)	7	0	0	Merge pull request #1305 from someone/release/6.x
+8fb669ffc	2020-07-19	Person D	human	0	(top level)	7	4	1	Add document links to errors
+b91570653	2020-07-25	Person GA	human	0	tests	7	22	1	tests: remove eslint-disable jest/no-test-callback (#1312)
+1b5ede83c	2020-07-28	Person A	human	0	(top level)	7	3	1	Add Breaking to CHANGELOG (#1319)
+669190d1e	2020-07-28	Person A	human	0	(none)	7	0	0	Merge branch 'master' into develop
+f47bdf5ca	2020-07-28	Person A	human	0	(top level)	7	24	2	Tidy up example now check for required command arguments (#1320)
+c7f5f78ac	2020-08-01	Person A	human	0	(top level)	7	2	1	Allow partial argument descriptions (#1323)
+a71d592ee	2020-08-01	Person A	human	0	(top level)	7	6	1	Improve basedir calculation to fix #1274 (#1322)
+6b2e42c9c	2020-08-11	Person A	human	0	tests	7	164	7	Allow disabling the built-in help option (#1325)
+84fe0da46	2020-08-11	Person A	human	0	(top level)	7	61	5	Add combineFlagAndOptionalValue (#1326)
+9c7cfc07d	2020-08-25	Person A	human	0	(top level)	7	28	3	Prepare for 6.1.0
+693a40f9f	2020-09-03	Person FV	human	0	(top level)	7	4	1	fix typo: readme example references variables that don't exist (#1342)
+d26a26d23	2020-09-09	Person A	human	0	tests	7	576	13	Expand help customisation with .addHelpText (#1296)
+8afc0ba84	2020-09-09	Person A	human	0	tests	7	7	1	Add test for addTextHelp returning void (#1351)
+ce3aebe1a	2020-09-09	Person D	human	0	(top level)	7	4	2	Enable jest coverage (#1352)
+af31e9033	2020-09-11	Person A	human	0	(top level)	7	2	1	Reword description of combining short options (#1345)
+5076dda85	2020-09-11	Person A	human	0	(top level)	7	33	3	Document and test description of arguments (#1353)
+3998dd657	2020-09-13	Person BS	human	0	docs	7	220	1	Add documentation on tricks and traps of using optional options (#1332)
+a05a8bc27	2020-09-14	Person A	human	0	tests	7	707	14	Enhance Option class to allow hiding help, specifying choices, and change how default value displayed in help (#1331)
+091224d5f	2020-09-14	Person A	human	0	(none)	7	0	0	Merge remote-tracking branch 'origin/develop' into release/7.x
+9abb7935a	2020-09-14	Person A	human	0	(top level)	7	4	2	Bump version number
+9236449a9	2020-09-24	Person A	human	0	(top level)	7	3	2	Remove line after Arguments title in help (#1360)
+e56fba2f4	2020-09-26	Person A	human	0	docs	7	49	3	Terminology and links (#1361)
+9f5aabc51	2020-09-26	Person A	human	0	(top level)	7	101	4	Deprecated functionality (#1349)
+2f4cd3db7	2020-09-26	Person A	human	0	examples	7	94	3	Use revised terminology (#1362)
+e5512a432	2020-09-26	Person A	human	0	(none)	7	0	0	Merge branch 'develop' into release/7.x
+0c18b8673	2020-09-26	Person A	human	0	(top level)	7	2	1	Remove Ruby commander reference. (#1364)
+b4fbe678e	2020-09-26	Person A	human	0	(top level)	7	46	1	Back to shared implementation method for .option and .requiredOption (#1363)
+39eadd79d	2020-10-04	Person BO	human	0	(top level)	7	2	1	Allow tsx file extension for sub-commands (#1367) (#1368)
+f15900d5a	2020-10-04	Person A	human	0	tests	7	29	3	Add tests for some getters (#1369)
+b0c588474	2020-10-18	Person A	human	0	tests	7	25	2	Include tests for supplying optional  param to .hideHelp (#1372)
+2935568a9	2020-10-19	Person A	human	0	typings	7	18	2	TypeScript for addHelpCommand (#1375)
+19ae91218	2020-10-23	Person A	human	0	tests	7	2024	28	Refactor help internals into separate interface/class (#1365)
+3d40a2e41	2020-10-23	Person A	human	0	(top level)	7	3135	10	Update dependencies, and fix or suppress lint issues (#1376)
+c40c27510	2020-10-23	Person A	human	0	(top level)	7	26	3	Prepate for 6.2.0 release
+d90ef129d	2020-10-23	Person A	human	0	(none)	7	0	0	Merge branch 'develop' into release/7.x
+800955e83	2020-10-23	Person A	human	0	(top level)	7	9	3	Fix lint issues
+0192d6664	2020-10-24	Person A	human	0	(top level)	7	4	1	Note that updated dependencies too
+591119755	2020-10-25	Person A	human	0	(top level)	7	34	1	Update CHANGELOG for 7.0.0-0 (#1378)
+0703a4d94	2020-10-25	Person A	human	0	(none)	7	0	0	Merge branch 'master' into release/7.x
+033e6d97b	2020-10-26	Person A	human	0	(top level)	7	223	5	Update testing node versions, supported node versions, and archive 4.x CHANGELOG entries (#1385)
+b1d984b18	2020-10-26	Person A	human	0	typings	7	85	4	Feature createOption (#1380)
+7a0baabd7	2020-10-26	Person A	human	0	tests	7	35	2	Increase test coverage (#1381)
+df5d679cd	2020-10-26	Person A	human	0	(top level)	7	49	2	Give optional boolean parameters appropriate name, and coerce value to boolean (#1384)
+5b98fc8d7	2020-10-26	Person A	human	0	tests	7	664	4	Rename test files to match method being tested
+6032a9776	2020-11-05	Person A	human	0	tests	7	34	2	Switch exec to execFile to simply protect against spaces in path (#1390)
+2f7aa3384	2020-11-10	Person A	human	0	(top level)	7	18	4	Drop travis and switch to GitHub Actions for build badge (#1393)
+ed7f13ee2	2020-11-17	Person A	human	0	tests	7	624	19	configure output (#1387)
+4555881ad	2020-11-20	Person A	human	0	(top level)	7	46	3	Rework wrap to have simpler usage pattern (#1395)
+eac478708	2020-11-21	Person A	human	0	(top level)	7	116	6	Rename columns to helpWidth (#1396)
+e3ad76d25	2020-11-21	Person A	human	0	typings	7	3	2	Add missing param in TypeScript for helpInformation (#1397)
+e1a6cf43b	2020-11-21	Person A	human	0	(top level)	7	22	3	Prepare for prerelease (#1398)
+689d7a056	2020-11-25	Person A	human	0	(top level)	7	82	6	Support custom error messages for option argument coercion failures (#1392)
+9b087c8d1	2020-11-25	Person A	human	0	(top level)	7	47	2	WYSIWYG sort (#1400)
+bd538aa42	2020-12-01	Person A	human	0	(top level)	7	45	2	Improve backwards compatibility for command events (#1403)
+09f277a75	2020-12-04	Person A	human	0	tests	7	323	8	Add .allowExcessArguments() and error message (#1407)
+f2f21f16a	2020-12-05	Person N	human	0	(top level)	7	2	1	missed output configuration override (#1411)
+1a3db7491	2020-12-06	Person A	human	0	(top level)	7	2	1	Bump required version of node to oldest LTS which is 10 (#1413)
+469acc95d	2020-12-06	Person A	human	0	(top level)	7	2703	5	Update dependencies in 7.x (#1412)
+1db83b605	2020-12-09	Person A	human	0	docs	7	2	1	Fix typo in new docs (#1415)
+e0e723810	2020-12-13	Person A	human	0	(top level)	7	13	3	Release 6.2.1 (#1416)
+f76bc71d1	2020-12-14	Person A	human	0	tests	7	1144	46	Change to safe storage of options by default, and change action parameters (#1409)
+5fd6e88cd	2020-12-14	Person A	human	0	(none)	7	0	0	Merge branch 'master' into release/7.x
+4b43f66f8	2020-12-14	Person A	human	0	(top level)	7	26	3	Prepare for release
+5d952139b	2020-12-14	Person A	human	0	(top level)	7	11	1	Add PR links to 7.0.0-2 release
+20cef0306	2020-12-20	Person A	human	0	(top level)	7	7	2	Update supported details for 7.x (#1419)
+75c2a63ba	2020-12-21	Person A	human	0	examples	7	92	3	Use custom command example to show revert to Commander v6 behaviours (#1421)
+c09159d05	2020-12-26	Person A	human	0	typings	7	16	2	Modify return type depending on storeOptionsAsProperties parameter (#1424)
+5173665dd	2020-12-27	Person A	human	0	(top level)	7	692	5	Simplify eslint dependencies for TypeScript (#1425)
+d8faba2cf	2021-01-03	Person A	human	0	tests	7	276	10	Increase test coverage, including incrementNodeInspectorPort (#1428)
+1383870b7	2021-01-04	Person A	human	0	(top level)	7	75	1	Combine prerelease 7 versions together (#1418)
+8ac84ec23	2021-01-04	Person A	human	0	(top level)	7	705	8	Positional options (#1427)
+e2670f428	2021-01-07	Person A	human	0	(top level)	7	108	6	Make new excess arguments error opt-in (#1429)
+ff301fadc	2021-01-08	Person FM	human	0	"docs	7	836	4	Feature/update chinese readme (#1431)
+891e23d49	2021-01-11	Person A	human	0	tests	7	44	4	Test coverage (#1433)
+d9345731c	2021-01-11	Person A	human	0	(top level)	7	186	2	Update dependencies (#1432)
+fcc89885a	2021-01-11	Person N	human	0	(top level)	7	6	2	ability to specify `minColumnWidth` for `Help.wrap` (#1430)
+182ee0675	2021-01-11	Person A	human	0	(top level)	7	4	2	Small addition to docs for new parameter
+034ad9f32	2021-01-13	Person A	human	0	(top level)	7	14	3	Feature/prepare for 7 (#1436)
+7ab9d3df3	2021-01-15	Person A	human	0	(top level)	7	2	1	Fix stale entry, changed default behaviour
+37825b38a	2021-01-20	Person A	human	0	(top level)	7	86	5	Add support for named imports in ESM (#1440)
+afcecd6cf	2021-01-21	Person A	human	0	(top level)	7	2	1	Update/fix esm wrapper name in package (#1443)
+f6190b0bd	2021-01-28	Person A	human	0	(top level)	7	12	1	Replace process.mainModule with require.main (#1448)
+a28a89b9c	2021-01-30	Person A	human	0	tests/fixtures-extensions	7	45	8	Add cjs to list of expected node script extensions (#1449)
+02b40ecbf	2021-01-31	Person A	human	0	(top level)	7	1382	5	Convert typings tests to tsd (#1453)
+09dfb6741	2021-01-31	Person A	human	0	(top level)	7	41	2	Add support for variadic to choices (#1454)
+a0c1a773b	2021-02-02	Person A	human	0	tests	7	12	1	Test for help for arguments without description (#1459)
+b040db4a9	2021-02-04	Person A	human	0	tests	7	2	1	Missing subcommand in action for test (#1462)
+4f78587db	2021-02-05	Person A	human	0	tests	7	102	4	Skip unknown options check if there is a better error to display (#1464)
+b2a4f87d6	2021-02-06	Person A	human	0	(none)	7	0	0	Test for help for arguments without description (#1466)
+4a4c1d529	2021-02-11	Person BG	human	0	(top level)	7	2	1	Update documentation for option event listeners (#1470)
+4aaaa9de3	2021-02-14	Person A	human	0	(top level)	7	33	3	Update CHANGELOG for 7.1.0 (#1472)
+c119028f9	2021-02-15	Person A	human	0	(top level)	7	174	6	Add runtime test that TypeScript imports are working (#1473)
+948796df3	2021-02-17	Person A	human	0	tests	7	64	1	Add mock tests to cover subcommand error handling (#1474)
+e12ea2e05	2021-02-20	Person A	human	0	typings	7	3	2	Add Command parent property to TypeScript (#1475)
+b9ffe0922	2021-03-05	Person A	human	0	(top level)	7	22	2	Add package support info (#1477)
+26223d0e6	2021-03-07	Person A	human	0	(top level)	7	4	1	Add missing word and expand wording for clarity (#1482)
+d3a9e7a5e	2021-03-08	Person A	human	0	typings	7	9	2	Add attributeName to Option typings (#1483)
+82bf30bfe	2021-03-11	Person GO	human	0	(top level)	7	2	1	passThroughOptions: correct error message
+0fa4b8d61	2021-03-20	Person A	human	0	tests	7	17	1	Add test for process.exit finishing bunch of if-then-else cases (#1487)
+7b6567e5c	2021-03-20	Person A	human	0	tests	7	4	1	Fix syntactically incorrect command name (#1488)
+327a3ddd5	2021-03-20	Person A	human	0	(top level)	7	1236	3	Update CHANGELOG and dependences for 7.2.0
+ad20e0bb2	2021-03-22	Person A	human	0	(top level)	7	2	1	Update release date post-release to be more accurate
+5b14d343f	2021-03-28	Person A	human	0	tests	7	16	1	Remove placeholder test for old issue
+b286da9c5	2021-04-08	Person A	human	0	tests	7	811	33	More consistent way of adding command arguments (#1490)
+eced8e44c	2021-04-10	Person A	human	0	(top level)	7	322	6	Update required node version, supported versions, refactor CHANGELOG. (#1500)
+eade1e0b8	2021-04-11	Person A	human	0	(none)	7	0	0	Merge branch 'develop' into release/8.x
+0504945ee	2021-04-11	Person A	human	0	tests	7	135	3	Check command-arguments even without action handler (#1502)
+387b6fc46	2021-04-12	Person N	human	0	(top level)	7	86	6	Factory routine to create a new unattached argument (#1497)
+b57731ef0	2021-04-18	Person A	human	0	(top level)	7	4	1	Fix date
+912f3070e	2021-04-21	Person D	human	0	.github	7	2	1	ci: add 16.x to node-version
+3d67542d3	2021-04-21	Person A	human	0	(none)	7	0	0	Merge branch 'develop' into release/8.x
+f99d6fa52	2021-05-03	Person A	human	0	tests	7	485	16	Extend .argument() to add default value and custom parse for command-argument (#1508)
+59c81532b	2021-05-06	Person A	human	0	(top level)	7	188	1	Refactor async support to return (possible) promise directly (#1513)
+8b5599e69	2021-05-09	Person A	human	0	typings	7	11	2	Simplify addHelpText TypeScript signature and improve typings test (#1516)
+ca514aed0	2021-05-09	Person A	human	0	tests	7	21	1	Add test to cover exception from custom argument processing (#1515)
+ad3f9470f	2021-05-17	Person A	human	0	typings	7	1352	3	Simplify typings (#1520)
+6c0652881	2021-05-18	Person A	human	0	(top level)	7	92	6	Add getOptionValue and setOptionValue (#1521)
+c20284d07	2021-05-18	Person A	human	0	(top level)	7	535	7	Add hooks for life cycle events: using .hook() (#1514)
+0b0fbbed7	2021-05-20	Person A	human	0	(top level)	7	674	2	Update dependencies (#1524)
+3551de8f0	2021-05-20	Person A	human	0	(top level)	7	46	3	Prerelease version number and CHANGELOG (#1523)
+ff7658cb0	2021-05-22	Person A	human	0	(top level)	7	4	1	Add date for 8.0.0-0 (#1527)
+08245cc7a	2021-05-25	Person A	human	0	lib	7	5039	7	Refactor classes into files (#1522)
+d282f20e5	2021-05-26	Person A	human	0	(top level)	7	8	2	Remove incorrect example output (#1532)
+708527ed1	2021-05-26	Person A	human	0	tests	7	224	12	Choices for arguments (#1525)
+f9fe2942b	2021-05-29	Person A	human	0	(top level)	7	4422	2	Update dependencies (#1535)
+03d214754	2021-05-30	Person A	human	0	typings	7	15	2	Add strong typing of .opts() using generics (#1539)
+5ddc41b55	2021-05-30	Person A	human	0	(top level)	7	20	3	Prepare 8.0.0-1 (#1538)
+082717f3f	2021-06-01	Person A	human	0	tests	7	205	9	Add showHelpAfterError (#1534)
+4663597b7	2021-06-02	Person A	human	0	lib	7	125	6	Support argument processing without action handler (#1529)
+7503a6925	2021-06-06	Person A	human	0	(top level)	7	20	3	Update CHANGELOG for 8.0.0-2 (#1543)
+0e204e8ba	2021-06-06	Person A	human	0	docs	7	4	1	Improve example (#1544)
+9fad40f24	2021-06-13	Person A	human	0	(top level)	7	2818	2	Update dependencies (#1546)
+cf58455f0	2021-06-13	Person A	human	0	(top level)	7	33	1	Add tips about showing help instead of just missing arguments error (#1547)
+51c77ece1	2021-06-20	Person A	human	0	(top level)	7	1252	3	Prepare for 8.0.0 (#1548)
+80054ba37	2021-06-23	Person A	human	0	"docs	7	8	3	Note Chinese translations are stale (#1550)
+5517d250a	2021-07-03	Person A	human	0	tests	7	201	5	Add copyInheritedSettings (#1557)
+56c410831	2021-07-09	Person A	human	0	lib	7	318	2	Follow jsdoc and tsdoc more closely, especially @someone (#1562)
+4be69f17e	2021-07-12	Person A	human	0	lib	7	11	1	Use getCommandAndParents for array of parents (#1566)
+6f51e4a10	2021-07-12	Person A	human	0	tests	7	77	5	Feature/argument arg explicit (#1567)
+e6943c4ee	2021-07-17	Person FH	human	0	"docs	7	394	5	Update Chinese docs
+a036bde5c	2021-07-26	Person A	human	0	(top level)	7	15	3	Prepare for 8.1
+411ca9575	2021-07-26	Person A	human	0	(top level)	7	2	1	Clarify that more than just README
+a9c9f17c7	2021-07-26	Person A	human	0	(top level)	7	1	1	Add link for version diff
+3f77e7eae	2021-07-27	Person DM	human	0	.github	7	5	1	Update github-actions (#1574)
+b1b7acab9	2021-08-06	Person A	human	0	tests	7	574	13	Rework default program name, and searching for subcommands (#1571)
+78e335f3d	2021-08-09	Person A	human	0	(top level)	7	2	1	Fix minor typo (#1579)
+3a0ef21a9	2021-08-14	Person FZ	human	0	docs	7	2	1	Fixed deprecated documentation typo
+8571a7590	2021-08-24	Person A	human	0	tests	7	516	12	Add .env method to Option for consulting environment variable for option value (#1587)
+dd28741e6	2021-08-25	Person A	human	0	(none)	7	0	0	Merge remote-tracking branch 'origin/develop' into release/9.x
+abec6c595	2021-08-26	Person A	human	0	(top level)	7	27	2	Conditional exports to simplify ECMAScript import (#1589)
+2911e0e53	2021-09-01	Person D	human	0	(top level)	7	6	1	docs: update SECURITY.md
+91ccfd5d6	2021-09-06	Person A	human	0	tests	7	452	9	Suggestion for unknown command and unknown option (#1590)
+b84534bf1	2021-09-10	Person A	human	0	(top level)	7	18	3	Prepare for 8.2.0 (#1597)
+4a370a45b	2021-09-10	Person A	human	0	typings	7	9	2	Remove stale argumentRejected method on Option (#1599)
+950f742e6	2021-09-10	Person A	human	0	(top level)	7	4	1	Update CHANGELOG for one-last-thing for 8.2.0
+c1472bca7	2021-09-15	Person A	human	0	examples	7	37	4	Tidy up some old examples (#1604)
+a546970f4	2021-09-25	Person A	human	0	(top level)	7	63	3	Deprecate command:* command and event (#1612)
+6e00f444c	2021-09-27	Person A	human	0	tests	7	129	7	Add setOptionValueWithSource and getOptionValueSource (#1613)
+36c2f6838	2021-09-27	Person A	human	0	lib	7	12	2	Change .action() JSDoc/TSDoc example (#1614)
+34366fd21	2021-10-16	Person A	human	0	(top level)	7	19	3	Prepare for 8.3.0
+43f474386	2021-10-16	Person A	human	0	(top level)	7	2	1	Fix date
+0847a7f5d	2021-10-19	Person D	human	0	.github	7	2	1	ci: update 'node-version'
+2cc3a362d	2021-10-23	Person A	human	0	examples	7	165	20	Make examples more consistent with "Try the following" (#1629)
+c3b419ac8	2021-10-23	Person A	human	0	lib	7	10	2	Fix comments to refer to argument rather than option (#1630)
+5dd830a6d	2021-10-25	Person A	human	0	(none)	7	0	0	Merge remote-tracking branch 'origin/master' into release/9.x
+9369303b8	2021-11-05	Person GH	human	0	(top level)	7	2	1	docs: fix wrong link
+e64929186	2021-11-07	Person A	human	0	(top level)	7	2	1	Remove mention of Commander 2 (#1637)
+35a028b62	2021-11-09	Person A	human	0	lib	7	6	1	Wrap emit to preserve callback order when async (#1638)
+85479b39d	2021-12-18	Person A	human	0	(none)	7	0	0	Merge branch 'develop' into release/9.x
+9a56cc7c1	2021-12-21	Person A	human	0	tests	7	551	14	Rework option defaults and add preset (#1652)
+24ca282d4	2021-12-21	Person A	human	0	lib	7	3	1	Throw error for Option to option() or requiredOption() (#1655)
+39993f9ab	2021-12-21	Person A	human	0	lib	7	2	1	Make showSuggestionAfterError true by default (#1657)
+19c8041a3	2021-12-21	Person A	human	0	changelogs	7	1408	7	Combine back into single CHANGELOG to simplify searches (#1656)
+08e65d355	2021-12-21	Person A	human	0	(top level)	7	10406	2	Upgrade package-lock.json to lockfile@2 (#1659)
+253f4ff74	2021-12-22	Person A	human	0	(top level)	7	105	3	Update version and CHANGELOG for 9.0.0-0 (#1661)
+c6e0ee804	2021-12-25	Person A	human	0	(top level)	7	44	3	Add pattern with this in action handler, from EventEmitter (#1664)
+4b9fee9f6	2021-12-27	Person A	human	0	examples	7	203	3	Refactor README examples into a QuickStart (#1665)
+f17ecbd34	2022-01-03	Person A	human	0	tests	7	103	4	Allow readonly array as parameter to .aliases(), .parse(), .parseAsync() (#1669)
+10b673f5f	2022-01-04	Person A	human	0	tests	7	2214	19	Reconfigure standard and eslint (#1668)
+ad640de56	2022-01-04	Person FN	human	0	tests	7	156	8	Allow readonly array as parameter of .choices() (#1667)
+f902f6da9	2022-01-04	Person A	human	0	lib	7	2	1	Fix JSDoc comment (#1673)
+772eb532d	2022-01-11	Person A	human	0	typings	7	129	6	Add support for getting merged options including globals (#1671)
+7a59df49d	2022-01-14	Person A	human	0	tests	7	134	6	Add error() for displaying errors from client code (#1675)
+5a482e6e5	2022-01-14	Person A	human	0	(top level)	7	10	1	Update CHANGELOG for 9.0.0-1
+c58fe4d32	2022-01-14	Person A	human	0	(top level)	7	6	2	9.0.0-1
+c984ab85a	2022-01-14	Person A	human	0	(top level)	7	4	1	Fix errata in example (#1676)
+ecaae11e2	2022-01-27	Person A	human	0	(top level)	7	32	4	Prepare for 9.0.0 release
+1f66069d6	2022-01-27	Person A	human	0	(top level)	7	4	1	Add readonly changes to CHANGELOG
+02a124c7d	2022-01-28	Person A	human	0	(none)	7	0	0	Merge pull request #1683 from someone/release/9.x
+47e8b201a	2022-01-31	Person A	human	0	lib	7	1	1	Follow best practice and require process rather than use global (#1685)
+997655dea	2022-02-20	Person A	human	0	(top level)	7	8	1	Fix syntax errors in migration example (#1692)
+fc4fd417e	2022-03-06	Person CJ	human	0	tests	7	385	9	feat(option): allow to set options as conflicting (#1678)
+b5d2bb10a	2022-03-11	Person D	human	0	.github	7	57	1	ci: add .github/workflows/codeql-analysis.yml
+1d270784f	2022-03-14	Person A	human	0	examples	7	96	5	Add extended conflicts example (#1700)
+019499bfc	2022-03-14	Person A	human	0	lib	7	4	1	Remove low-value argument test (#1701)
+5bddedf24	2022-03-14	Person A	human	0	(top level)	7	15	3	Update CHANGELOG and version for 9.1.0
+0e29b3dc5	2022-03-17	Person GP	human	0	(top level)	7	2	1	Fix the typo
+8cbd08250	2022-03-18	Person EF	human	0	(top level)	7	1	1	Add `"types"` to `"exports"` (#1704)
+961c45eb4	2022-03-20	Person FA	human	0	lib	7	4	1	refactor: replace deprecated String.prototype.substr()
+40e67bcf7	2022-03-21	Person A	human	0	examples	7	51	1	Add example for "global" options (#1708)
+7d7a674bb	2022-03-21	Person A	human	0	(top level)	7	19	1	Clarify option arguments (#1709)
+bf205d102	2022-03-25	Person A	human	0	tests	7	587	3	Check for conflicts in parent commands (#1711)
+b77a0e9e7	2022-04-10	Person A	human	0	(top level)	7	18	3	Prepare for 9.2.0
+9864529b1	2022-04-10	Person A	human	0	(top level)	7	6	1	Add another PR to CHANGELOG
+6c26370fc	2022-04-10	Person A	human	0	(top level)	7	1	1	Add link for 9.2.0 changes
+acbbe1873	2022-04-18	Person A	human	0	docs	7	7	1	Deprecate multi-character short flags (#1718)
+a80b984b5	2022-04-19	Person A	human	0	examples	7	48	2	Rework example to avoid graphql warnings (#1719)
+06cf75152	2022-04-21	Person D	human	0	.github	7	2	1	ci: add nodejs18 as it is released
+1b492d972	2022-05-09	Person AE	human	0	typings	7	8	1	Add string[] to options defaultValue type (#1721)
+d6609677a	2022-05-11	Person A	human	0	examples	7	455	9	Add Option.implies() (#1724)
+cc2db5b9a	2022-05-18	Person A	human	0	tests	7	123	8	Add optional summary for short form of subcommand description. (#1726)
+b2842dc88	2022-05-19	Person GN	human	0	"docs	7	375	2	update chinese readme  (#1727)
+4094e22a3	2022-05-20	Person GD	human	0	.github	7	3	1	chore: Set permissions for GitHub actions
+1bab84c22	2022-05-22	Person A	human	0	tests	7	22	1	Add test for Option passed to wrong routines (#1729)
+3103c6b11	2022-05-23	Person A	human	0	tests	7	31	1	Add more tests for implies (#1730)
+e89eca887	2022-05-24	Person GC	human	0	.github	7	6	1	chore: Included githubactions in the dependabot config
+f2aec2648	2022-05-28	Person A	human	0	(top level)	7	28	3	Prepare for 9.3.0
+becb22fd1	2022-05-28	dependabot[bot]	bot	0	.github	7	2	1	Bump actions/setup-node from 2 to 3
+211ff69ac	2022-05-28	dependabot[bot]	bot	0	.github	7	4	2	Bump actions/checkout from 2 to 3
+dccc90676	2022-05-28	dependabot[bot]	bot	0	.github	7	6	1	Bump github/codeql-action from 1 to 2
+fd24e92ef	2022-05-28	Person A	human	0	.github	7	1	1	Add target-branch
+3e202f386	2022-05-29	Person A	human	0	.github	7	4	1	Add develop branch for earlier warnings
+3ae30a291	2022-06-20	Person AE	human	0	(top level)	7	4	2	Export InvalidOptionArgumentError in esm (#1756)
+2c7f687ea	2022-07-12	Person GY	human	0	(top level)	7	145	7	feat: add preSubcommand hook (#1763)
+177cc6e6d	2022-07-13	Person A	human	0	(top level)	7	7831	3	Update dependencies (#1767)
+82fcb98cc	2022-07-14	Person A	human	0	(top level)	7	24	3	Update CHANGELOG preparing for 9.4.0
+84d9201e9	2022-09-06	Person A	human	0	lib	8	24	2	setOptionValue should clear option source (#1795)
+72be61c0e	2022-09-06	Person A	human	0	lib	8	22	4	Add implied to option value sources (#1794)
+8236966ca	2022-09-08	Person A	human	0	(top level)	8	4	1	Add mention of makeOptionMandatory in README (#1797)
+471ec400b	2022-09-08	Person A	human	0	(top level)	8	2	1	Add copyInheritedSettings to README (#1798)
+c15ae6853	2022-09-26	Person A	human	0	(top level)	8	15	1	Update CHANGELOG for 9.4.1
+0b4198dde	2022-09-30	Person D	human	0	(top level)	8	6	2	9.4.1
+186f0c8e1	2022-10-01	Person A	human	0	lib	8	73	2	Wrap command description in help (#1804)
+ef88d707f	2022-10-06	Person A	human	0	(top level)	8	8	3	Bump supported versions (#1808)
+1760b4285	2022-10-31	Person A	human	0	(top level)	8	10	1	Add extra-typings to README (#1814)
+c897329f4	2022-11-07	Person A	human	0	(top level)	8	4	2	Update minimum version of node in README (#1815)
+8d3c7b5e8	2022-11-17	Person CF	human	0	tests	8	6	3	Fix some typos (#1821)
+198c6e42c	2022-11-25	Person A	human	0	(none)	8	0	0	Merge branch 'master' into develop
+f3880f779	2022-11-27	Person A	human	0	(top level)	8	3340	4	Update dependencies (#1826)
+e0f6173c3	2022-11-29	Person A	human	0	(none)	8	0	0	Merge remote-tracking branch 'origin/develop' into release/10.x
+04fc0fdc5	2022-11-29	Person A	human	0	typings	8	6	2	Add Command.options to TypeScript (#1827)
+0ae5b2fba	2022-12-07	Person A	human	0	examples	8	356	11	Support showing global options in help (#1828)
+5a201ecb5	2022-12-19	Person A	human	0	typings	8	193	4	Add getOptionValueSourceWithGlobals for completeness. (#1832)
+91bfa8d8e	2022-12-19	Person A	human	0	(top level)	8	39	2	Add mention of .alias() to README. (#1833)
+5f3f004b8	2022-12-26	Person DQ	human	0	(top level)	8	854	3	*: update dev deps and make tweaks
+f6dd14ad5	2023-01-01	Person A	human	0	(top level)	8	27	1	Update CHANGELOG for 9.5.0
+e6d85fc81	2023-01-01	Person A	human	0	(top level)	8	2	1	Fix year for release
+2326c53ab	2023-01-01	Person A	human	0	(top level)	8	3096	1	Update dependencies to get new version of json5
+7a5bd0626	2023-01-07	Person D	human	0	(top level)	8	6	2	9.5.0
+2bdd63110	2023-01-09	Person A	human	0	(none)	8	0	0	Merge branch 'master' into release/10.x
+d0dac4c0f	2023-01-14	Person A	human	0	(top level)	8	12	1	Update CHANGELOG (#1840)
+8b03ab75b	2023-01-14	Person A	human	0	(top level)	8	6	2	10.0.0
+869c3c087	2023-01-22	Person A	human	0	typings	8	1	1	Remove unused property (#1844)
+f4c7349a7	2023-03-15	Person A	human	0	examples	8	19	3	Assume a string parameter to implies is name of boolean option. (#1854)
+ee78d957d	2023-03-29	Person EE	human	0	(top level)	8	4	2	Link to Help class in configure-help.js and README.
+1aa52718e	2023-04-06	Person A	human	0	(top level)	8	2	1	Describe help description wrapping
+28928ed71	2023-04-06	Person A	human	0	docs	8	23	1	Add parsing life cycle and hooks
+5fbf83aa2	2023-04-07	Person A	human	0	(top level)	8	17	2	Add new documentation to README
+321cd7624	2023-04-07	Person A	human	0	docs	8	6	1	Could be multiple hooks, pluralise
+33195f189	2023-04-15	Person A	human	0	(top level)	8	24	3	Update CHANGELOG and version for 10.0.1
+fac9d8c89	2023-04-19	Person D	human	0	.github	8	2	1	ci: add 20.x to `node-version`
+63abdaca0	2023-04-21	Person A	human	0	lib	8	62	2	Have help command call help directly for subcommands, when possible (#1864)
+60958df4c	2023-04-30	Person A	human	0	(top level)	8	12	1	Add npm run-script to README (#1872)
+2f07c2af7	2023-05-04	Person GV	human	0	lib	8	2	1	trim() input string of .arguments method
+ffc78979c	2023-05-14	Person A	human	0	docs	8	21	1	Deprecate import from commander/esm.mjs (#1887)
+a4c96e6fe	2023-05-14	Person A	human	0	(top level)	8	23	3	Add separate type file for esm per TypeScript guidelines (#1886)
+76d3d1168	2023-05-27	Person A	human	0	(top level)	8	3039	6	Update to minimum of node 16
+752900d84	2023-05-27	Person A	human	0	typings	8	10	1	Lint fixes for latest rules
+1b8e82d07	2023-05-27	Person A	human	0	(top level)	8	16	1	Update CHANGELOG for 11.0.0
+1be6dfa33	2023-05-27	Person A	human	0	(top level)	8	2	1	Adjust date
+4ef19faac	2023-05-27	Person A	human	0	(top level)	8	4	2	Bump version
+7fe7831ae	2023-06-26	Person A	human	0	examples	8	29	1	Add example of displaying custom usage in subcommand list (#1896)
+d0385706a	2023-07-11	Person A	human	0	(top level)	8	2	1	Bump extra Commander version number in lock file (#1905)
+2e2f13921	2023-07-28	Person F	human	0	(top level)	8	2	1	Add note on inherited settings to docs
+880b0286d	2023-07-29	Person F	human	0	(top level)	8	2	1	Improve docs about inherited settings
+401b0d62a	2023-08-02	Person F	human	0	tests	8	10	1	Change initial variable values in test for better error messages
+ff0fd9edb	2023-08-02	Person F	human	0	lib	8	5	1	Throw error on options-as-properties config after setting option values
+6871e6863	2023-08-02	Person F	human	0	tests	8	8	1	Add test for storeOptionsAsProperties() after setting option value
+14fb52918	2023-08-03	Person F	human	0	lib	8	4	2	Fix version() parameter type
+9c38a9511	2023-08-03	Person F	human	0	lib	8	8	1	Do not use undefined long help option flag in legacy code
+681a7e417	2023-08-04	Person F	human	0	lib	8	21	1	Add missing checks for passThroughOptions
+af67d1113	2023-08-04	Person F	human	0	tests	8	35	1	Add tests for illegal passThroughOptions
+1453bdf53	2023-08-05	Person F	human	0	lib	8	14	2	Remove illegal passThroughOptions check deemed unnecessary
+c60ce9daa	2023-08-05	Person F	human	0	lib	8	8	2	Use weaker wording: "broken" instead of "illegal"
+ec1942ddc	2023-08-05	Person F	human	0	lib	8	2	1	Unclutter error message in broken passThrough checks
+ac8db3a6f	2023-08-05	Person F	human	0	lib	8	12	1	Refactor _checkForBrokenPassThrough() to make it instance-aware
+1f90b11ed	2023-08-05	Person F	human	0	lib	8	37	1	Introduce _getCommandAndAncestors()
+25ebeade5	2023-08-05	Person F	human	0	lib	8	31	2	Use _getCommandAndAncestors() consistently
+3b31a1f63	2023-08-05	Person F	human	0	docs	8	48	3	Fix grammar in docs
+2dc745860	2023-08-07	Person D	human	0	.github	8	8	1	Fix indentation
+dde6bb52c	2023-08-07	Person D	human	0	.github	8	5	1	Watch for npm package updates with dependabot
+f76a73497	2023-08-10	Person F	human	0	lib	8	15	2	Use _getCommandAndAncestors() less aggressively
+96f076d8f	2023-08-11	Person F	human	0	tests	8	4	1	Call storeOptionsAsProperties() with appropriate parameter value in test
+f3431d157	2023-08-12	Person F	human	0	lib	8	4	2	Revert "Fix version() parameter type"
+c1171729b	2023-08-13	Person F	human	0	lib	8	6	1	Fix help for commands with executable handler & only a short help flag
+68a427658	2023-08-13	Person F	human	0	typings	8	6	3	Fix executableDir() return type
+5740e5999	2023-08-22	Person A	human	0	lib	8	20	1	Improve chain variable name (#1958)
+95d54c3b2	2023-08-22	Person A	human	0	(none)	8	0	0	Merge branch 'develop' into release/12.x
+4c095d149	2023-08-24	Person A	human	0	lib	8	43	1	Refactor to wrap invalid argument (#1977)
+f5413db55	2023-08-26	Person A	human	0	typings	8	18	3	Types for version getter (#1982)
+0d432ba2a	2023-08-26	Person A	human	0	typings	8	11	1	Make OptionValueSource a string with  well-known values for auto-complete. (#1983)
+c7d39ca1a	2023-09-03	Person A	human	0	(top level)	8	22	2	Move Jest configuration to config file (#2005)
+f570b089a	2023-09-03	Person A	human	0	(none)	8	0	0	Merge branch 'develop' into release/12.x
+e85e05a5b	2023-09-10	Person A	human	0	lib	8	106	2	Rework option inline doc (#2009)
+8edcfd982	2023-09-10	Person A	human	0	tests/fixtures	8	4	2	Work-around bug in Jest (#2011)
+7d234372f	2023-09-11	Person A	human	0	lib	8	84	7	Add public Arguments property (#2010)
+58820a47b	2023-09-11	dependabot[bot]	bot	0	.github	8	4	2	Bump actions/checkout from 3 to 4 (#2012)
+384f17b76	2023-09-12	Person A	human	0	(top level)	8	147	3	Explicitly export factory functions (#2013)
+14edbca77	2023-09-12	Person A	human	0	(top level)	8	34	2	Revert factory function reexport (#2014)
+26a34e614	2023-09-14	Person A	human	0	lib	8	10	3	Replace {any} with {*} as native JSDoc (#2015)
+c876dee8a	2023-09-15	Person A	human	0	tests/fixtures	8	96	8	Remove default export of global program (#2017)
+37c939818	2023-09-16	Person A	human	0	lib	8	110	3	Switch @someone private to official JSDoc (#2018)
+744ee3f30	2023-09-21	Person A	human	0	typings	8	28	2	Add more Option and Argument properties to typings (#2019)
+9afbabd2f	2023-09-23	Person A	human	0	(none)	8	0	0	Merge remote-tracking branch 'origin/develop' into release/12.x
+96c6c2511	2023-10-04	Person A	human	0	(top level)	8	125	12	Refactor type-checking setup (#1969)
+a0ca1bd47	2023-10-07	Person A	human	0	(top level)	8	8	4	Drop Node.js 16 (#2027)
+5aaca0d66	2023-10-07	Person A	human	0	tests/fixtures	8	92	5	Exit with non-zero code when subprocess terminated by signal (#2023)
+67c9180cd	2023-10-07	Person A	human	0	lib	8	20	2	Comment out new misuse check until a major version (#2026)
+03dea00fe	2023-10-07	Person A	human	0	docs	8	411	3	Refactor headings (#2028)
+72e6f7a59	2023-10-07	Person A	human	0	(none)	8	0	0	Merge branch 'develop' into release/12.x
+591fc4bca	2023-10-08	Person A	human	0	(none)	8	0	0	Merge branch 'fix/grammar' of github.com:someone/commander.js into aweebit-fix/grammar
+f1ae2db8e	2023-10-13	Person A	human	0	(top level)	8	39	3	Update CHANGELOG for 11.1.0 (#2025)
+d90c59c95	2023-10-13	Person A	human	0	lib	8	20	2	Restore extra sanity check when enabling storeOptionsAsProperties (#2029)
+d90e81edd	2023-10-15	Person A	human	0	(top level)	8	19	1	Add migration tips for default import
+1652a6c8c	2023-10-15	dependabot[bot]	bot	0	(top level)	8	34	1	Bump @types/node from 20.2.5 to 20.8.5 (#2034)
+270bb122d	2023-10-15	dependabot[bot]	bot	0	(top level)	8	218	1	Bump eslint from 8.41.0 to 8.51.0 (#2033)
+1a328d2c7	2023-10-15	dependabot[bot]	bot	0	(top level)	8	141	1	Bump @typescript-eslint/parser from 5.59.7 to 5.62.0 (#2030)
+f8bd5be41	2023-10-15	dependabot[bot]	bot	0	(top level)	8	52	1	Bump eslint-config-standard from 17.0.0 to 17.1.0 (#2031)
+7e6c66391	2023-10-16	dependabot[bot]	bot	0	(top level)	8	7028	2	Bump @typescript-eslint/eslint-plugin from 5.59.7 to 6.7.5 (#2032)
+695f4198d	2023-10-16	dependabot[bot]	bot	0	(top level)	8	23	2	Bump tsd from 0.28.1 to 0.29.0
+e56e9d012	2023-10-16	Person A	human	0	(top level)	8	2	1	Add explicit note to only call parse once (#2036)
+f2e26c3b9	2023-10-26	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/jest from 29.5.5 to 29.5.6 (#2047)
+27edf5d67	2023-10-26	dependabot[bot]	bot	0	(top level)	8	127	2	Bump eslint-plugin-n from 15.7.0 to 16.2.0 (#2044)
+2bcf2efce	2023-10-26	dependabot[bot]	bot	0	(top level)	8	88	1	Bump @typescript-eslint/parser from 6.7.5 to 6.8.0 (#2043)
+9322aa10c	2023-10-26	dependabot[bot]	bot	0	(top level)	8	6	1	Bump eslint-plugin-jest from 27.4.2 to 27.4.3 (#2045)
+fac24a948	2023-10-28	dependabot[bot]	bot	0	(top level)	8	37	1	Bump eslint from 8.51.0 to 8.52.0 (#2046)
+84b44f4d7	2023-10-31	dependabot[bot]	bot	0	(top level)	8	6	1	Bump eslint-plugin-jest from 27.4.3 to 27.6.0 (#2049)
+0e5f2e815	2023-10-31	dependabot[bot]	bot	0	(top level)	8	14	1	Bump @types/node from 20.8.6 to 20.8.9 (#2052)
+63dd43ae9	2023-10-31	dependabot[bot]	bot	0	.github	8	2	1	Bump actions/setup-node from 3 to 4 (#2054)
+4c842a86f	2023-10-31	dependabot[bot]	bot	0	(top level)	8	70	1	Bump @typescript-eslint/eslint-plugin from 6.7.5 to 6.9.0 (#2053)
+67c1e09ce	2023-10-31	dependabot[bot]	bot	0	(top level)	8	46	1	Bump eslint-plugin-import from 2.28.1 to 2.29.0 (#2051)
+49f4766fc	2023-10-31	dependabot[bot]	bot	0	(top level)	8	48	1	Bump @typescript-eslint/parser from 6.8.0 to 6.9.0 (#2050)
+7d08bc749	2023-11-01	Person D	human	0	.github	8	2	1	Change npm package checks in dependabot to monthly (#2057)
+b96af407c	2023-11-01	Person A	human	0	lib	8	88	2	Throw error when add option with clashing flags (#2055)
+1d3dd47d7	2023-11-04	Person A	human	0	lib	8	87	2	Add check for overlapping command names or aliases (#2059)
+b521b7a05	2023-11-07	Person A	human	0	(none)	8	0	0	Merge remote-tracking branch 'upstream/develop' into release/12.x
+ce4d5f71b	2023-11-07	Person A	human	0	(none)	8	0	0	Merge branch 'release/12.x' of github.com:someone/commander.js into release/12.x
+0e0fedbaa	2023-11-09	Person A	human	0	(none)	8	0	0	Merge pull request #2065 from someone/feature/merge-develop-into-12
+c6820a588	2023-11-10	Person A	human	0	(top level)	8	34	1	Update CHANGELOG for 12.0.0 (#2066)
+4085ac744	2023-11-11	Person A	human	0	(top level)	8	4	1	Prepare for prerelease 12.0.0-0
+db6b4d591	2023-11-11	Person A	human	0	(top level)	8	2	1	Bump required version in package-lock
+18f921d97	2023-11-11	Person A	human	0	(top level)	8	6	2	12.0.0-0
+48f9fd9ca	2023-11-11	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/jest from 29.5.6 to 29.5.7 (#2064)
+902124d4a	2023-11-11	dependabot[bot]	bot	0	(top level)	8	34	1	Bump eslint from 8.52.0 to 8.53.0 (#2061)
+c20a71dd9	2023-11-11	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/node from 20.8.9 to 20.8.10 (#2063)
+6b74d2659	2023-11-11	dependabot[bot]	bot	0	(top level)	8	70	1	Bump @typescript-eslint/eslint-plugin from 6.9.0 to 6.9.1 (#2060)
+29784561f	2023-11-11	dependabot[bot]	bot	0	(top level)	8	48	1	Bump @typescript-eslint/parser from 6.9.0 to 6.9.1 (#2062)
+883d326f8	2023-11-14	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/jest from 29.5.7 to 29.5.8 (#2076)
+f234c257c	2023-11-14	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/node from 20.8.10 to 20.9.0 (#2074)
+c1b252677	2023-11-14	dependabot[bot]	bot	0	(top level)	8	70	1	Bump @typescript-eslint/eslint-plugin from 6.9.1 to 6.10.0 (#2072)
+47a48c9d9	2023-11-14	dependabot[bot]	bot	0	(top level)	8	48	1	Bump @typescript-eslint/parser from 6.9.1 to 6.10.0 (#2073)
+8eed8c29b	2023-11-14	dependabot[bot]	bot	0	(top level)	8	34	1	Bump eslint-plugin-n from 16.2.0 to 16.3.1 (#2075)
+9821f3a75	2023-11-15	Person A	human	0	(top level)	8	2	1	Update url per npm advice (#2077)
+066e38110	2023-11-15	Person A	human	0	docs	8	95	1	Add Removed section to Deprecated (#2078)
+02ba9042a	2023-11-29	dependabot[bot]	bot	0	(top level)	8	14	1	Bump eslint from 8.53.0 to 8.54.0 (#2082)
+158c3c7fb	2023-11-30	dependabot[bot]	bot	0	(top level)	8	10	2	Bump eslint-config-standard-with-typescript from 39.1.1 to 40.0.0 (#2083)
+d8a093881	2023-12-01	dependabot[bot]	bot	0	(top level)	8	48	1	Bump @typescript-eslint/parser from 6.10.0 to 6.13.1 (#2091)
+12a8b4723	2023-12-12	Person A	human	0	(top level)	8	5	1	Rework exitOverride description (#2098)
+32c05a8c0	2023-12-16	Person A	human	0	lib	8	66	2	Improve JSDoc (#2103)
+47f740cbc	2023-12-27	dependabot[bot]	bot	0	.github	8	6	1	Bump github/codeql-action from 2 to 3 (#2108)
+f686b2e3b	2024-01-10	dependabot[bot]	bot	0	(top level)	8	95	1	Bump @typescript-eslint/eslint-plugin from 6.10.0 to 6.18.0 (#2117)
+1a41d3c69	2024-01-10	dependabot[bot]	bot	0	(top level)	8	6	1	Bump typescript from 5.2.2 to 5.3.3 (#2100)
+8cc042d71	2024-01-10	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/jest from 29.5.8 to 29.5.11 (#2102)
+b0f789fa0	2024-01-10	dependabot[bot]	bot	0	(top level)	8	34	1	Bump eslint from 8.54.0 to 8.56.0 (#2107)
+ff08a0286	2024-01-11	Person A	human	0	(top level)	8	437	9	Refactor help command implementation to hold actual Command (#2087)
+09244af7a	2024-01-17	Person A	human	0	(top level)	8	268	11	Refactor help option implementation to hold actual Option (#2006)
+eed665d5b	2024-01-19	Person A	human	0	(top level)	8	18	1	Add 12.0.0-1 changes to CHANGELOG
+90f3c8a4c	2024-01-19	Person A	human	0	(top level)	8	6	2	12.0.0-1
+b53109b64	2024-01-19	Person A	human	0	(top level)	8	15	1	Add links in CHANGELOG
+4d832b2d8	2024-01-27	Person A	human	0	(none)	8	0	0	Merge remote-tracking branch 'origin/develop' into release/12.x
+3f44d2997	2024-01-27	Person A	human	0	(top level)	8	941	2	Update dependencies preparing for release (#2132)
+608eaf0b8	2024-02-03	Person A	human	0	(top level)	8	35	2	Update CHANGELOG for v12 (#2133)
+e3192a13a	2024-02-03	Person A	human	0	(none)	8	0	0	Merge pull request #2140 from someone/release/12.x
+83c3f4e39	2024-02-03	Person A	human	0	(top level)	8	6	2	Bump version to 12.0.0
+623c01bb7	2024-02-13	Person A	human	0	(top level)	8	7	1	Simplify security policy (#2150)
+c8c81bf76	2024-02-14	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/node from 20.11.7 to 20.11.16 (#2141)
+3b925361d	2024-02-14	dependabot[bot]	bot	0	(top level)	8	89	1	Bump @typescript-eslint/parser from 6.19.1 to 6.20.0 (#2142)
+1fd3b95df	2024-02-14	dependabot[bot]	bot	0	(top level)	8	216	1	Bump @typescript-eslint/eslint-plugin from 6.19.1 to 6.20.0 (#2143)
+dd2d8fb8d	2024-02-14	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/jest from 29.5.11 to 29.5.12 (#2144)
+41b12cf8c	2024-03-12	Person A	human	0	examples	8	121	39	Use standard import in examples (#2168)
+6fc933e3b	2024-04-04	Person A	human	0	(top level)	8	3596	25	ESLint changes preparing for Prettier (#2153)
+1bdc749ac	2024-04-05	Person A	human	0	tests	8	5216	132	Reformat code with Prettier (#2180)
+f7b847570	2024-04-06	Person EK	human	0	lib	8	10	1	Fix: Use `node`-prefixed requires for builtins (#2170)
+b9ca39062	2024-04-07	Person A	human	0	(top level)	8	135	4	Add auto-detection of args when node evaluating script code on command-line (#2164)
+a9967826c	2024-04-07	Person A	human	0	(top level)	8	26	1	Wrap all eslint configs in tseslint.config (#2182)
+b95ea4479	2024-04-07	Person A	human	0	lib	8	93	7	Fix some JSDoc lint issues (#2181)
+27b134962	2024-05-04	dependabot[bot]	bot	0	(top level)	8	6	1	Bump typescript from 5.2.2 to 5.4.5 (#2189)
+6c740e963	2024-05-04	dependabot[bot]	bot	0	(top level)	8	171	2	Bump eslint-plugin-jest from 27.9.0 to 28.3.0 (#2188)
+4484e79e3	2024-05-04	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/node from 20.8.9 to 20.12.7 (#2187)
+f09d0b29a	2024-05-04	dependabot[bot]	bot	0	(top level)	8	125	1	Bump @typescript-eslint/parser from 6.14.0 to 6.21.0 (#2179)
+c749eb89c	2024-05-04	dependabot[bot]	bot	0	(top level)	8	18	2	Bump tsd from 0.30.4 to 0.31.0 (#2172)
+d3b48f7fe	2024-05-04	Person A	human	0	typings	8	8	2	Remove unimplemented fullDescription from TypeScript (#2191)
+0e083f8af	2024-05-04	Person D	human	0	.github	8	2	1	ci: add 22.x to node-version (#2192)
+4a9b21153	2024-05-18	Person A	human	0	(top level)	8	24	1	Prepare CHANGELOG for 12.1.0 (#2193)
+970ecae40	2024-05-18	Person D	human	0	(top level)	8	6	2	12.1.0
+864155448	2024-05-24	Person A	human	0	(top level)	8	707	4	Removed unused jsdoc plugins for eslint and prettier (#2199)
+22239e6c7	2024-05-30	Person DL	human	0	typings	8	6	2	set `this`context (#2197)
+d4dd371eb	2024-06-09	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/node from 20.12.7 to 20.13.0 (#2204)
+b5b58fa17	2024-06-09	dependabot[bot]	bot	0	(top level)	8	21	2	Bump @eslint/js from 8.56.0 to 9.4.0 (#2200)
+b2b8f41c8	2024-06-09	dependabot[bot]	bot	0	(top level)	8	8	1	Bump eslint-plugin-jest from 28.3.0 to 28.5.0 (#2201)
+2c6a7bbd9	2024-06-09	dependabot[bot]	bot	0	(top level)	8	160	1	Bump typescript-eslint from 7.0.1 to 7.11.0 (#2203)
+19fa79fa7	2024-06-09	Person A	human	0	lib	8	2	1	Coerce process.exitCode to number to match local usage (#2209)
+3fa29f704	2024-06-15	Person A	human	0	(top level)	8	14	3	Feature/run all checks (#2210)
+4fcb276f9	2024-07-01	Person A	human	0	docs	8	5	1	Fill in detail on addHelpCommand deprecation (#2221)
+351907543	2024-07-08	dependabot[bot]	bot	0	(top level)	8	30	2	Bump globals from 13.24.0 to 15.7.0 (#2220)
+61cb8119c	2024-07-08	dependabot[bot]	bot	0	(top level)	8	102	1	Bump typescript-eslint from 7.11.0 to 7.14.1 (#2219)
+fd505840d	2024-07-08	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/node from 20.13.0 to 20.14.9 (#2216)
+79a597898	2024-07-08	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @eslint/js from 9.4.0 to 9.6.0 (#2218)
+fe62eb99e	2024-07-08	Person A	human	0	.github	8	4	1	Remove unneeded header from Pull Request template (#2224)
+0258beefd	2024-07-08	dependabot[bot]	bot	0	(top level)	8	6	1	Bump prettier from 3.2.5 to 3.3.2 (#2217)
+58c28eb13	2024-07-08	Person A	human	0	tests	8	111	11	Disallow excess arguments (#2223)
+f5694465e	2024-08-13	dependabot[bot]	bot	0	(top level)	8	6	1	Bump globals from 15.7.0 to 15.8.0 (#2231)
+5fb4cee87	2024-08-13	dependabot[bot]	bot	0	(top level)	8	6	1	Bump tsd from 0.31.0 to 0.31.1 (#2232)
+54929dcaf	2024-08-13	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/jest from 29.5.6 to 29.5.12 (#2233)
+6c38135cf	2024-08-13	dependabot[bot]	bot	0	(top level)	8	82	1	Bump ts-jest from 29.1.1 to 29.2.3 (#2234)
+4e87829ba	2024-08-13	Person EZ	human	0	(top level)	8	2	1	Fix showHelpAfterError typo in CHANGELOG (#2226)
+399a7c693	2024-09-06	dependabot[bot]	bot	0	(top level)	8	6	1	Bump globals from 15.8.0 to 15.9.0 (#2244)
+d0d974796	2024-09-06	dependabot[bot]	bot	0	(top level)	8	6	1	Bump prettier from 3.3.2 to 3.3.3 (#2241)
+0c35d06e1	2024-09-06	dependabot[bot]	bot	0	(top level)	8	6	1	Bump typescript from 5.4.5 to 5.5.4 (#2240)
+bdc671a2c	2024-09-06	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @eslint/js from 9.6.0 to 9.9.1 (#2242)
+4c1bdb16b	2024-09-06	dependabot[bot]	bot	0	(top level)	8	45	1	Bump ts-jest from 29.2.3 to 29.2.5 (#2243)
+64c2bceb0	2024-09-13	Person A	human	0	lib	8	5	1	Respect negate property in attributeName
+26215d14f	2024-10-06	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @eslint/js from 9.9.1 to 9.11.1 (#2259)
+b378166d7	2024-10-06	dependabot[bot]	bot	0	(top level)	8	10	1	Bump eslint-plugin-jest from 28.5.0 to 28.8.3 (#2256)
+d924c218e	2024-10-06	dependabot[bot]	bot	0	(top level)	8	18	2	Bump @types/node from 20.14.9 to 22.7.4 (#2257)
+19975e14c	2024-10-06	dependabot[bot]	bot	0	(top level)	8	6	1	Bump tsd from 0.31.1 to 0.31.2 (#2258)
+0193201fb	2024-10-06	dependabot[bot]	bot	0	(top level)	8	6	1	Bump typescript from 5.5.4 to 5.6.2 (#2255)
+3a79d8468	2024-10-11	Person DS	human	0	(top level)	8	34	11	Fix typos (#2264)
+2c9051a59	2024-10-13	Person A	human	0	examples	8	13	4	Update README and examples for allowExcessArguments change (#2266)
+966720af9	2024-10-29	Person A	human	0	tests	8	75	3	Throw for unsupported option flag setup (#2270)
+7bc799b02	2024-11-03	Person A	human	0	(top level)	8	201	5	Upgrade eslint and tselint (#2278)
+a19ab38b2	2024-11-05	dependabot[bot]	bot	0	(top level)	8	6	1	Bump globals from 15.9.0 to 15.11.0 (#2273)
+0e3298538	2024-11-05	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/jest from 29.5.12 to 29.5.14 (#2272)
+6f5431f32	2024-11-05	dependabot[bot]	bot	0	(top level)	8	6	1	Bump typescript from 5.6.2 to 5.6.3 (#2274)
+c0afc314d	2024-11-05	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @eslint/js from 9.11.1 to 9.14.0 (#2279)
+5a795857e	2024-11-10	Person A	human	0	(none)	8	0	0	Merge branch 'develop' into release/13.x
+5629947a2	2024-11-21	Person A	human	0	tests	8	1739	17	Support color ansi code sequences in custom help (#2251)
+437e4e325	2024-11-26	Person A	human	0	examples	8	89	6	Split styleItemDescription into option/subcommand/argument (#2283)
+d355b52d2	2024-11-26	Person A	human	0	(top level)	8	159	3	More Help documentation (#2282)
+53fc8a4b2	2024-12-06	Person A	human	0	(top level)	8	34	4	Prepare for 13.0.0-0 (#2292)
+37e86af4c	2024-12-06	Person A	human	0	(top level)	8	10	1	Add links to CHANGELOG
+02c603ebe	2024-12-08	Person A	human	0	(top level)	8	6	1	Add clues about what help configuration is available to help with searches and encourage people to look further (#2294)
+a8ef5cf3e	2024-12-08	Person A	human	0	tests	8	123	3	Add informative message for missing executable on Windows (#2291)
+497c11d83	2024-12-14	Person A	human	0	(top level)	8	2443	4	Update dependencies (#2295)
+49423a288	2024-12-27	Person A	human	0	typings	8	297	5	Add save/restore state to allow multiple calls to parse (#2299)
+fb2c46a00	2024-12-30	Person A	human	0	(top level)	8	13	1	Update CHANGELOG for 13.0.0 (#2301)
+fa9e5eddb	2024-12-30	Person D	human	0	(top level)	8	2	1	Update release date
+d6bcb0b6e	2024-12-30	Person D	human	0	(top level)	8	6	2	13.0.0
+bb733f4f0	2025-01-10	Person A	human	0	.github	8	2	1	Reorder funding with active maintainers first (#2310)
+8263b7f09	2025-01-13	Person A	human	0	(top level)	8	89	7	Add support for dual long options when no short option (#2312)
+2619c99a1	2025-01-17	Person FI	human	0	(top level)	8	3	1	Fix example code in Readme_zh-CN.md (#2313)
+ad3ecf0e3	2025-01-20	Person A	human	0	(top level)	8	29	1	Add 13.1 to CHANGELOG (#2315)
+e6f56c888	2025-01-20	Person D	human	0	(top level)	8	6	2	13.1.0
+d4cf052ab	2025-01-20	dependabot[bot]	bot	0	(top level)	8	107	1	Bump typescript-eslint from 8.18.0 to 8.19.0 (#2305)
+0f884cf53	2025-01-20	dependabot[bot]	bot	0	(top level)	8	7	1	Bump globals from 15.13.0 to 15.14.0 (#2306)
+f45d8d878	2025-01-20	dependabot[bot]	bot	0	(top level)	8	7	1	Bump eslint-plugin-jest from 28.9.0 to 28.10.0 (#2304)
+5e563a429	2025-01-27	Person EO	human	0	(top level)	8	2	1	Added missing period for consistency and readability (#2318)
+fc95f5b0f	2025-02-01	dependabot[bot]	bot	0	(top level)	8	31	1	Bump eslint from 9.17.0 to 9.19.0 (#2319)
+321bfee0c	2025-02-01	dependabot[bot]	bot	0	(top level)	8	12	2	Bump eslint-config-prettier from 9.1.0 to 10.0.1 (#2320)
+92347a58a	2025-02-01	dependabot[bot]	bot	0	(top level)	8	7	1	Bump eslint-plugin-jest from 28.10.0 to 28.11.0 (#2321)
+899049b0e	2025-02-01	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/node from 22.10.2 to 22.13.0 (#2323)
+7dd9b68f3	2025-02-01	dependabot[bot]	bot	0	(top level)	8	123	1	Bump typescript-eslint from 8.19.0 to 8.22.0 (#2322)
+b8fe4f129	2025-02-15	Person A	human	0	(top level)	8	4	1	Update more of README with opt-in allowExcessArguments() (#2327)
+de491d493	2025-03-23	dependabot[bot]	bot	0	(top level)	8	14	1	Bump ts-jest from 29.2.5 to 29.2.6 (#2330)
+694acab03	2025-03-23	dependabot[bot]	bot	0	(top level)	8	16	1	Bump @eslint/js from 9.19.0 to 9.21.0 (#2334)
+ad7d11ff3	2025-03-23	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/node from 22.13.0 to 22.13.7 (#2332)
+04d6b0c76	2025-03-24	dependabot[bot]	bot	0	(top level)	8	105	1	Bump eslint from 9.19.0 to 9.21.0 (#2331)
+9d941f813	2025-03-25	Person A	human	0	(top level)	8	370	2	Update dependencies (#2349)
+672e3806c	2025-03-25	Person DP	human	0	lib	8	18	2	Trim description when there's only extra info (#2348)
+68199e64b	2025-03-26	Person A	human	0	lib	8	17	2	Make .configureOutput() create copy of settings instead of in-place change (#2350)
+6db70cd4e	2025-04-06	dependabot[bot]	bot	0	(top level)	8	96	1	Bump typescript-eslint from 8.28.0 to 8.29.0 (#2354)
+a4e8cb408	2025-04-06	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/node from 22.13.13 to 22.13.14 (#2353)
+c15a2cb23	2025-04-06	dependabot[bot]	bot	0	(top level)	8	8	1	Bump ts-jest from 29.3.0 to 29.3.1 (#2352)
+f6302de32	2025-04-11	Person A	human	0	(top level)	8	298	3	Allow negative numbers as optional optional arguments and command arguments when unambiguous (#2339)
+0371e8045	2025-04-28	Person DK	human	0	lib	8	13	2	add parseArg to Argument class (#2359)
+1276c4c41	2025-05-01	dependabot[bot]	bot	0	(top level)	8	6	1	Bump eslint-config-prettier from 10.1.1 to 10.1.2 (#2360)
+a2eebf36c	2025-05-01	dependabot[bot]	bot	0	(top level)	8	14	1	Bump @types/node from 22.13.14 to 22.15.3 (#2361)
+d0380cf54	2025-05-01	dependabot[bot]	bot	0	(top level)	8	6	1	Bump typescript from 5.8.2 to 5.8.3 (#2364)
+5bb7b6e3a	2025-05-01	dependabot[bot]	bot	0	(top level)	8	16	1	Bump @eslint/js from 9.23.0 to 9.25.1 (#2363)
+ed70e5b78	2025-05-01	dependabot[bot]	bot	0	(top level)	8	52	1	Bump eslint from 9.23.0 to 9.25.1 (#2362)
+fe4bedb25	2025-05-07	Person D	human	0	.github	8	2	1	ci: Update node-version (#2365)
+00af60306	2025-05-08	Person A	human	0	(none)	8	0	0	Merge branch 'develop' into release/14.x
+c324ea3d7	2025-05-08	Person A	human	0	tests	8	603	9	Add support for groups of options and commands in the help (#2328)
+dd7edf426	2025-05-16	Person A	human	0	typings	8	120	3	Add typings for helpGroup support (#2367)
+395cf7145	2025-05-16	Person A	human	0	(top level)	8	37	4	Preparing for Commander v14.0.0 (#2366)
+562caf257	2025-05-26	Person GF	human	0	(top level)	8	4	1	Fix typos and broken link (#2369)
+87d9f965e	2025-06-15	dependabot[bot]	bot	0	(top level)	8	162	1	Bump typescript-eslint from 8.29.0 to 8.33.0 (#2376)
+a1d8ae637	2025-06-15	dependabot[bot]	bot	0	(top level)	8	18	2	Bump tsd from 0.31.2 to 0.32.0 (#2374)
+8a43457d0	2025-06-15	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/node from 22.15.3 to 22.15.29 (#2373)
+b1955ae48	2025-06-15	dependabot[bot]	bot	0	(top level)	8	6	1	Bump eslint-plugin-jest from 28.11.0 to 28.12.0 (#2372)
+cfcc7814f	2025-06-24	Person A	human	0	(top level)	8	563	2	Update dependencies (#2381)
+567ede213	2025-07-03	dependabot[bot]	bot	0	(top level)	8	2627	2	Bump jest and @types/jest (#2388)
+279f1e51d	2025-07-03	dependabot[bot]	bot	0	(top level)	8	131	1	Bump typescript-eslint from 8.34.1 to 8.35.1 (#2392)
+78853b7ce	2025-07-03	dependabot[bot]	bot	0	(top level)	8	19	1	Bump @eslint/js from 9.29.0 to 9.30.0 (#2389)
+fbc9f103a	2025-07-04	dependabot[bot]	bot	0	(top level)	8	40	1	Bump eslint from 9.29.0 to 9.30.0 (#2390)
+9d3cfb6af	2025-07-04	Person W	human	0	lib	8	6	1	refactor: use optional chaining (#2394)
+138b1a311	2025-07-05	Person W	human	0	lib	8	9	1	refactor: use an object spread instead of Object.assign (#2395)
+0310c3e74	2025-07-11	Person W	human	0	lib	8	2	1	refactor:  use endsWith (#2396)
+2e96cd388	2025-07-19	Person GJ	human	0	lib	8	8	2	List excess arguments in error message (#2384)
+f12b952c9	2025-08-03	dependabot[bot]	bot	0	(top level)	8	20	1	Bump @eslint/js from 9.30.1 to 9.32.0 (#2403)
+0f1eb8b4b	2025-08-03	dependabot[bot]	bot	0	(top level)	8	6	1	Bump eslint-config-prettier from 10.1.5 to 10.1.8 (#2401)
+5434ca28f	2025-08-03	dependabot[bot]	bot	0	(top level)	8	1218	1	Bump jest from 30.0.3 to 30.0.5 (#2400)
+fb65fca26	2025-08-03	dependabot[bot]	bot	0	(top level)	8	53	1	Bump eslint from 9.30.1 to 9.32.0 (#2402)
+63eed4aa0	2025-08-04	Person A	human	0	(top level)	8	81	4	Make order not matter for adding combo positive/negative options (#2405)
+201d93249	2025-08-15	Person A	human	0	lib	8	38	1	Refactor parseOptions to process args in-place (#2409)
+c635fad50	2025-08-17	Person A	human	0	lib	8	37	5	Collect variadic with push, add tests (#2410)
+6e4054333	2025-08-18	dependabot[bot]	bot	0	.github	8	4	2	Bump actions/checkout from 4 to 5 (#2412)
+fb2429ead	2025-09-02	dependabot[bot]	bot	0	(top level)	8	6	1	Bump prettier from 3.5.3 to 3.6.2 (#2415)
+025ee3f9d	2025-09-02	dependabot[bot]	bot	0	(top level)	8	19	1	Bump @eslint/js from 9.32.0 to 9.34.0 (#2417)
+64003ac19	2025-09-02	dependabot[bot]	bot	0	(top level)	8	18	2	Bump tsd from 0.32.0 to 0.33.0 (#2419)
+b855083a9	2025-09-03	Person A	human	0	(top level)	8	2092	1	Update dependencies (#2421)
+cb7ae51eb	2025-09-11	dependabot[bot]	bot	0	.github	8	2	1	Bump actions/setup-node from 4 to 5 (#2422)
+bd4ae263f	2025-09-12	Person A	human	0	(top level)	8	28	3	Prepare for 14.0.1 release (#2426)
+1a6dba53b	2025-09-26	Person CB	human	0	typings	8	4	1	Clarify deprecated routine (#2427)
+ff1d2ce86	2025-09-26	Person A	human	0	lib	8	2	1	Improve negative test (#2428)
+8c91f3433	2025-10-02	dependabot[bot]	bot	0	(top level)	8	6	1	Bump typescript from 5.9.2 to 5.9.3 (#2433)
+7ede91bff	2025-10-02	dependabot[bot]	bot	0	(top level)	8	613	1	Bump jest from 30.1.3 to 30.2.0 (#2432)
+213e6793f	2025-10-03	dependabot[bot]	bot	0	(top level)	8	6	1	Bump ts-jest from 29.4.1 to 29.4.4 (#2431)
+800525383	2025-10-03	dependabot[bot]	bot	0	(top level)	8	122	1	Bump typescript-eslint from 8.42.0 to 8.45.0 (#2430)
+0b7988ee4	2025-10-05	dependabot[bot]	bot	0	(top level)	8	6	1	Bump globals from 16.3.0 to 16.4.0 (#2429)
+3fe83d648	2025-10-14	dependabot[bot]	bot	0	.github	8	6	1	Bump github/codeql-action from 3 to 4 (#2435)
+88a348e13	2025-10-21	dependabot[bot]	bot	0	.github	8	2	1	Bump actions/setup-node from 5 to 6 (#2438)
+0692be581	2025-10-25	Person A	human	0	(top level)	8	15	3	Prepare for 14.0.2 (#2437)
+fa1387b24	2025-11-03	dependabot[bot]	bot	0	(top level)	8	122	1	Bump typescript-eslint from 8.45.0 to 8.46.2 (#2444)
+11c1a8ed2	2025-11-03	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/node from 22.18.0 to 22.18.13 (#2443)
+0ee322982	2025-11-03	dependabot[bot]	bot	0	(top level)	8	14	1	Bump ts-jest from 29.4.4 to 29.4.5 (#2440)
+8dc72eb75	2025-11-03	dependabot[bot]	bot	0	(top level)	8	19	1	Bump @eslint/js from 9.34.0 to 9.39.0 (#2441)
+8417d7d80	2025-11-03	dependabot[bot]	bot	0	(top level)	8	75	1	Bump eslint from 9.34.0 to 9.39.0 (#2442)
+e5c164de5	2025-11-10	Person A	human	0	(top level)	8	5	1	Fix support backing details (#2448)
+8f9de6b11	2025-11-25	dependabot[bot]	bot	0	.github	8	4	2	Bump actions/checkout from 5 to 6 (#2453)
+eca3798bc	2025-12-01	dependabot[bot]	bot	0	(top level)	8	22	1	Bump eslint from 9.39.0 to 9.39.1 (#2460)
+12e2b188b	2025-12-01	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/node from 22.18.13 to 22.19.1 (#2459)
+4d2db1f28	2025-12-01	dependabot[bot]	bot	0	(top level)	8	6	1	Bump globals from 16.4.0 to 16.5.0 (#2456)
+03308ceb5	2025-12-01	dependabot[bot]	bot	0	(top level)	8	6	1	Bump eslint-plugin-jest from 29.0.1 to 29.2.1 (#2457)
+4208a96ee	2025-12-01	dependabot[bot]	bot	0	(top level)	8	174	1	Bump typescript-eslint from 8.46.2 to 8.48.0 (#2458)
+921191868	2026-01-01	Person FO	human	0	(top level)	8	142	1	docs(README): Tweak formatting, punctuation for clarity (#2465)
+2a9768aea	2026-01-02	dependabot[bot]	bot	0	(top level)	8	6	1	Bump prettier from 3.6.2 to 3.7.4 (#2466)
+d6f63a7b3	2026-01-02	dependabot[bot]	bot	0	(top level)	8	6	1	Bump ts-jest from 29.4.5 to 29.4.6 (#2467)
+b6e2e3a1e	2026-01-02	dependabot[bot]	bot	0	(top level)	8	14	1	Bump eslint from 9.39.1 to 9.39.2 (#2470)
+7357ddafe	2026-01-03	Person A	human	0	(top level)	8	31	3	Separate out a more detailed release policy document (#2462)
+3dd608610	2026-01-11	Person A	human	0	tests	8	12148	118	Switch from Jest to Node.js built-in test runner (#2463)
+b3e6795dc	2026-01-13	Person A	human	0	tests	8	10716	100	Add describe wrappers so test output makes sense without filenames (#2472)
+e281fe3e8	2026-01-31	Person A	human	0	(top level)	8	26	3	Update docs for 14.0.3 (#2474)
+8247364da	2026-01-31	Person D	human	0	(top level)	8	6	2	14.0.3
+fe92dc512	2026-02-01	dependabot[bot]	bot	0	(top level)	8	15	1	Bump eslint-plugin-jest from 29.2.1 to 29.12.1 (#2480)
+bf35c5f99	2026-02-01	dependabot[bot]	bot	0	(top level)	8	178	1	Bump typescript-eslint from 8.48.0 to 8.54.0 (#2479)
+77ab73822	2026-02-01	dependabot[bot]	bot	0	(top level)	8	10	2	Bump globals from 16.5.0 to 17.3.0 (#2478)
+c17429171	2026-02-01	dependabot[bot]	bot	0	(top level)	8	6	1	Bump @types/node from 22.19.1 to 22.19.7 (#2477)
+17bf62c3f	2026-02-01	dependabot[bot]	bot	0	(top level)	8	6	1	Bump prettier from 3.7.4 to 3.8.1 (#2476)
+30e6b8c52	2026-02-03	Person EN	human	0	(top level)	8	18	4	fix(examples): use dash separator to avoid MINGW64 path expansion (#2475)
+ca14529d0	2026-02-04	Person A	human	0	(top level)	8	9	2	Modernise tsconfig targets, and add .cjs (#2481)
+b51c0ea3d	2026-02-09	Person A	human	0	(top level)	8	938	18	Merge from develop (#2482)
+f4bd47000	2026-02-19	Person A	human	0	tests	8	2649	191	Switching to esm-only (#2464)
+26e3ba341	2026-02-20	Person A	human	0	(none)	8	0	0	Merge from develop into release/15.x (with minor conflicts and test migrations)
+3f00f5bc8	2026-02-21	Person A	human	0	(top level)	8	33	5	Update changelog and version and engine for prerelease (#2484)
+7c6fd2505	2026-02-22	Person A	human	0	examples	8	4	2	Use prerelease version so example can work before release (#2488)
+0ea3bb3e8	2026-02-27	Person A	human	0	(top level)	8	543	6	Update dependecies and lint (#2489)
+987f28966	2026-03-07	Person A	human	0	tests	8	4	1	Use simple match in test (to avoid warning about expensive regex) (#2485)
+373f660f6	2026-03-07	Person A	human	0	lib	8	91	3	Use node:util stripVTControlCharacters instead of own code (#2486)
+9098b4863	2026-04-13	Person A	human	0	(top level)	8	305	2	Update dependencies (#2506)
+d785d8b3b	2026-05-22	Person A	human	0	(top level)	8	232	1	Update dependencies (#2518)
+01ce5d0cd	2026-05-22	Person A	human	0	examples	8	208	13	Remove jest esm examples (#2517)
+6df9b68b7	2026-05-22	Person A	human	0	(top level)	8	23	5	Update details for 15.0.0 release (#2519)
+74d5dfe9b	2026-05-23	Person A	human	0	.github	8	2	1	Drop EOL node 20 from test matrix, and add node 26  (#2520)
+a752ed909	2026-05-26	Person A	human	0	.github	8	15	2	Pin GitHub actions with hash (#2521)
+ba6d13ddb	2026-05-29	Person D	human	0	(top level)	8	4	1	Fix release dates in changelog (#2523)
+e83c9175e	2026-06-13	dependabot[bot]	bot	0	(top level)	8	128	1	Bump typescript-eslint from 8.59.4 to 8.60.0 (#2525)
+32c70c204	2026-06-13	dependabot[bot]	bot	0	(top level)	8	14	1	Bump eslint from 10.4.0 to 10.4.1 (#2526)
+97536b8c8	2026-06-13	dependabot[bot]	bot	0	.github	8	6	1	Bump github/codeql-action from 4.36.0 to 4.36.2 (#2528)
+e1428d41f	2026-06-13	dependabot[bot]	bot	0	.github	8	4	2	Bump actions/checkout from 6.0.2 to 6.0.3 (#2529)
+225abe37c	2026-06-20	Person DX	human	0	lib	8	4	1	docs: fix two syntax errors in JSDoc @someone blocks (#2536)
+8359ea563	2026-07-02	dependabot[bot]	bot	0	.github	8	4	2	Bump actions/checkout from 6.0.3 to 7.0.0 (#2538)
+c3ffcfcda	2026-07-02	Person A	human	0	(top level)	8	196	2	Update lock dependencies, and rerun prettier on one small change (#2545)
+a6bcd2ec1	2026-07-05	Person GI	human	0	lib	8	6	2	fix: accept uppercase E exponent in negative number args (#2544)
+fe8d14f9a	2026-07-11	Person A	human	0	.github	8	20	1	Update action dependencies, and remove unecessary autobuild (#2550)
+81af7bb9b	2026-07-11	Person A	human	0	.github	8	4	1	Tune updates for @types/node (#2551)
+d12c42f09	2026-07-19	Person CA	human	0	tests	8	3	1	Unskip .ts subcommand lookup test now that node 20 is EOL (#2552)
+31c8f0791	2026-07-24	dependabot[bot]	bot	0	.github	8	2	1	Bump actions/setup-node from 6.4.0 to 7.0.0 (#2556)
+a9dd9c7aa	2026-07-24	dependabot[bot]	bot	0	.github	8	2	1	Bump github/codeql-action/init from 4.37.0 to 4.37.1 (#2554)
+f96b2e453	2026-07-26	dependabot[bot]	bot	0	.github	8	2	1	Bump github/codeql-action/analyze from 4.37.0 to 4.37.1 (#2555)
+234b14524	2026-07-27	Person A	human	0	tests	8	1341	39	Improve tests following lint advice from eslint-node-test (#2560)
+832e62a40	2026-07-27	Person A	human	0	(top level)	8	72	4	Deprecate storeOptionsAsProperties (#2561)
+74a23dd26	2026-07-30	Person A	human	0	(top level)	8	14	2	Remove stale Tidelift description from README (#2565)
+5f8acf20d	2026-07-30	Person A	human	0	.github	8	4	1	Group codeql updates as inter-dependent (#2566)
+a9bcfdb90	2026-07-31	Person A	human	0	.github	8	8	2	Update action versions (#2567)
+6ec4deafb	2026-08-01	dependabot[bot]	bot	0	(top level)	8	16	1	Bump eslint from 10.7.0 to 10.8.0 (#2571)
+88b338a92	2026-08-01	dependabot[bot]	bot	0	(top level)	8	6	1	Bump globals from 17.7.0 to 17.8.0 (#2569)
+32928b59c	2026-08-01	dependabot[bot]	bot	0	(top level)	8	6	1	Bump prettier from 3.9.4 to 3.9.6 (#2568)
+2e6d92054	2026-08-01	Person A	human	0	tests	8	653	15	Use test and subtest for embedded loops (#2574)
+d1a29c412	2026-08-11	Person A	human	0	.github	8	4	1	Update both codeql actions (#2582)
+fc2135eee	2026-08-11	Person BK	human	1	typings	8	6	1	Mark InvalidOptionArgumentError as deprecated for editors (#2578)
+a2be46f5d	2026-08-19	Person AQ	human	0	(top level)	8	2	1	docs: use node --inspect in the Chinese debugging notes (#2589)
+e629667f0	2026-08-19	Person AQ	human	0	(top level)	8	4	2	docs: point inspector debugging link at current Node.js guide (#2588)
+96cbb1137	2026-08-21	Person A	human	0	.github	8	4	1	Update codeql-actions (#2590)
+97411c66e	2026-09-01	Person A	human	0	(top level)	8	202	2	Update development dependencies (#2601)
+86bb78346	2026-09-20	Person A	human	0	.github	8	4	1	Update action dependencies (#2601) (#2616)
+ae60352af	2026-09-21	Person FQ	human	0	"docs	8	12	2	docs: use the declared flag in optional-value examples (#2617)
+b5cbf2b4d	2026-09-26	Person GR	human	0	lib	8	190	2	fix: only use electron argv parsing for electron main process (#2609)
+a9f06ddfe	2026-09-28	Person GU	human	0	lib	8	9	2	Recognise Unicode variadic option placeholders (#2615)
+6dee9e462	2026-09-28	Person A	human	0	lib	8	244	2	Preserve option terminator in subcommand arguments for subcommand to process (#2577)
+fca3bb7da	2026-09-28	Person A	human	0	.github	8	4	1	Update codeql-action (#2628)
+e934808d9	2026-09-28	Person A	human	0	(top level)	8	146	2	Refactor Electron tests (#2627)
+130cf3a9d	2026-09-30	Person BE	human	0	lib	8	44	2	fix: increment inspector port for --inspect-wait (#2630)
+2b51b9a94	2026-10-05	Person A	human	0	(top level)	8	334	2	Update dependencies (#2642)
+2c51b5ad3	2026-10-05	Person A	human	0	(top level)	8	6	3	Fix example so matches typescript restrictions on default value (#2641)
+b2be0c76c	2026-10-05	Person A	human	0	tests	8	19	1	Make colour environment variables tests robust again external values (#2640)
+6320660fc	2026-10-05	Person DT	human	0	lib	8	39	2	fix: increment inspector port for IPv6 hosts (#2636)
+86a2bae59	2026-10-05	Person DD	human	0	(top level)	8	17	3	docs: make variadic example accept an operand (#2629)
+3b4365777	2026-10-09	Person A	human	0	(top level)	8	35	3	Limit contributions and add AI Policy (#2646)
+46c6f6b12	2026-10-12	Person EH	human	0	lib	8	29	2	Preserve help option groups when flags conflict (#2637)
+c807ce933	2026-10-17	Person A	human	0	.github	8	6	2	Update actions (#2654)
+1536d5bb9	2026-10-19	Person A	human	0	lib	8	19	2	Fix option source masking when source is unknown (aka undefined) (#2653)
+580286c9f	2026-10-25	Person A	human	0	docs	8	67	4	Deprecate combineFlagAndOptionalValue (#2660)
+2e76741f4	2026-10-25	Person A	human	0	tests	8	69	6	Undeprecate InvalidOptionArgumentError (#2661)
+a09ea496b	2026-10-26	Person A	human	0	.github	8	4	1	Update codeql-action (#2666)

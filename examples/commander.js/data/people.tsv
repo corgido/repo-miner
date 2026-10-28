@@ -1,0 +1,210 @@
+who	role	commits	merges	share	first	last	active_days	areas	with_agent	quiet
+Person A	human	532	72	0.406	2019-04-06	2026-10-26	347	(top level) tests lib	0	0
+Person B	human	159	41	0.121	2011-08-14	2014-03-29	44	(top level) lib examples	0	1
+dependabot[bot]	bot	149	0	0.114	2022-05-28	2026-08-01	50	(top level) .github	0	0
+Person C	human	78	77	0.060	2014-09-26	2016-09-20	38	(top level) test examples	0	1
+Person D	human	75	60	0.057	2017-06-19	2026-05-29	57	(top level) .github test	0	0
+Person F	human	21	0	0.016	2023-07-28	2023-08-13	10	lib tests (top level)	0	0
+Person H	human	9	0	0.007	2013-10-23	2015-03-26	6	(top level) test	0	0
+Person I	human	8	0	0.006	2018-01-05	2018-01-31	7	(top level)	0	0
+Person J	human	6	0	0.005	2017-07-23	2017-11-28	5	(top level) typings	0	0
+Person K	human	6	0	0.005	2018-08-02	2018-09-29	4	(top level) test	0	0
+Person L	human	6	0	0.005	2019-08-08	2020-02-12	5	(top level)	0	0
+Person M	human	5	0	0.004	2011-11-20	2011-11-23	2	examples test	0	0
+Person N	human	4	1	0.003	2017-11-07	2021-04-12	4	(top level)	0	0
+Person O	human	4	1	0.003	2012-05-04	2012-07-03	2	lib	0	0
+Person Q	human	4	0	0.003	2014-04-20	2014-05-07	2	(top level)	0	0
+Person R	human	4	0	0.003	2012-07-03	2013-04-09	4	(top level) lib	0	0
+Person E	human	3	19	0.002	2014-07-04	2014-09-15	3	(top level)	0	0
+Person G	human	3	11	0.002	2014-07-26	2014-10-28	3	(top level)	0	0
+Person P	human	3	1	0.002	2014-04-11	2014-04-11	1	(top level)	0	0
+Person S	human	3	0	0.002	2017-12-04	2018-01-30	2	(top level) test	0	0
+Person T	human	3	0	0.002	2011-10-31	2011-11-01	2	lib	0	0
+Person U	human	3	0	0.002	2018-12-28	2019-08-10	2	(top level)	0	0
+Person V	human	3	0	0.002	2011-09-26	2011-10-05	2	test lib	0	0
+Person W	human	3	0	0.002	2025-07-04	2025-07-11	3	lib	0	0
+Person Y	human	3	0	0.002	2019-05-20	2019-05-31	2	(top level)	0	0
+Person Z	human	3	0	0.002	2019-03-14	2019-03-14	1	typings	0	0
+Person X	human	2	1	0.002	2014-12-07	2014-12-07	1	(top level)	0	0
+Person AB	human	2	0	0.002	2014-04-10	2015-03-09	2	(top level)	0	0
+Person AC	human	2	0	0.002	2017-06-27	2017-08-09	2	(top level)	0	0
+Person AD	human	2	0	0.002	2016-02-11	2016-02-11	1	(top level) test	0	0
+Person AE	human	2	0	0.002	2022-05-09	2022-06-20	2	(top level) typings	0	0
+Person AF	human	2	0	0.002	2017-01-31	2017-01-31	1	(top level)	0	0
+Person AG	human	2	0	0.002	2020-01-07	2020-01-07	1	(top level)	0	0
+Person AH	human	2	0	0.002	2018-06-10	2018-06-10	1	(top level)	0	0
+Person AI	human	2	0	0.002	2011-09-06	2011-09-06	1	lib test	0	0
+Person AJ	human	2	0	0.002	2020-02-10	2020-02-11	2	(top level) typings	0	0
+Person AK	human	2	0	0.002	2015-02-09	2015-02-15	2	(top level) test	0	0
+Person AM	human	2	0	0.002	2011-11-12	2011-11-14	2	lib	0	0
+Person AN	human	2	0	0.002	2014-09-02	2014-09-02	1	(top level)	0	0
+Person AO	human	2	0	0.002	2020-07-04	2020-07-14	2	(top level)	0	0
+Person AP	human	2	0	0.002	2016-04-20	2016-07-01	2	(top level)	0	0
+Person AQ	human	2	0	0.002	2026-08-19	2026-08-19	1	(top level)	0	0
+Person AR	human	2	0	0.002	2019-05-15	2019-05-15	1	(top level)	0	0
+Person AS	human	2	0	0.002	2014-09-09	2015-04-08	2	(top level)	0	0
+Person AT	human	2	0	0.002	2018-04-19	2018-06-04	2	(top level)	0	0
+Person AV	human	2	0	0.002	2014-03-21	2014-03-29	2	(top level) test	0	0
+Person AW	human	2	0	0.002	2019-05-27	2019-05-28	2	(top level)	0	0
+Person AX	human	2	0	0.002	2013-07-06	2013-07-06	1	(top level)	0	0
+Person AY	human	2	0	0.002	2014-12-02	2014-12-02	1	(top level) test	0	0
+Person AZ	human	2	0	0.002	2018-09-06	2018-09-06	1	(top level)	0	0
+Person BA	human	2	0	0.002	2014-12-31	2015-02-01	2	(top level)	0	0
+Person BB	human	2	0	0.002	2018-04-29	2018-05-02	2	(top level) test	0	0
+Person BC	human	2	0	0.002	2019-02-14	2019-03-17	2	test	0	0
+Person AA	human	1	1	0.001	2016-06-06	2016-06-06	1	test	0	0
+Person AL	human	1	1	0.001	2016-06-24	2016-06-24	1	test	0	0
+Person BD	human	1	1	0.001	2017-03-16	2017-03-16	1	(top level)	0	0
+Jules Randolph	agent	1	0	0.001	2017-11-13	2017-11-13	1	typings	0	0
+Person BE	human	1	0	0.001	2026-09-30	2026-09-30	1	lib	0	0
+Person BF	human	1	0	0.001	2016-05-17	2016-05-17	1	(top level)	0	0
+Person BG	human	1	0	0.001	2021-02-11	2021-02-11	1	(top level)	0	0
+Person BH	human	1	0	0.001	2014-08-01	2014-08-01	1	(top level)	0	0
+Person BI	human	1	0	0.001	2015-02-07	2015-02-07	1	(top level)	0	0
+Person BJ	human	1	0	0.001	2015-01-06	2015-01-06	1	(top level)	0	0
+Person BK	human	1	0	0.001	2026-08-11	2026-08-11	1	typings	1	0
+Person BL	human	1	0	0.001	2017-08-07	2017-08-07	1	(top level)	0	0
+Person BM	human	1	0	0.001	2018-06-28	2018-06-28	1	(top level)	0	0
+Person BN	human	1	0	0.001	2018-05-21	2018-05-21	1	typings	0	0
+Person BO	human	1	0	0.001	2020-10-04	2020-10-04	1	(top level)	0	0
+Person BP	human	1	0	0.001	2015-01-11	2015-01-11	1	(top level)	0	0
+Person BQ	human	1	0	0.001	2012-08-03	2012-08-03	1	lib	0	0
+Person BR	human	1	0	0.001	2018-03-02	2018-03-02	1	(top level)	0	0
+Person BS	human	1	0	0.001	2020-09-13	2020-09-13	1	docs	0	0
+Person BT	human	1	0	0.001	2013-07-07	2013-07-07	1	(top level)	0	0
+Person BU	human	1	0	0.001	2019-11-14	2019-11-14	1	(top level)	0	0
+Person BV	human	1	0	0.001	2012-05-09	2012-05-09	1	(top level)	0	0
+Person BW	human	1	0	0.001	2013-03-21	2013-03-21	1	(top level)	0	0
+Person BX	human	1	0	0.001	2015-05-25	2015-05-25	1	(top level)	0	0
+Person BY	human	1	0	0.001	2015-06-19	2015-06-19	1	test	0	0
+Person BZ	human	1	0	0.001	2017-07-27	2017-07-27	1	typings	0	0
+Person CA	human	1	0	0.001	2026-07-19	2026-07-19	1	tests	0	0
+Person CB	human	1	0	0.001	2025-09-26	2025-09-26	1	typings	0	0
+Person CC	human	1	0	0.001	2013-11-22	2013-11-22	1	(top level)	0	0
+Person CD	human	1	0	0.001	2012-12-13	2012-12-13	1	(top level)	0	0
+Person CE	human	1	0	0.001	2019-03-02	2019-03-02	1	(top level)	0	0
+Person CF	human	1	0	0.001	2022-11-17	2022-11-17	1	tests	0	0
+Person CG	human	1	0	0.001	2014-01-16	2014-01-16	1	(top level)	0	0
+Person CH	human	1	0	0.001	2011-08-25	2011-08-25	1	(top level)	0	0
+Person CI	human	1	0	0.001	2019-04-12	2019-04-12	1	(top level)	0	0
+Person CJ	human	1	0	0.001	2022-03-06	2022-03-06	1	tests	0	0
+Person CK	human	1	0	0.001	2012-08-23	2012-08-23	1	lib	0	0
+Person CL	human	1	0	0.001	2019-06-12	2019-06-12	1	typings	0	0
+Person CM	human	1	0	0.001	2017-04-09	2017-04-09	1	(top level)	0	0
+Person CN	human	1	0	0.001	2017-07-27	2017-07-27	1	(top level)	0	0
+Person CO	human	1	0	0.001	2017-06-29	2017-06-29	1	(top level)	0	0
+Person CP	human	1	0	0.001	2019-06-26	2019-06-26	1	test	0	0
+Person CQ	human	1	0	0.001	2014-07-17	2014-07-17	1	(top level)	0	0
+Person CR	human	1	0	0.001	2014-09-02	2014-09-02	1	(top level)	0	0
+Person CS	human	1	0	0.001	2016-12-06	2016-12-06	1	(top level)	0	0
+Person CT	human	1	0	0.001	2017-06-26	2017-06-26	1	(top level)	0	0
+Person CU	human	1	0	0.001	2016-04-04	2016-04-04	1	(top level)	0	0
+Person CV	human	1	0	0.001	2015-03-21	2015-03-21	1	(top level)	0	0
+Person CW	human	1	0	0.001	2017-08-31	2017-08-31	1	(top level)	0	0
+Person CX	human	1	0	0.001	2014-10-20	2014-10-20	1	(top level)	0	0
+Person CY	human	1	0	0.001	2012-07-07	2012-07-07	1	lib	0	0
+Person CZ	human	1	0	0.001	2016-01-05	2016-01-05	1	(top level)	0	0
+Person DA	human	1	0	0.001	2019-12-11	2019-12-11	1	tests	0	0
+Person DB	human	1	0	0.001	2012-08-16	2012-08-16	1	lib	0	0
+Person DC	human	1	0	0.001	2018-08-17	2018-08-17	1	(top level)	0	0
+Person DD	human	1	0	0.001	2026-10-05	2026-10-05	1	(top level)	0	0
+Person DE	human	1	0	0.001	2014-12-04	2014-12-04	1	(top level)	0	0
+Person DF	human	1	0	0.001	2016-07-31	2016-07-31	1	(top level)	0	0
+Person DG	human	1	0	0.001	2015-10-15	2015-10-15	1	(top level)	0	0
+Person DH	human	1	0	0.001	2015-03-12	2015-03-12	1	(top level)	0	0
+Person DI	human	1	0	0.001	2018-10-08	2018-10-08	1	(top level)	0	0
+Person DJ	human	1	0	0.001	2011-12-07	2011-12-07	1	lib	0	0
+Person DK	human	1	0	0.001	2025-04-28	2025-04-28	1	lib	0	0
+Person DL	human	1	0	0.001	2024-05-30	2024-05-30	1	typings	0	0
+Person DM	human	1	0	0.001	2021-07-27	2021-07-27	1	.github	0	0
+Person DN	human	1	0	0.001	2015-03-24	2015-03-24	1	(top level)	0	0
+Person DO	human	1	0	0.001	2013-01-22	2013-01-22	1	(top level)	0	0
+Person DP	human	1	0	0.001	2025-03-25	2025-03-25	1	lib	0	0
+Person DQ	human	1	0	0.001	2022-12-26	2022-12-26	1	(top level)	0	0
+Person DR	human	1	0	0.001	2015-02-24	2015-02-24	1	(top level)	0	0
+Person DS	human	1	0	0.001	2024-10-11	2024-10-11	1	(top level)	0	0
+Person DT	human	1	0	0.001	2026-10-05	2026-10-05	1	lib	0	0
+Person DU	human	1	0	0.001	2018-05-10	2018-05-10	1	(top level)	0	0
+Person DV	human	1	0	0.001	2011-08-18	2011-08-18	1	lib	0	0
+Person DW	human	1	0	0.001	2014-10-06	2014-10-06	1	(top level)	0	0
+Person DX	human	1	0	0.001	2026-06-20	2026-06-20	1	lib	0	0
+Person DY	human	1	0	0.001	2014-09-10	2014-09-10	1	(top level)	0	0
+Person DZ	human	1	0	0.001	2016-02-04	2016-02-04	1	(top level)	0	0
+Person EA	human	1	0	0.001	2015-12-21	2015-12-21	1	(top level)	0	0
+Person EB	human	1	0	0.001	2020-02-02	2020-02-02	1	typings	0	0
+Person EC	human	1	0	0.001	2015-06-21	2015-06-21	1	test	0	0
+Person ED	human	1	0	0.001	2012-01-17	2012-01-17	1	examples	0	0
+Person EE	human	1	0	0.001	2023-03-29	2023-03-29	1	(top level)	0	0
+Person EF	human	1	0	0.001	2022-03-18	2022-03-18	1	(top level)	0	0
+Person EG	human	1	0	0.001	2019-08-14	2019-08-14	1	(top level)	0	0
+Person EH	human	1	0	0.001	2026-10-12	2026-10-12	1	lib	0	0
+Person EI	human	1	0	0.001	2012-06-01	2012-06-01	1	(top level)	0	0
+Person EJ	human	1	0	0.001	2016-02-11	2016-02-11	1	test	0	0
+Person EK	human	1	0	0.001	2024-04-06	2024-04-06	1	lib	0	0
+Person EL	human	1	0	0.001	2019-03-21	2019-03-21	1	test	0	0
+Person EM	human	1	0	0.001	2019-12-07	2019-12-07	1	(top level)	0	0
+Person EN	human	1	0	0.001	2026-02-03	2026-02-03	1	(top level)	0	0
+Person EO	human	1	0	0.001	2025-01-27	2025-01-27	1	(top level)	0	0
+Person EP	human	1	0	0.001	2014-10-20	2014-10-20	1	(top level)	0	0
+Person EQ	human	1	0	0.001	2016-11-05	2016-11-05	1	(top level)	0	0
+Person ER	human	1	0	0.001	2013-07-20	2013-07-20	1	(top level)	0	0
+Person ES	human	1	0	0.001	2019-02-18	2019-02-18	1	(top level)	0	0
+Person ET	human	1	0	0.001	2018-05-22	2018-05-22	1	(top level)	0	0
+Person EU	human	1	0	0.001	2019-05-09	2019-05-09	1	(top level)	0	0
+Person EV	human	1	0	0.001	2015-03-03	2015-03-03	1	(top level)	0	0
+Person EW	human	1	0	0.001	2016-12-28	2016-12-28	1	(top level)	0	0
+Person EX	human	1	0	0.001	2012-10-10	2012-10-10	1	lib	0	0
+Person EY	human	1	0	0.001	2017-07-03	2017-07-03	1	test	0	0
+Person EZ	human	1	0	0.001	2024-08-13	2024-08-13	1	(top level)	0	0
+Person FA	human	1	0	0.001	2022-03-20	2022-03-20	1	lib	0	0
+Person FB	human	1	0	0.001	2017-01-09	2017-01-09	1	(top level)	0	0
+Person FC	human	1	0	0.001	2020-01-09	2020-01-09	1	typings	0	0
+Person FD	human	1	0	0.001	2017-07-03	2017-07-03	1	(top level)	0	0
+Person FE	human	1	0	0.001	2017-07-01	2017-07-01	1	(top level)	0	0
+Person FF	human	1	0	0.001	2012-12-13	2012-12-13	1	(top level)	0	0
+Person FG	human	1	0	0.001	2014-04-11	2014-04-11	1	(top level)	0	0
+Person FH	human	1	0	0.001	2021-07-17	2021-07-17	1	"docs	0	0
+Person FI	human	1	0	0.001	2025-01-17	2025-01-17	1	(top level)	0	0
+Person FJ	human	1	0	0.001	2017-06-24	2017-06-24	1	(top level)	0	0
+Person FK	human	1	0	0.001	2017-08-24	2017-08-24	1	(top level)	0	0
+Person FL	human	1	0	0.001	2018-02-06	2018-02-06	1	typings	0	0
+Person FM	human	1	0	0.001	2021-01-08	2021-01-08	1	"docs	0	0
+Person FN	human	1	0	0.001	2022-01-04	2022-01-04	1	tests	0	0
+Person FO	human	1	0	0.001	2026-01-01	2026-01-01	1	(top level)	0	0
+Person FP	human	1	0	0.001	2014-04-26	2014-04-26	1	(top level)	0	0
+Person FQ	human	1	0	0.001	2026-09-21	2026-09-21	1	"docs	0	0
+Person FR	human	1	0	0.001	2017-11-23	2017-11-23	1	(top level)	0	0
+Person FS	human	1	0	0.001	2015-03-26	2015-03-26	1	(top level)	0	0
+Person FT	human	1	0	0.001	2017-10-24	2017-10-24	1	(top level)	0	0
+Person FU	human	1	0	0.001	2015-09-12	2015-09-12	1	(top level)	0	0
+Person FV	human	1	0	0.001	2020-09-03	2020-09-03	1	(top level)	0	0
+Person FW	human	1	0	0.001	2017-09-19	2017-09-19	1	test	0	0
+Person FX	human	1	0	0.001	2013-03-22	2013-03-22	1	(top level)	0	0
+Person FY	human	1	0	0.001	2015-02-08	2015-02-08	1	(top level)	0	0
+Person FZ	human	1	0	0.001	2021-08-14	2021-08-14	1	docs	0	0
+Person GA	human	1	0	0.001	2020-07-25	2020-07-25	1	tests	0	0
+Person GB	human	1	0	0.001	2017-09-17	2017-09-17	1	(top level)	0	0
+Person GC	human	1	0	0.001	2022-05-24	2022-05-24	1	.github	0	0
+Person GD	human	1	0	0.001	2022-05-20	2022-05-20	1	.github	0	0
+Person GE	human	1	0	0.001	2014-04-06	2014-04-06	1	(top level)	0	0
+Person GF	human	1	0	0.001	2025-05-26	2025-05-26	1	(top level)	0	0
+Person GG	human	1	0	0.001	2018-10-20	2018-10-20	1	(top level)	0	0
+Person GH	human	1	0	0.001	2021-11-05	2021-11-05	1	(top level)	0	0
+Person GI	human	1	0	0.001	2026-07-05	2026-07-05	1	lib	0	0
+Person GJ	human	1	0	0.001	2025-07-19	2025-07-19	1	lib	0	0
+Person GK	human	1	0	0.001	2017-08-10	2017-08-10	1	(top level)	0	0
+Person GL	human	1	0	0.001	2016-02-17	2016-02-17	1	(top level)	0	0
+Person GM	human	1	0	0.001	2013-06-20	2013-06-20	1	(top level)	0	0
+Person GN	human	1	0	0.001	2022-05-19	2022-05-19	1	"docs	0	0
+Person GO	human	1	0	0.001	2021-03-11	2021-03-11	1	(top level)	0	0
+Person GP	human	1	0	0.001	2022-03-17	2022-03-17	1	(top level)	0	0
+Person GQ	human	1	0	0.001	2017-03-09	2017-03-09	1	(top level)	0	0
+Person GR	human	1	0	0.001	2026-09-26	2026-09-26	1	lib	0	0
+Person GS	human	1	0	0.001	2013-09-30	2013-09-30	1	(top level)	0	0
+Person GT	human	1	0	0.001	2012-10-16	2012-10-16	1	examples	0	0
+Person GU	human	1	0	0.001	2026-09-28	2026-09-28	1	lib	0	0
+Person GV	human	1	0	0.001	2023-05-04	2023-05-04	1	lib	0	0
+Person GW	human	1	0	0.001	2018-01-03	2018-01-03	1	(top level)	0	0
+Person GX	human	1	0	0.001	2016-08-21	2016-08-21	1	(top level)	0	0
+Person GY	human	1	0	0.001	2022-07-12	2022-07-12	1	(top level)	0	0
+Person AU	human	0	2	0.000			0		0	0

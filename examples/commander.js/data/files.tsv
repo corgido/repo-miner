@@ -1,0 +1,16 @@
+path	commits	fixes	people	churn	first	last	present
+package.json	243	14	26	1116	2011-08-14	2026-10-05	1
+index.js	240	52	78	13168	2011-08-14	2026-10-25	1
+Readme.md	237	24	57	4048	2011-08-14	2026-10-05	1
+typings/index.d.ts	137	15	23	3704	2017-07-23	2026-10-25	1
+lib/command.js	95	15	14	4891	2021-05-25	2026-10-19	1
+lib/commander.js	82	16	15	2760	2011-08-14	2012-11-17	0
+typings/index.test-d.ts	55	3	8	1103	2021-01-31	2026-02-19	1
+Readme_zh-CN.md	53	7	21	3163	2015-10-15	2026-10-05	1
+History.md	52	2	5	704	2011-08-14	2017-07-24	0
+.github/workflows/tests.yml	39	0	4	125	2019-08-30	2026-10-17	1
+typings/commander-tests.ts	36	2	3	1142	2017-07-23	2021-01-31	0
+.travis.yml	30	1	11	86	2011-11-24	2020-11-10	0
+tests/command.exitOverride.test.js	29	0	4	1583	2019-09-20	2026-07-27	1
+lib/help.js	29	3	7	1263	2021-05-25	2026-10-12	1
+lib/option.js	27	2	5	544	2021-05-25	2026-09-28	1
