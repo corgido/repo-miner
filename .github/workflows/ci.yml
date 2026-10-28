@@ -25,8 +25,10 @@ jobs:
           python-version: ${{ matrix.python }}
       - name: Unit tests
         run: python -m unittest discover -s tests -v
-      - name: Demo (an invented messy repository; must end "demo: clean")
-        run: bin/repo-miner demo | tee demo.log && tail -1 demo.log | grep -qx "demo: clean"
+      - name: Demo, an invented messy repository (must end with a clean check)
+        run: |
+          bin/repo-miner demo | tee demo.log
+          tail -1 demo.log | grep -qx "demo: clean"
 
   real-repository:
     name: Mine a public repository
@@ -60,4 +62,7 @@ jobs:
         with:
           python-version: "3.13"
       - run: python -m pip install .
-      - run: repo-miner --version && repo-miner demo | tail -1 | grep -qx "demo: clean"
+      - name: The installed command works
+        run: |
+          repo-miner --version
+          repo-miner demo | tail -1 | grep -qx "demo: clean"
