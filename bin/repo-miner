@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# repo-miner without installing anything: run this file, or put this folder on your PATH.
+set -euo pipefail
+source="${BASH_SOURCE[0]}"
+while [ -L "$source" ]; do                       # follow symlinks, so a link in ~/bin works too
+  dir="$(cd -P "$(dirname "$source")" && pwd)"
+  source="$(readlink "$source")"
+  [[ "$source" != /* ]] && source="$dir/$source"
+done
+here="$(cd -P "$(dirname "$source")" && pwd)"
+exec python3 "$here/../skills/repo-miner/mine.py" "$@"

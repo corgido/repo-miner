@@ -1,0 +1,10 @@
+{
+  "name": "repo-miner",
+  "description": "Understand a repository from its history: what happened, who knows what, and what to ask. A deterministic first look at any git repository, every branch, no model and no tokens.",
+  "version": "0.1.0",
+  "author": { "name": "corgido" },
+  "homepage": "https://github.com/corgido/repo-miner",
+  "repository": "https://github.com/corgido/repo-miner",
+  "license": "MIT",
+  "keywords": ["git", "history", "onboarding", "codebase", "forensics", "handover"]
+}

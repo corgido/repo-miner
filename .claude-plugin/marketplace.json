@@ -1,0 +1,12 @@
+{
+  "name": "repo-miner",
+  "owner": { "name": "corgido" },
+  "description": "repo-miner: understand a repository from its history.",
+  "plugins": [
+    {
+      "name": "repo-miner",
+      "source": "./",
+      "description": "Understand a repository from its history: what happened, who knows what, and what to ask."
+    }
+  ]
+}
