@@ -7,8 +7,8 @@ Thanks for looking. repo-miner is small on purpose: Python's standard library an
 ```bash
 git clone https://github.com/corgido/repo-miner && cd repo-miner
 python3 -m unittest discover -s tests      # about a minute
-bin/repo-miner demo                         # ends "demo: clean"
-bin/repo-miner .                            # mine this repository
+python3 skills/repo-miner/mine.py demo     # ends "demo: clean"
+python3 skills/repo-miner/mine.py .        # mine this repository
 ```
 
 Python 3.9 is the oldest supported version, so no `match`, no `X | Y` in annotations at runtime, no newer standard-library
@@ -38,7 +38,6 @@ skills/repo-miner/
     demo.py             the invented repository and the demo check
 tests/                  unittest; most tests mine the demo repository
 .claude-plugin/         plugin and marketplace manifests, icon
-bin/repo-miner          launcher for a clone
 ```
 
 ## Rules for changes
@@ -48,6 +47,8 @@ bin/repo-miner          launcher for a clone
 - **No judgements.** Findings state what the record shows. Questions are for the people, not about them.
 - **Everything written goes through `Writer`.** Never `open(..., "w")` in the output folder.
 - **Deterministic.** Sort with a full key (ties broken by name or id); no wall-clock time outside `run.json`.
+- **Say what it touches.** A change that reads a new file, environment variable or git command, or writes somewhere
+  new, updates [docs/WHAT-IT-TOUCHES.md](docs/WHAT-IT-TOUCHES.md) in the same commit.
 - **Try it on real repositories** before sending a change that affects findings. Small, old, busy and agent-built ones
   all break things differently; say which you tried.
 

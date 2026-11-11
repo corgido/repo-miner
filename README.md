@@ -12,6 +12,7 @@
 </p>
 
 NB: Complete as a 0.1 release; issues welcome, but no active roadmap. Fork it and make it yours instead :)
+It is for repositories you own or have access to, and [what it touches](#what-it-touches) on your machine is written down.
 
 You have just been handed a repository. The code tells you what it is today. The commit history tells you how it got
 there: what was built and torn down, what was reverted two hours later, which branch the real work is on, who wrote the
@@ -49,6 +50,10 @@ decide what matters, dig, and take the questions to the people who know. Neither
 Then ask *"What happened in this repository?"* or *"I've just inherited this, where do I start?"*. Or call it directly
 with `/repo-miner:repo-miner https://github.com/owner/repo`.
 
+The plugin is installed from this repository, not from Anthropic's plugin directory. At the time of writing the directory
+takes plugins that ship code only from organisations Anthropic has verified, and this plugin is its code: without the
+miner, the skill is a page of instructions. So what you install is what you can read here.
+
 **From a terminal**, with nothing to install:
 
 ```bash
@@ -56,11 +61,13 @@ git clone https://github.com/corgido/repo-miner
 ```
 
 ```bash
-repo-miner/bin/repo-miner https://github.com/pallets/flask
+python3 repo-miner/skills/repo-miner/mine.py https://github.com/pallets/flask
 ```
 
 It prints where the report went (`~/repo-miner-reports/flask/` by default). Open `REPORT.md`, or `report.html` in a browser.
-To have `repo-miner` on your path, install it with `pipx install git+https://github.com/corgido/repo-miner`.
+
+The rest of this page writes that command as `repo-miner`. To have it under that name, install it from this repository
+with `pipx install git+https://github.com/corgido/repo-miner` (it is not published to PyPI).
 
 **Just looking?** `repo-miner demo` builds an invented repository with a messy history, mines it, and checks that every
 planted story is found and every planted secret is kept out. It ends `demo: clean`.
@@ -137,6 +144,24 @@ repo-miner scan DIR      leak-scan a report before sharing it (exit 1 on any hit
 ```
 
 A folder of repositories gives an overview `REPORT.md` that compares them, and one report per repository under `repos/`.
+
+## What it touches
+
+repo-miner looks for signs of committed secrets and can read your Claude Code transcripts, so here is all of it. The
+long version, with where each thing happens in the code, is [docs/WHAT-IT-TOUCHES.md](docs/WHAT-IT-TOUCHES.md).
+
+| | |
+|---|---|
+| **Runs** | `git`, and nothing else. Read-only commands on your repository; committed history only, never the working tree. |
+| **Network** | None of its own: the code imports no network library. Given a URL it runs `git clone`, and `git fetch` on later runs. Git uses your own keys and credential helper, as if you had typed the command; repo-miner never sees them. |
+| **Secret-looking files** | For paths named like secrets (`.env`, `*.pem`, `id_rsa`, `credentials.json` and so on) it reads up to five committed versions through `git show`, in memory, and tests them against the shapes of real keys and tokens. The report gets the path and a yes or no. The content is never written, printed or sent anywhere. |
+| **Claude Code transcripts** | For a repository on disk, the sessions under `~/.claude/projects/` for that repository, if there are any: what a person typed and what an agent visibly replied. They add counts, dates and each chapter's distinctive words; messages are not copied into the report. `--transcripts none` turns it off. |
+| **Environment** | Git is started with your environment unchanged, with prompts and the pager off. repo-miner itself reads three variables: `XDG_CACHE_HOME`, and `CLAUDE_CODE_SESSION_ID` and `CLAUDECODE` to leave out the session that is running it. |
+| **Writes** | The report folder, clones of URLs under `~/.cache/repo-miner/clones/`, and a temporary folder for the demo. An earlier report in the output folder is replaced. |
+| **Sends home** | Nothing. No telemetry, no update check. |
+
+The miner uses no model. With the skill, Claude reads the report, so its content (commit subjects, paths, people's names
+unless you used `--anonymise`) enters your Claude conversation.
 
 ## Privacy
 

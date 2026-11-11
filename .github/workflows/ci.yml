@@ -40,7 +40,7 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Demo, an invented messy repository (must end with a clean check)
         run: |
-          bin/repo-miner demo | tee demo.log
+          python skills/repo-miner/mine.py demo | tee demo.log
           tail -1 demo.log | grep -qx "demo: clean"
 
   real-repository:
@@ -53,9 +53,9 @@ jobs:
         with:
           python-version: "3.13"
       - name: Mine commander.js, every branch, anonymised
-        run: bin/repo-miner https://github.com/tj/commander.js --anonymise --out report
+        run: python skills/repo-miner/mine.py https://github.com/tj/commander.js --anonymise --out report
       - name: Leak-scan the report
-        run: bin/repo-miner scan report
+        run: python skills/repo-miner/mine.py scan report
       - name: The report has its sections and findings
         run: |
           grep -q "## What stands out" report/REPORT.md

@@ -10,4 +10,4 @@ Made with `--anonymise`, so people appear as Person A, Person B and so on: a sam
 not make claims about named maintainers. The repository's own documents under `docs/` are copies of commander.js's
 files (MIT licence) with secrets and private paths removed, as the tool makes them.
 
-To make your own: `bin/repo-miner <path or URL>` from a clone of this repository.
+To make your own: `python3 skills/repo-miner/mine.py <path or URL>` from a clone of this repository.

@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.1.1 (2026-11-11)
+
+Tidying, no change to what the miner finds.
+
+- Removed the `bin/` launcher. Claude Code puts a plugin's `bin/` folder on the PATH of whoever installs it, which is
+  more than this plugin needs. From a clone, run `python3 skills/repo-miner/mine.py`; the skill already did.
+- New: [docs/WHAT-IT-TOUCHES.md](docs/WHAT-IT-TOUCHES.md), everything the miner runs, reads and writes, including how it
+  checks secret-looking files and what it takes from Claude Code transcripts.
+- The README says where the plugin is installed from, and why it is not in Anthropic's plugin directory.
+
 ## 0.1.0 (2026-10-28)
 
 First public release.
