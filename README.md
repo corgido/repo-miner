@@ -50,9 +50,11 @@ decide what matters, dig, and take the questions to the people who know. Neither
 Then ask *"What happened in this repository?"* or *"I've just inherited this, where do I start?"*. Or call it directly
 with `/repo-miner:repo-miner https://github.com/owner/repo`.
 
-The plugin is installed from this repository, not from Anthropic's plugin directory. At the time of writing the directory
-takes plugins that ship code only from organisations Anthropic has verified, and this plugin is its code: without the
-miner, the skill is a page of instructions. So what you install is what you can read here.
+The first line adds this repository as a marketplace. In Claude Code a marketplace is any repository with a
+`.claude-plugin/marketplace.json`, and anyone can host one; this repository is its own. That is separate from Anthropic's
+plugin directory, the curated catalogue, which this plugin is not in: at the time of writing the directory takes plugins
+that ship code only from organisations Anthropic has verified, and this plugin is its code. Without the miner, the skill
+is a page of instructions. So what you install is what you can read here.
 
 **From a terminal**, with nothing to install:
 
